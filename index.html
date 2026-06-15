@@ -1,0 +1,151 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>世界杯神谕台 · 总神谕系统</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app">
+    <nav class="topbar">
+      <strong>⚽ 2026 世界杯预测</strong>
+      <div>
+        <a href="#groupStage">小组赛</a>
+        <a href="#bracketPanel">淘汰赛</a>
+        <a href="#rankingPanel">球队 & 夺冠概率</a>
+      </div>
+    </nav>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">世界杯神谕台 · HANC 出品</p>
+        <h1>世界杯总神谕</h1>
+        <p class="lede">一眼看冠军路径，每场有胜率、比分概率和人话解读。</p>
+      </div>
+      <div class="hero-card">
+        <span>冠军神谕</span>
+        <strong id="championPick">西班牙</strong>
+        <small id="championChance">夺冠概率 15.1%</small>
+      </div>
+    </header>
+
+    <section class="data-status">
+      <div>
+        <p class="eyebrow">数据状态</p>
+        <h2>公开赛果 + 伤病停赛调整</h2>
+      </div>
+      <p id="sourceStatus">正在读取真实公开 CSV 计算结果；参赛队池按 2026 世界杯正式分组校验。</p>
+    </section>
+
+    <section class="schedule-card" id="groupStage">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">小组赛</p>
+          <h2>小组赛赛程与预测</h2>
+        </div>
+        <p class="hint">每张卡展示胜平负概率和最可能比分。</p>
+      </div>
+      <div id="scheduleList" class="schedule-list"></div>
+    </section>
+
+    <section class="availability-card" id="availabilityPanel">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">伤病与停赛</p>
+          <h2>已计入模型的人员变化</h2>
+        </div>
+        <p class="hint">只列公开来源能核验的信息。</p>
+      </div>
+      <div id="availabilityList" class="availability-list"></div>
+    </section>
+
+    <section class="bracket-card" id="bracketPanel">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">淘汰赛路径</p>
+          <h2>32强到冠军</h2>
+        </div>
+        <p class="hint">点击任意比赛卡，查看比分矩阵和人话解读。</p>
+      </div>
+      <div id="bracket" class="bracket"></div>
+    </section>
+
+    <section class="rank-card" id="rankingPanel">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">球队 & 夺冠概率</p>
+          <h2>排名与晋级概率</h2>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>球队</th>
+              <th>组</th>
+              <th>Elo</th>
+              <th>进攻</th>
+              <th>防守</th>
+              <th>出线</th>
+              <th>16强</th>
+              <th>8强</th>
+              <th>4强</th>
+              <th>决赛</th>
+              <th>夺冠</th>
+            </tr>
+          </thead>
+          <tbody id="rankingBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="match-card" id="matchDetail">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">单场神谕</p>
+          <h2 id="matchTitle">墨西哥 vs 南非</h2>
+        </div>
+        <span class="badge" id="matchBadge">胜率 64%</span>
+      </div>
+      <div class="result-strip" id="matchResult"></div>
+      <div class="detail-grid">
+        <div class="panel">
+          <h3>胜平负概率</h3>
+          <div id="probBars" class="bars"></div>
+        </div>
+        <div class="panel">
+          <h3>最可能比分</h3>
+          <div id="scoreGrid" class="score-grid"></div>
+        </div>
+      </div>
+      <div class="matrix-card">
+        <h3>进球分布</h3>
+        <div id="scoreMatrix" class="score-matrix"></div>
+      </div>
+      <div class="availability-match panel">
+        <h3>本场人员影响</h3>
+        <div id="matchAvailability" class="match-availability"></div>
+      </div>
+      <div class="post-review panel">
+        <h3>赛后复盘</h3>
+        <div id="postReview" class="post-review-body"></div>
+      </div>
+      <div class="ai-card">
+        <h3>AI 预测解读</h3>
+        <div id="aiRead" class="ai-list"></div>
+      </div>
+    </section>
+
+    <footer>
+      <span>理性参与</span>
+      <span>禁止赌博</span>
+      <span>支持体彩</span>
+      <span>快乐观赛</span>
+      <strong>世界杯神谕台 V1.0</strong>
+    </footer>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
+
