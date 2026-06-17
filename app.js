@@ -72,12 +72,36 @@ function signed(value) {
 }
 
 async function loadModel() {
-  const res = await fetch(`./model.json?t=${Date.now()}`);
-  if (!res.ok) throw new Error("无法读取 data/model.json");
-  model = await res.json();
+  try {
+    const res = await fetch(`./data/model.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error("无法读取 data/model.json");
+    model = await res.json();
+  } catch (error) {
+    model = await loadModelScriptFallback(error);
+  }
   const finalRound = model.bracket[model.bracket.length - 1];
   selectedGame = finalRound.games[0];
   renderAll();
+}
+
+function loadModelScriptFallback(originalError) {
+  return new Promise((resolve, reject) => {
+    if (window.__WORLD_CUP_MODEL__) {
+      resolve(window.__WORLD_CUP_MODEL__);
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = `./data/model.js?t=${Date.now()}`;
+    script.onload = () => {
+      if (window.__WORLD_CUP_MODEL__) {
+        resolve(window.__WORLD_CUP_MODEL__);
+      } else {
+        reject(originalError);
+      }
+    };
+    script.onerror = () => reject(originalError);
+    document.head.appendChild(script);
+  });
 }
 
 function renderRanking() {
@@ -129,6 +153,78 @@ function renderSchedule() {
   });
 }
 
+function renderTickets() {
+  const root = document.querySelector("#ticketList");
+  if (!root) return;
+  const tickets = model.daily_tickets || [];
+  if (!tickets.length) {
+    root.innerHTML = `<p class="empty-note">当前没有可生成出票建议的未开赛比赛。</p>`;
+    return;
+  }
+  const [today, ...future] = tickets;
+  root.innerHTML = `
+    ${renderTicketFull(today)}
+    ${future.length ? `
+      <div class="future-ticket-list">
+        <h3>后续4场组合</h3>
+        ${future.map(renderTicketCompact).join("")}
+      </div>
+    ` : ""}
+  `;
+}
+
+function renderTicketFull(ticket) {
+  return `
+    <article class="ticket ${ticket.status}">
+      <div class="ticket-head">
+        <div>
+          <span>${ticket.date} · 第${ticket.group_no || 1}组</span>
+          <strong>${ticket.summary}</strong>
+        </div>
+        <em>${ticket.status === "red" ? "不建议串" : "可小额参考"}</em>
+      </div>
+      <p class="ticket-reason">${ticket.reason}</p>
+      <div class="ticket-columns">
+        <div>
+          <h3>胜平负4场票</h3>
+          ${ticket.outcome_ticket.map(item => `
+            <div class="ticket-row">
+              <span>${translateText(item.match)}</span>
+              <strong>${translateText(item.pick)}</strong>
+              <small>${pct(item.prob)}</small>
+              ${item.note ? `<p>${translateText(item.note)}</p>` : ""}
+            </div>
+          `).join("")}
+        </div>
+        <div class="score-ticket">
+          <h3>比分小额串 <b>高风险</b></h3>
+          <p>${ticket.score_ticket.summary}</p>
+          ${ticket.score_ticket.items.map(item => `
+            <div class="ticket-score-row">
+              <span>${translateText(item.match)}</span>
+              <div>${item.scores.map(score => `
+                <mark class="${score.tag === "搏大" ? "big" : ""}">${score.score}${score.odds ? ` / ${score.odds}` : ""}<small>${score.tag}</small></mark>
+              `).join("")}</div>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderTicketCompact(ticket) {
+  return `
+    <article class="future-ticket ${ticket.status}">
+      <div>
+        <strong>${ticket.date} · 第${ticket.group_no || 1}组</strong>
+        <span>${ticket.summary}</span>
+      </div>
+      <em>${ticket.status === "red" ? "不建议串" : "可参考"}</em>
+    </article>
+  `;
+}
+
 function availabilityItemsFor(teamA, teamB) {
   const teams = new Set([teamA, teamB]);
   return (model.availability?.items || []).filter(item => teams.has(item.team));
@@ -168,6 +264,7 @@ function typeLabel(type) {
 
 function scheduleCard(g) {
   const top = (g.top_scores || []).slice(0, 3);
+  const riskTags = renderRiskTags(g.risk_tags || []);
   const result = g.completed
     ? `<div class="result-pill ${g.prediction_hit ? "hit" : "miss"}">已结束 ${g.actual_score} · ${g.prediction_hit ? "方向命中" : "方向未中"}</div>`
     : "";
@@ -179,6 +276,7 @@ function scheduleCard(g) {
       <strong>${nameOf(g.away)}</strong>
     </div>
     ${result}
+    ${riskTags}
     <div class="triple-bar">
       <i style="width:${g.home_win}%">${pct(g.home_win)}</i>
       <b style="width:${g.draw}%">${pct(g.draw)}</b>
@@ -187,6 +285,35 @@ function scheduleCard(g) {
     <p>最可能比分：${top.map(x => `<mark>${x.score} ${pct(x.prob)}</mark>`).join("")}</p>
     ${g.completed && g.review ? `<p class="review-line">${g.review.reason}</p>` : ""}
   </article>`;
+}
+
+function renderRiskTags(tags) {
+  if (!tags.length) return "";
+  return `<div class="risk-tags">${tags.map(tag => `
+    <span class="risk-tag ${tag.level}" title="${tag.text}">${tag.label}</span>
+  `).join("")}</div>`;
+}
+
+function renderMarketObservation(obs) {
+  const el = document.querySelector("#marketObservation");
+  if (!el) return;
+  if (!obs) {
+    el.innerHTML = "";
+    return;
+  }
+  const level = obs.risk_level || "blue";
+  const source = obs.source ? `<span>来源：${obs.source}</span>` : "";
+  const trend = obs.trend ? `<span>变化：${obs.trend}</span>` : "";
+  const odds = [obs.home_win_odds, obs.draw_odds, obs.away_win_odds].every(v => v !== undefined && v !== null)
+    ? `<span>赔率：${obs.home_win_odds} / ${obs.draw_odds} / ${obs.away_win_odds}</span>`
+    : "";
+  el.innerHTML = `
+    <div class="market-card ${level}">
+      <strong>${obs.label || (level === "red" ? "赔率异常红灯" : "赔率提醒")}</strong>
+      <p>${obs.reason || "赔率或市场热度出现需要复核的变化。"}</p>
+      <div>${[source, trend, odds].filter(Boolean).join("")}</div>
+    </div>
+  `;
 }
 
 function renderBracket() {
@@ -233,6 +360,7 @@ function gameCard(g) {
   const awayWin = g.winner === g.away;
   return `<div class="game" data-id="${g.id}">
     <div class="meta"><span>#${g.id}</span><span>${g.date || ""}</span></div>
+    ${g.path_note ? `<div class="path-note">${g.path_note}</div>` : ""}
     <div class="team-row"><strong class="${homeWin ? "winner" : ""}">★ ${nameOf(g.home)}</strong><span>${pct(g.home_win)}</span></div>
     <div class="team-row"><strong class="${awayWin ? "winner" : ""}">★ ${nameOf(g.away)}</strong><span>${pct(g.away_win)}</span></div>
   </div>`;
@@ -253,8 +381,10 @@ function renderMatchDetail() {
     ? `<strong>真实比分：${nameOf(game.home)} ${detail.actual_score} ${nameOf(game.away)}</strong><span class="${detail.prediction_hit ? "hit-text" : "miss-text"}">${detail.prediction_hit ? "赛前方向命中" : "赛前方向未中"}</span>`
     : `<span>未开赛：当前显示赛前预测。</span>`;
   document.querySelector("#postReview").innerHTML = detail.review
-    ? `<strong>${detail.review.title}</strong><p>${detail.review.summary}</p><p>${detail.review.reason}</p>`
+    ? `<strong>${detail.review.title}</strong><p>${translateText(detail.review.summary)}</p><p>${translateText(detail.review.reason)}</p>`
     : `<span>比赛结束后会在这里复盘：准在哪里，或者不准在哪里。</span>`;
+  document.querySelector("#matchRiskTags").innerHTML = renderRiskTags(detail.risk_tags || []);
+  renderMarketObservation(detail.market_observation);
   document.querySelector("#probBars").innerHTML = [
     [`${nameOf(game.home)}胜`, detail.home_win ?? game.home_win],
     ["平局", detail.draw ?? game.draw],
@@ -270,6 +400,13 @@ function renderMatchDetail() {
   document.querySelector("#scoreGrid").innerHTML = (detail.top_scores || []).map(item => `
     <div class="score-pill">${item.score}<small>${pct(item.prob)}</small></div>
   `).join("");
+  document.querySelector("#bigScoreGrid").innerHTML = (detail.big_score_candidates || []).map(item => `
+    <div class="score-pill big">${item.score}<small>${pct(item.prob)}</small></div>
+  `).join("") || `<p class="empty-note">本场暂时没有明显大比分信号。</p>`;
+  const signal = detail.big_score_signal || {};
+  const levelText = signal.level === "high" ? "大比分信号偏强" : signal.level === "watch" ? "有大比分观察价值" : "大比分只适合娱乐";
+  document.querySelector("#bigScoreNote").textContent =
+    `${levelText}：4球及以上约 ${pct(signal.over_3_5 || 0)}，净胜3球以上约 ${pct(signal.margin_3_plus || 0)}。`;
 
   renderScoreMatrix(detail.matrix || [], detail.score_max ?? 8);
   const availability = availabilityItemsFor(game.home, game.away);
@@ -337,6 +474,7 @@ async function rebuildModel() {
 }
 
 function renderAll() {
+  renderTickets();
   renderSchedule();
   renderAvailability();
   renderRanking();
@@ -346,5 +484,8 @@ function renderAll() {
 
 wireActions();
 loadModel().catch(error => {
-  document.querySelector("#sourceStatus").textContent = error.message;
+  const message = error instanceof TypeError
+    ? "数据读取失败：请用 http 链接打开页面，不要直接双击 index.html；如果是线上版，请确认 data/model.json 已上传。"
+    : error.message;
+  document.querySelector("#sourceStatus").textContent = message;
 });

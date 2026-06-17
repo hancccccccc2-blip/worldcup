@@ -1,2 +1,0 @@
-# worldcup
-玩具

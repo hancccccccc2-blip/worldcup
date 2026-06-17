@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -35,6 +35,17 @@
         <h2>公开赛果 + 伤病停赛调整</h2>
       </div>
       <p id="sourceStatus">正在读取真实公开 CSV 计算结果；参赛队池按 2026 世界杯正式分组校验。</p>
+    </section>
+
+    <section class="ticket-card" id="ticketPanel">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">今日出票</p>
+          <h2>4场胜平负 + 比分小额串</h2>
+        </div>
+        <p class="hint">胜平负判断能不能串；比分只给前三概率 + 一个搏大。</p>
+      </div>
+      <div id="ticketList" class="ticket-list"></div>
     </section>
 
     <section class="schedule-card" id="groupStage">
@@ -76,6 +87,7 @@
           <p class="eyebrow">球队 & 夺冠概率</p>
           <h2>排名与晋级概率</h2>
         </div>
+        <button id="rebuildButton">重新抓取并计算</button>
       </div>
       <div class="table-wrap">
         <table>
@@ -109,6 +121,8 @@
         <span class="badge" id="matchBadge">胜率 64%</span>
       </div>
       <div class="result-strip" id="matchResult"></div>
+      <div class="risk-strip" id="matchRiskTags"></div>
+      <div class="market-strip" id="marketObservation"></div>
       <div class="detail-grid">
         <div class="panel">
           <h3>胜平负概率</h3>
@@ -117,6 +131,11 @@
         <div class="panel">
           <h3>最可能比分</h3>
           <div id="scoreGrid" class="score-grid"></div>
+        </div>
+        <div class="panel">
+          <h3>可搏大比分</h3>
+          <div id="bigScoreGrid" class="score-grid"></div>
+          <p class="big-score-note" id="bigScoreNote"></p>
         </div>
       </div>
       <div class="matrix-card">
@@ -148,4 +167,3 @@
   <script src="./app.js"></script>
 </body>
 </html>
-
