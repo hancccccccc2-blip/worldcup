@@ -73,8 +73,8 @@ function signed(value) {
 
 async function loadModel() {
   try {
-    const res = await fetch(`./data/model.json?t=${Date.now()}`);
-    if (!res.ok) throw new Error("无法读取 data/model.json");
+    const res = await fetch(`./数据/model.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error("无法读取 数据/model.json");
     model = await res.json();
   } catch (error) {
     model = await loadModelScriptFallback(error);
@@ -91,7 +91,7 @@ function loadModelScriptFallback(originalError) {
       return;
     }
     const script = document.createElement("script");
-    script.src = `./data/model.js?t=${Date.now()}`;
+    script.src = `./数据/model.js?t=${Date.now()}`;
     script.onload = () => {
       if (window.__WORLD_CUP_MODEL__) {
         resolve(window.__WORLD_CUP_MODEL__);
@@ -485,7 +485,7 @@ function renderAll() {
 wireActions();
 loadModel().catch(error => {
   const message = error instanceof TypeError
-    ? "数据读取失败：请用 http 链接打开页面，不要直接双击 index.html；如果是线上版，请确认 data/model.json 已上传。"
+    ? "数据读取失败：请用 http 链接打开页面，不要直接双击 index.html；如果是线上版，请确认 数据/model.json 已上传。"
     : error.message;
   document.querySelector("#sourceStatus").textContent = message;
 });
