@@ -73,15 +73,27 @@ function signed(value) {
 
 async function loadModel() {
   try {
-    const res = await fetch(`./数据/model.json?t=${Date.now()}`);
-    if (!res.ok) throw new Error("无法读取 数据/model.json");
-    model = await res.json();
+    model = await fetchFirstJson(["./data/model.json", "./数据/model.json"]);
   } catch (error) {
     model = await loadModelScriptFallback(error);
   }
   const finalRound = model.bracket[model.bracket.length - 1];
   selectedGame = finalRound.games[0];
   renderAll();
+}
+
+async function fetchFirstJson(paths) {
+  let lastError = null;
+  for (const path of paths) {
+    try {
+      const res = await fetch(`${path}?t=${Date.now()}`);
+      if (!res.ok) throw new Error(`无法读取 ${path}`);
+      return await res.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error("无法读取模型数据");
 }
 
 function loadModelScriptFallback(originalError) {
@@ -91,7 +103,7 @@ function loadModelScriptFallback(originalError) {
       return;
     }
     const script = document.createElement("script");
-    script.src = `./数据/model.js?t=${Date.now()}`;
+    script.src = `./data/model.js?t=${Date.now()}`;
     script.onload = () => {
       if (window.__WORLD_CUP_MODEL__) {
         resolve(window.__WORLD_CUP_MODEL__);
@@ -99,7 +111,19 @@ function loadModelScriptFallback(originalError) {
         reject(originalError);
       }
     };
-    script.onerror = () => reject(originalError);
+    script.onerror = () => {
+      const fallback = document.createElement("script");
+      fallback.src = `./数据/model.js?t=${Date.now()}`;
+      fallback.onload = () => {
+        if (window.__WORLD_CUP_MODEL__) {
+          resolve(window.__WORLD_CUP_MODEL__);
+        } else {
+          reject(originalError);
+        }
+      };
+      fallback.onerror = () => reject(originalError);
+      document.head.appendChild(fallback);
+    };
     document.head.appendChild(script);
   });
 }
@@ -485,7 +509,7 @@ function renderAll() {
 wireActions();
 loadModel().catch(error => {
   const message = error instanceof TypeError
-    ? "数据读取失败：请用 http 链接打开页面，不要直接双击 index.html；如果是线上版，请确认 数据/model.json 已上传。"
+    ? "数据读取失败：请用 http 链接打开页面，不要直接双击 index.html；如果是线上版，请确认 data/model.json 已上传。"
     : error.message;
   document.querySelector("#sourceStatus").textContent = message;
 });
