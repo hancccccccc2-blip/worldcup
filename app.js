@@ -73,7 +73,14 @@ function signed(value) {
 
 async function loadModel() {
   try {
-    model = await fetchFirstJson(["./data/model.json", "./数据/model.json"]);
+    const paths = location.hostname.endsWith("github.io")
+      ? [
+          "https://raw.githubusercontent.com/hancccccccc2-blip/worldcup/main/data/model.json",
+          "./data/model.json",
+          "./数据/model.json",
+        ]
+      : ["./data/model.json", "./数据/model.json"];
+    model = await fetchFirstJson(paths);
   } catch (error) {
     model = await loadModelScriptFallback(error);
   }
