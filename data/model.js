@@ -1,5 +1,5 @@
 window.__WORLD_CUP_MODEL__ = {
-  "generated_at": "2026-06-17",
+  "generated_at": "2026-06-18",
   "source": {
     "results.csv": "https://raw.githubusercontent.com/martj42/international_results/master/results.csv",
     "goalscorers.csv": "https://raw.githubusercontent.com/martj42/international_results/master/goalscorers.csv",
@@ -246,7 +246,7 @@ window.__WORLD_CUP_MODEL__ = {
     ]
   },
   "market": {
-    "updated_at": "2026-06-17T14:49:49.888Z",
+    "updated_at": "2026-06-18T11:02:24.686Z",
     "note": "自动抓取自中国体育彩票官网计算器；如果官网拦截或停售，以抓取结果为空为准。",
     "matches": {
       "Portugal__DR Congo": {
@@ -412,10 +412,10 @@ window.__WORLD_CUP_MODEL__ = {
         "home_cn": "捷克",
         "away_cn": "南非",
         "total_goals_odds": {
-          "0": 9.25,
-          "1": 4.25,
+          "0": 9.6,
+          "1": 4.4,
           "2": 3.1,
-          "3": 3.65,
+          "3": 3.5,
           "4": 6.2,
           "5": 12.5,
           "6": 23,
@@ -433,14 +433,14 @@ window.__WORLD_CUP_MODEL__ = {
         "home_cn": "墨西哥",
         "away_cn": "韩国",
         "total_goals_odds": {
-          "0": 8,
-          "1": 4.1,
-          "2": 3,
-          "3": 3.75,
-          "4": 6.55,
-          "5": 14.5,
-          "6": 26,
-          "7": 40
+          "0": 8.8,
+          "1": 4.35,
+          "2": 3.1,
+          "3": 3.8,
+          "4": 5.9,
+          "5": 12,
+          "6": 23,
+          "7": 35
         },
         "remark": "比赛将在墨西哥-萨波潘举行"
       }
@@ -4734,8 +4734,8 @@ window.__WORLD_CUP_MODEL__ = {
       "country": "United States",
       "home": "Portugal",
       "away": "DR Congo",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 1,
       "lambda_home": 1.81,
       "lambda_away": 0.86,
       "home_win": 59.9,
@@ -4894,13 +4894,22 @@ window.__WORLD_CUP_MODEL__ = {
       },
       "winner": "Portugal",
       "winner_prob": 59.9,
-      "completed": false,
-      "actual_score": null,
+      "completed": true,
+      "actual_score": "1-1",
       "predicted_direction": "home",
-      "actual_direction": null,
-      "prediction_hit": null,
-      "review": null,
+      "actual_direction": "draw",
+      "prediction_hit": false,
+      "review": {
+        "title": "方向未中",
+        "summary": "赛前倾向 Portugal（约 59.9%），实际是 平局（赛前约 22.7%）。",
+        "reason": "平局风险被低估。模型给出了胜负倾向，但实际比赛进入拉扯，强势方没有把优势转成胜利。"
+      },
       "risk_tags": [
+        {
+          "level": "red",
+          "label": "赛后翻车点",
+          "text": "实际打成平局，赛前模型低估了不胜风险。"
+        },
         {
           "level": "amber",
           "label": "让球风险提醒",
@@ -4986,8 +4995,8 @@ window.__WORLD_CUP_MODEL__ = {
       "country": "Mexico",
       "home": "Uzbekistan",
       "away": "Colombia",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 3,
       "lambda_home": 0.99,
       "lambda_away": 1.47,
       "home_win": 25.5,
@@ -5146,12 +5155,16 @@ window.__WORLD_CUP_MODEL__ = {
       },
       "winner": "Colombia",
       "winner_prob": 48.3,
-      "completed": false,
-      "actual_score": null,
+      "completed": true,
+      "actual_score": "1-3",
       "predicted_direction": "away",
-      "actual_direction": null,
-      "prediction_hit": null,
-      "review": null,
+      "actual_direction": "away",
+      "prediction_hit": true,
+      "review": {
+        "title": "方向命中",
+        "summary": "赛前更看好 Colombia，实际结果也走向这个方向。",
+        "reason": "模型对双方强弱和进攻效率的判断基本成立。"
+      },
       "risk_tags": [
         {
           "level": "amber",
@@ -5236,8 +5249,8 @@ window.__WORLD_CUP_MODEL__ = {
       "country": "United States",
       "home": "England",
       "away": "Croatia",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 4,
+      "away_score": 2,
       "lambda_home": 1.48,
       "lambda_away": 1.16,
       "home_win": 44.5,
@@ -5396,12 +5409,16 @@ window.__WORLD_CUP_MODEL__ = {
       },
       "winner": "England",
       "winner_prob": 44.5,
-      "completed": false,
-      "actual_score": null,
+      "completed": true,
+      "actual_score": "4-2",
       "predicted_direction": "home",
-      "actual_direction": null,
-      "prediction_hit": null,
-      "review": null,
+      "actual_direction": "home",
+      "prediction_hit": true,
+      "review": {
+        "title": "方向命中",
+        "summary": "赛前更看好 England，实际结果也走向这个方向。",
+        "reason": "模型对双方强弱和进攻效率的判断基本成立。"
+      },
       "risk_tags": [
         {
           "level": "amber",
@@ -5482,8 +5499,8 @@ window.__WORLD_CUP_MODEL__ = {
       "country": "Canada",
       "home": "Ghana",
       "away": "Panama",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 0,
       "lambda_home": 1.08,
       "lambda_away": 1.35,
       "home_win": 29.8,
@@ -5642,13 +5659,22 @@ window.__WORLD_CUP_MODEL__ = {
       },
       "winner": "Panama",
       "winner_prob": 43.0,
-      "completed": false,
-      "actual_score": null,
+      "completed": true,
+      "actual_score": "1-0",
       "predicted_direction": "away",
-      "actual_direction": null,
-      "prediction_hit": null,
-      "review": null,
+      "actual_direction": "home",
+      "prediction_hit": false,
+      "review": {
+        "title": "方向未中",
+        "summary": "赛前倾向 Panama（约 43.0%），实际是 Ghana（赛前约 29.8%）。",
+        "reason": "胜负方向判断偏差。双方差距没有模型估计得那么稳定，实际比赛执行效率改变了结果。"
+      },
       "risk_tags": [
+        {
+          "level": "red",
+          "label": "赛后翻车点",
+          "text": "实际胜负方向和赛前倾向相反，需要复盘临场因素。"
+        },
         {
           "level": "red",
           "label": "赔率异常红灯",
@@ -5917,10 +5943,10 @@ window.__WORLD_CUP_MODEL__ = {
         "home_cn": "捷克",
         "away_cn": "南非",
         "total_goals_odds": {
-          "0": 9.25,
-          "1": 4.25,
+          "0": 9.6,
+          "1": 4.4,
           "2": 3.1,
-          "3": 3.65,
+          "3": 3.5,
           "4": 6.2,
           "5": 12.5,
           "6": 23,
@@ -6141,14 +6167,14 @@ window.__WORLD_CUP_MODEL__ = {
         "home_cn": "墨西哥",
         "away_cn": "韩国",
         "total_goals_odds": {
-          "0": 8,
-          "1": 4.1,
-          "2": 3,
-          "3": 3.75,
-          "4": 6.55,
-          "5": 14.5,
-          "6": 26,
-          "7": 40
+          "0": 8.8,
+          "1": 4.35,
+          "2": 3.1,
+          "3": 3.8,
+          "4": 5.9,
+          "5": 12,
+          "6": 23,
+          "7": 35
         },
         "remark": "比赛将在墨西哥-萨波潘举行"
       },
@@ -9923,15 +9949,15 @@ window.__WORLD_CUP_MODEL__ = {
       "away_score": null,
       "lambda_home": 1.65,
       "lambda_away": 0.99,
-      "home_win": 52.9,
-      "draw": 24.5,
-      "away_win": 22.6,
+      "home_win": 52.8,
+      "draw": 24.6,
+      "away_win": 22.7,
       "matrix": [
         [
           7.2,
           7.1,
           3.5,
-          1.1,
+          1.2,
           0.3,
           0.1,
           0.0,
@@ -9961,7 +9987,7 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          5.4,
+          5.3,
           5.3,
           2.6,
           0.9,
@@ -10053,7 +10079,7 @@ window.__WORLD_CUP_MODEL__ = {
       "big_score_candidates": [
         {
           "score": "3-0",
-          "prob": 5.4
+          "prob": 5.3
         },
         {
           "score": "3-1",
@@ -10078,7 +10104,7 @@ window.__WORLD_CUP_MODEL__ = {
         "level": "watch"
       },
       "winner": "Portugal",
-      "winner_prob": 52.9,
+      "winner_prob": 52.8,
       "completed": false,
       "actual_score": null,
       "predicted_direction": "home",
@@ -10101,7 +10127,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "Portugal Elo 1987 vs Uzbekistan 1759，差距 228 分，前者占优。"
+          "text": "Portugal Elo 1979 vs Uzbekistan 1752，差距 227 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -10130,15 +10156,15 @@ window.__WORLD_CUP_MODEL__ = {
       "away": "DR Congo",
       "home_score": null,
       "away_score": null,
-      "lambda_home": 1.62,
+      "lambda_home": 1.61,
       "lambda_away": 0.86,
-      "home_win": 55.2,
-      "draw": 24.8,
-      "away_win": 20.0,
+      "home_win": 55.0,
+      "draw": 24.9,
+      "away_win": 20.1,
       "matrix": [
         [
           8.4,
-          7.2,
+          7.3,
           3.1,
           0.9,
           0.2,
@@ -10150,7 +10176,7 @@ window.__WORLD_CUP_MODEL__ = {
         [
           13.5,
           11.7,
-          5.0,
+          5.1,
           1.5,
           0.3,
           0.1,
@@ -10182,7 +10208,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           2.4,
-          2.1,
+          2.0,
           0.9,
           0.3,
           0.1,
@@ -10282,12 +10308,12 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ],
       "big_score_signal": {
-        "over_3_5": 23.9,
-        "margin_3_plus": 14.2,
+        "over_3_5": 23.8,
+        "margin_3_plus": 14.1,
         "level": "watch"
       },
       "winner": "Colombia",
-      "winner_prob": 55.2,
+      "winner_prob": 55.0,
       "completed": false,
       "actual_score": null,
       "predicted_direction": "home",
@@ -10315,7 +10341,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "Colombia Elo 1986 vs DR Congo 1685，差距 301 分，前者占优。"
+          "text": "Colombia Elo 1993 vs DR Congo 1693，差距 300 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -10323,7 +10349,7 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Colombia 1.62 : 0.86 DR Congo，数值越高代表越容易进球。"
+          "text": "期望进球 Colombia 1.61 : 0.86 DR Congo，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
@@ -10344,17 +10370,17 @@ window.__WORLD_CUP_MODEL__ = {
       "away": "Ghana",
       "home_score": null,
       "away_score": null,
-      "lambda_home": 2.12,
-      "lambda_away": 0.78,
-      "home_win": 68.1,
-      "draw": 19.2,
-      "away_win": 12.7,
+      "lambda_home": 2.1,
+      "lambda_away": 0.79,
+      "home_win": 67.7,
+      "draw": 19.4,
+      "away_win": 12.9,
       "matrix": [
         [
           5.5,
-          4.3,
+          4.4,
           1.7,
-          0.4,
+          0.5,
           0.1,
           0.0,
           0.0,
@@ -10362,10 +10388,10 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          11.6,
-          9.1,
+          11.7,
+          9.2,
           3.6,
-          0.9,
+          1.0,
           0.2,
           0.0,
           0.0,
@@ -10373,7 +10399,7 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          12.3,
+          12.2,
           9.7,
           3.8,
           1.0,
@@ -10384,7 +10410,7 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          8.7,
+          8.6,
           6.8,
           2.7,
           0.7,
@@ -10395,7 +10421,7 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          4.6,
+          4.5,
           3.6,
           1.4,
           0.4,
@@ -10454,11 +10480,11 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "2-0",
-          "prob": 12.3
+          "prob": 12.2
         },
         {
           "score": "1-0",
-          "prob": 11.6
+          "prob": 11.7
         },
         {
           "score": "2-1",
@@ -10466,17 +10492,17 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "1-1",
-          "prob": 9.1
+          "prob": 9.2
         },
         {
           "score": "3-0",
-          "prob": 8.7
+          "prob": 8.6
         }
       ],
       "big_score_candidates": [
         {
           "score": "3-0",
-          "prob": 8.7
+          "prob": 8.6
         },
         {
           "score": "3-1",
@@ -10484,7 +10510,7 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "4-0",
-          "prob": 4.6
+          "prob": 4.5
         },
         {
           "score": "2-2",
@@ -10497,11 +10523,11 @@ window.__WORLD_CUP_MODEL__ = {
       ],
       "big_score_signal": {
         "over_3_5": 32.9,
-        "margin_3_plus": 23.7,
+        "margin_3_plus": 23.6,
         "level": "high"
       },
       "winner": "England",
-      "winner_prob": 68.1,
+      "winner_prob": 67.7,
       "completed": false,
       "actual_score": null,
       "predicted_direction": "home",
@@ -10519,7 +10545,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "England Elo 1976 vs Ghana 1595，差距 381 分，前者占优。"
+          "text": "England Elo 1990 vs Ghana 1615，差距 374 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -10527,11 +10553,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 England 2.12 : 0.78 Ghana，数值越高代表越容易进球。"
+          "text": "期望进球 England 2.1 : 0.79 Ghana，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：2-0 12.3%, 1-0 11.6%, 2-1 9.7%。"
+          "text": "最可能比分：2-0 12.2%, 1-0 11.7%, 2-1 9.7%。"
         },
         {
           "title": "综合结论",
@@ -10548,40 +10574,40 @@ window.__WORLD_CUP_MODEL__ = {
       "away": "Croatia",
       "home_score": null,
       "away_score": null,
-      "lambda_home": 0.94,
-      "lambda_away": 1.59,
-      "home_win": 22.3,
-      "draw": 25.1,
-      "away_win": 52.6,
+      "lambda_home": 0.93,
+      "lambda_away": 1.6,
+      "home_win": 22.0,
+      "draw": 25.0,
+      "away_win": 53.1,
       "matrix": [
         [
           7.9,
-          12.6,
-          10.1,
-          5.3,
-          2.1,
+          12.7,
+          10.2,
+          5.4,
+          2.2,
           0.7,
           0.2,
           0.0,
           0.0
         ],
         [
-          7.5,
-          11.9,
+          7.4,
+          11.8,
           9.5,
-          5.0,
+          5.1,
           2.0,
-          0.6,
+          0.7,
           0.2,
           0.0,
           0.0
         ],
         [
-          3.5,
-          5.6,
-          4.5,
+          3.4,
+          5.5,
+          4.4,
           2.4,
-          0.9,
+          1.0,
           0.3,
           0.1,
           0.0,
@@ -10589,7 +10615,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           1.1,
-          1.8,
+          1.7,
           1.4,
           0.7,
           0.3,
@@ -10658,15 +10684,15 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "0-1",
-          "prob": 12.6
+          "prob": 12.7
         },
         {
           "score": "1-1",
-          "prob": 11.9
+          "prob": 11.8
         },
         {
           "score": "0-2",
-          "prob": 10.1
+          "prob": 10.2
         },
         {
           "score": "1-2",
@@ -10680,15 +10706,15 @@ window.__WORLD_CUP_MODEL__ = {
       "big_score_candidates": [
         {
           "score": "0-3",
-          "prob": 5.3
+          "prob": 5.4
         },
         {
           "score": "1-3",
-          "prob": 5.0
+          "prob": 5.1
         },
         {
           "score": "2-2",
-          "prob": 4.5
+          "prob": 4.4
         },
         {
           "score": "2-3",
@@ -10696,16 +10722,16 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "0-4",
-          "prob": 2.1
+          "prob": 2.2
         }
       ],
       "big_score_signal": {
-        "over_3_5": 24.8,
-        "margin_3_plus": 13.5,
+        "over_3_5": 25.0,
+        "margin_3_plus": 13.8,
         "level": "watch"
       },
       "winner": "Croatia",
-      "winner_prob": 52.6,
+      "winner_prob": 53.1,
       "completed": false,
       "actual_score": null,
       "predicted_direction": "away",
@@ -10728,7 +10754,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "Panama Elo 1758 vs Croatia 1914，差距 156 分，后者占优。"
+          "text": "Panama Elo 1738 vs Croatia 1901，差距 163 分，后者占优。"
         },
         {
           "title": "近期状态",
@@ -10736,11 +10762,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Panama 0.94 : 1.59 Croatia，数值越高代表越容易进球。"
+          "text": "期望进球 Panama 0.93 : 1.6 Croatia，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：0-1 12.6%, 1-1 11.9%, 0-2 10.1%。"
+          "text": "最可能比分：0-1 12.7%, 1-1 11.8%, 0-2 10.2%。"
         },
         {
           "title": "综合结论",
@@ -14917,59 +14943,59 @@ window.__WORLD_CUP_MODEL__ = {
       "away": "Portugal",
       "home_score": null,
       "away_score": null,
-      "lambda_home": 1.14,
-      "lambda_away": 1.29,
-      "home_win": 32.8,
+      "lambda_home": 1.16,
+      "lambda_away": 1.27,
+      "home_win": 33.8,
       "draw": 27.4,
-      "away_win": 39.8,
+      "away_win": 38.8,
       "matrix": [
         [
           8.8,
-          11.3,
-          7.3,
-          3.1,
-          1.0,
+          11.2,
+          7.1,
+          3.0,
+          0.9,
+          0.2,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          10.2,
+          13.0,
+          8.2,
+          3.5,
+          1.1,
           0.3,
           0.1,
           0.0,
           0.0
         ],
         [
-          10.1,
-          12.9,
-          8.3,
-          3.6,
-          1.2,
-          0.3,
-          0.1,
-          0.0,
-          0.0
-        ],
-        [
-          5.7,
-          7.4,
+          6.0,
+          7.5,
           4.8,
           2.0,
-          0.7,
+          0.6,
           0.2,
           0.0,
           0.0,
           0.0
         ],
         [
-          2.2,
-          2.8,
-          1.8,
+          2.3,
+          2.9,
+          1.9,
           0.8,
-          0.3,
+          0.2,
           0.1,
           0.0,
           0.0,
           0.0
         ],
         [
-          0.6,
-          0.8,
+          0.7,
+          0.9,
           0.5,
           0.2,
           0.1,
@@ -14979,7 +15005,7 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          0.1,
+          0.2,
           0.2,
           0.1,
           0.1,
@@ -15027,15 +15053,15 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.9
+          "prob": 13.0
         },
         {
           "score": "0-1",
-          "prob": 11.3
+          "prob": 11.2
         },
         {
           "score": "1-0",
-          "prob": 10.1
+          "prob": 10.2
         },
         {
           "score": "0-0",
@@ -15043,7 +15069,7 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "1-2",
-          "prob": 8.3
+          "prob": 8.2
         }
       ],
       "big_score_candidates": [
@@ -15053,28 +15079,28 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "1-3",
-          "prob": 3.6
+          "prob": 3.5
         },
         {
           "score": "0-3",
-          "prob": 3.1
+          "prob": 3.0
         },
         {
           "score": "3-1",
-          "prob": 2.8
+          "prob": 2.9
         },
         {
           "score": "3-0",
-          "prob": 2.2
+          "prob": 2.3
         }
       ],
       "big_score_signal": {
-        "over_3_5": 22.8,
+        "over_3_5": 22.7,
         "margin_3_plus": 10.3,
         "level": "watch"
       },
       "winner": "Portugal",
-      "winner_prob": 39.8,
+      "winner_prob": 38.8,
       "completed": false,
       "actual_score": null,
       "predicted_direction": "away",
@@ -15092,7 +15118,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "Colombia Elo 1986 vs Portugal 1987，差距 1 分，后者占优。"
+          "text": "Colombia Elo 1993 vs Portugal 1979，差距 14 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -15100,11 +15126,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Colombia 1.14 : 1.29 Portugal，数值越高代表越容易进球。"
+          "text": "期望进球 Colombia 1.16 : 1.27 Portugal，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.9%, 0-1 11.3%, 1-0 10.1%。"
+          "text": "最可能比分：1-1 13.0%, 0-1 11.2%, 1-0 10.2%。"
         },
         {
           "title": "综合结论",
@@ -15121,28 +15147,28 @@ window.__WORLD_CUP_MODEL__ = {
       "away": "Uzbekistan",
       "home_score": null,
       "away_score": null,
-      "lambda_home": 1.1,
-      "lambda_away": 1.39,
-      "home_win": 29.8,
-      "draw": 26.7,
-      "away_win": 43.5,
+      "lambda_home": 1.12,
+      "lambda_away": 1.37,
+      "home_win": 30.7,
+      "draw": 26.8,
+      "away_win": 42.5,
       "matrix": [
         [
-          8.2,
-          11.5,
-          8.0,
-          3.7,
-          1.3,
-          0.4,
+          8.3,
+          11.3,
+          7.8,
+          3.5,
+          1.2,
+          0.3,
           0.1,
           0.0,
           0.0
         ],
         [
-          9.1,
+          9.3,
           12.7,
-          8.8,
-          4.1,
+          8.7,
+          4.0,
           1.4,
           0.4,
           0.1,
@@ -15150,19 +15176,19 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          5.0,
-          7.0,
+          5.2,
+          7.1,
           4.9,
-          2.3,
+          2.2,
           0.8,
           0.2,
-          0.1,
+          0.0,
           0.0,
           0.0
         ],
         [
-          1.8,
-          2.6,
+          2.0,
+          2.7,
           1.8,
           0.8,
           0.3,
@@ -15173,7 +15199,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.5,
-          0.7,
+          0.8,
           0.5,
           0.2,
           0.1,
@@ -15235,19 +15261,19 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "0-1",
-          "prob": 11.5
+          "prob": 11.3
         },
         {
           "score": "1-0",
-          "prob": 9.1
+          "prob": 9.3
         },
         {
           "score": "1-2",
-          "prob": 8.8
+          "prob": 8.7
         },
         {
           "score": "0-0",
-          "prob": 8.2
+          "prob": 8.3
         }
       ],
       "big_score_candidates": [
@@ -15257,28 +15283,28 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "1-3",
-          "prob": 4.1
+          "prob": 4.0
         },
         {
           "score": "0-3",
-          "prob": 3.7
+          "prob": 3.5
         },
         {
           "score": "3-1",
-          "prob": 2.6
+          "prob": 2.7
         },
         {
           "score": "2-3",
-          "prob": 2.3
+          "prob": 2.2
         }
       ],
       "big_score_signal": {
-        "over_3_5": 24.2,
-        "margin_3_plus": 11.1,
+        "over_3_5": 23.9,
+        "margin_3_plus": 10.9,
         "level": "watch"
       },
       "winner": "Uzbekistan",
-      "winner_prob": 43.5,
+      "winner_prob": 42.5,
       "completed": false,
       "actual_score": null,
       "predicted_direction": "away",
@@ -15296,7 +15322,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "DR Congo Elo 1685 vs Uzbekistan 1759，差距 75 分，后者占优。"
+          "text": "DR Congo Elo 1693 vs Uzbekistan 1752，差距 59 分，后者占优。"
         },
         {
           "title": "近期状态",
@@ -15304,11 +15330,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 DR Congo 1.1 : 1.39 Uzbekistan，数值越高代表越容易进球。"
+          "text": "期望进球 DR Congo 1.12 : 1.37 Uzbekistan，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.7%, 0-1 11.5%, 1-0 9.1%。"
+          "text": "最可能比分：1-1 12.7%, 0-1 11.3%, 1-0 9.3%。"
         },
         {
           "title": "综合结论",
@@ -15325,48 +15351,48 @@ window.__WORLD_CUP_MODEL__ = {
       "away": "England",
       "home_score": null,
       "away_score": null,
-      "lambda_home": 0.87,
-      "lambda_away": 1.88,
-      "home_win": 16.9,
-      "draw": 22.0,
-      "away_win": 61.0,
+      "lambda_home": 0.84,
+      "lambda_away": 1.95,
+      "home_win": 15.5,
+      "draw": 21.2,
+      "away_win": 63.3,
       "matrix": [
         [
-          6.4,
+          6.1,
           12.0,
-          11.3,
-          7.1,
-          3.3,
+          11.7,
+          7.6,
+          3.7,
+          1.4,
+          0.5,
+          0.1,
+          0.0
+        ],
+        [
+          5.2,
+          10.1,
+          9.8,
+          6.4,
+          3.1,
           1.2,
           0.4,
           0.1,
           0.0
         ],
         [
-          5.6,
-          10.5,
-          9.8,
-          6.2,
-          2.9,
-          1.1,
-          0.3,
-          0.1,
-          0.0
-        ],
-        [
-          2.4,
-          4.6,
-          4.3,
+          2.2,
+          4.2,
+          4.1,
           2.7,
           1.3,
           0.5,
-          0.1,
+          0.2,
           0.0,
           0.0
         ],
         [
-          0.7,
-          1.3,
+          0.6,
+          1.2,
           1.2,
           0.8,
           0.4,
@@ -15376,9 +15402,9 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
+          0.1,
           0.2,
-          0.3,
-          0.3,
+          0.2,
           0.2,
           0.1,
           0.0,
@@ -15388,7 +15414,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.0,
-          0.1,
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -15439,11 +15465,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "0-2",
-          "prob": 11.3
+          "prob": 11.7
         },
         {
           "score": "1-1",
-          "prob": 10.5
+          "prob": 10.1
         },
         {
           "score": "1-2",
@@ -15451,38 +15477,38 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "0-3",
-          "prob": 7.1
+          "prob": 7.6
         }
       ],
       "big_score_candidates": [
         {
           "score": "0-3",
-          "prob": 7.1
+          "prob": 7.6
         },
         {
           "score": "1-3",
-          "prob": 6.2
+          "prob": 6.4
         },
         {
           "score": "2-2",
-          "prob": 4.3
+          "prob": 4.1
         },
         {
           "score": "0-4",
-          "prob": 3.3
+          "prob": 3.7
         },
         {
           "score": "1-4",
-          "prob": 2.9
+          "prob": 3.1
         }
       ],
       "big_score_signal": {
-        "over_3_5": 29.5,
-        "margin_3_plus": 18.4,
+        "over_3_5": 30.2,
+        "margin_3_plus": 19.7,
         "level": "high"
       },
       "winner": "England",
-      "winner_prob": 61.0,
+      "winner_prob": 63.3,
       "completed": false,
       "actual_score": null,
       "predicted_direction": "away",
@@ -15505,7 +15531,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "Panama Elo 1758 vs England 1976，差距 219 分，后者占优。"
+          "text": "Panama Elo 1738 vs England 1990，差距 252 分，后者占优。"
         },
         {
           "title": "近期状态",
@@ -15513,11 +15539,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Panama 0.87 : 1.88 England，数值越高代表越容易进球。"
+          "text": "期望进球 Panama 0.84 : 1.95 England，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：0-1 12.0%, 0-2 11.3%, 1-1 10.5%。"
+          "text": "最可能比分：0-1 12.0%, 0-2 11.7%, 1-1 10.1%。"
         },
         {
           "title": "综合结论",
@@ -15534,17 +15560,17 @@ window.__WORLD_CUP_MODEL__ = {
       "away": "Ghana",
       "home_score": null,
       "away_score": null,
-      "lambda_home": 1.8,
-      "lambda_away": 0.85,
-      "home_win": 59.8,
-      "draw": 22.8,
-      "away_win": 17.3,
+      "lambda_home": 1.73,
+      "lambda_away": 0.88,
+      "home_win": 57.5,
+      "draw": 23.6,
+      "away_win": 18.9,
       "matrix": [
         [
-          7.1,
-          6.0,
-          2.6,
-          0.7,
+          7.4,
+          6.5,
+          2.8,
+          0.8,
           0.2,
           0.0,
           0.0,
@@ -15552,10 +15578,21 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          12.8,
-          10.8,
-          4.6,
-          1.3,
+          12.7,
+          11.2,
+          4.9,
+          1.4,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          11.0,
+          9.7,
+          4.3,
+          1.2,
           0.3,
           0.0,
           0.0,
@@ -15563,30 +15600,19 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          11.5,
-          9.7,
-          4.1,
-          1.2,
-          0.2,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          6.9,
-          5.8,
+          6.4,
+          5.6,
           2.5,
           0.7,
-          0.1,
+          0.2,
           0.0,
           0.0,
           0.0,
           0.0
         ],
         [
-          3.1,
-          2.6,
+          2.7,
+          2.4,
           1.1,
           0.3,
           0.1,
@@ -15596,8 +15622,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          1.1,
-          0.9,
+          1.0,
+          0.8,
           0.4,
           0.1,
           0.0,
@@ -15608,7 +15634,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.3,
-          0.3,
+          0.2,
           0.1,
           0.0,
           0.0,
@@ -15644,15 +15670,15 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-0",
-          "prob": 12.8
-        },
-        {
-          "score": "2-0",
-          "prob": 11.5
+          "prob": 12.7
         },
         {
           "score": "1-1",
-          "prob": 10.8
+          "prob": 11.2
+        },
+        {
+          "score": "2-0",
+          "prob": 11.0
         },
         {
           "score": "2-1",
@@ -15660,38 +15686,38 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "0-0",
-          "prob": 7.1
+          "prob": 7.4
         }
       ],
       "big_score_candidates": [
         {
           "score": "3-0",
-          "prob": 6.9
+          "prob": 6.4
         },
         {
           "score": "3-1",
-          "prob": 5.8
+          "prob": 5.6
         },
         {
           "score": "2-2",
-          "prob": 4.1
+          "prob": 4.3
         },
         {
           "score": "4-0",
-          "prob": 3.1
+          "prob": 2.7
         },
         {
-          "score": "4-1",
-          "prob": 2.6
+          "score": "3-2",
+          "prob": 2.5
         }
       ],
       "big_score_signal": {
-        "over_3_5": 27.0,
-        "margin_3_plus": 17.1,
+        "over_3_5": 26.5,
+        "margin_3_plus": 15.9,
         "level": "watch"
       },
       "winner": "Croatia",
-      "winner_prob": 59.8,
+      "winner_prob": 57.5,
       "completed": false,
       "actual_score": null,
       "predicted_direction": "home",
@@ -15699,6 +15725,11 @@ window.__WORLD_CUP_MODEL__ = {
       "prediction_hit": null,
       "review": null,
       "risk_tags": [
+        {
+          "level": "amber",
+          "label": "防平提醒",
+          "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+        },
         {
           "level": "red",
           "label": "强队不胜风险",
@@ -15714,7 +15745,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "Croatia Elo 1914 vs Ghana 1595，差距 319 分，前者占优。"
+          "text": "Croatia Elo 1901 vs Ghana 1615，差距 285 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -15722,11 +15753,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Croatia 1.8 : 0.85 Ghana，数值越高代表越容易进球。"
+          "text": "期望进球 Croatia 1.73 : 0.88 Ghana，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-0 12.8%, 2-0 11.5%, 1-1 10.8%。"
+          "text": "最可能比分：1-0 12.7%, 1-1 11.2%, 2-0 11.0%。"
         },
         {
           "title": "综合结论",
@@ -15746,7 +15777,7 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "match": "Uzbekistan vs Colombia",
           "pick": "Colombia",
-          "prob": 48.3,
+          "prob": 49.2,
           "note": "",
           "risk_tags": [
             {
@@ -15769,13 +15800,18 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "match": "England vs Croatia",
           "pick": "England",
-          "prob": 44.5,
+          "prob": 46.4,
           "note": "",
           "risk_tags": [
             {
               "level": "amber",
               "label": "防平提醒",
               "text": "英格兰更值得支持，但这场不能只看名气，平局和小比分要防。"
+            },
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
             },
             {
               "level": "blue",
@@ -15787,13 +15823,18 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "match": "Portugal vs DR Congo",
           "pick": "Portugal",
-          "prob": 59.9,
+          "prob": 58.7,
           "note": "",
           "risk_tags": [
             {
               "level": "amber",
               "label": "让球风险提醒",
               "text": "葡萄牙胜方向清楚，但深让球不适合当稳项，比分更适合小额娱乐。"
+            },
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
             },
             {
               "level": "red",
@@ -15810,7 +15851,7 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "match": "Ghana vs Panama",
           "pick": "观望放弃",
-          "prob": 43.0,
+          "prob": 40.3,
           "note": "模型偏Panama，赔率偏Ghana，方向打架。",
           "risk_tags": [
             {
@@ -15835,25 +15876,25 @@ window.__WORLD_CUP_MODEL__ = {
             "scores": [
               {
                 "score": "0-1",
-                "prob": 12.5,
+                "prob": 12.6,
                 "odds": 5.6,
                 "tag": "前三"
               },
               {
                 "score": "1-1",
-                "prob": 12.4,
+                "prob": 12.3,
                 "odds": 9,
                 "tag": "前三"
               },
               {
                 "score": "0-2",
-                "prob": 9.2,
+                "prob": 9.4,
                 "odds": 5.2,
                 "tag": "前三"
               },
               {
                 "score": "0-3",
-                "prob": 4.5,
+                "prob": 4.7,
                 "big": true,
                 "odds": 8,
                 "tag": "搏大"
@@ -15866,25 +15907,25 @@ window.__WORLD_CUP_MODEL__ = {
             "scores": [
               {
                 "score": "1-1",
-                "prob": 12.2,
+                "prob": 12.1,
                 "odds": 5.8,
                 "tag": "前三"
               },
               {
                 "score": "1-0",
-                "prob": 10.5,
+                "prob": 10.7,
                 "odds": 6.2,
                 "tag": "前三"
               },
               {
                 "score": "2-1",
-                "prob": 9.1,
+                "prob": 9.2,
                 "odds": 5.7,
                 "tag": "前三"
               },
               {
                 "score": "2-2",
-                "prob": 5.3,
+                "prob": 5.2,
                 "big": true,
                 "odds": 12.5,
                 "tag": "搏大"
@@ -15897,25 +15938,25 @@ window.__WORLD_CUP_MODEL__ = {
             "scores": [
               {
                 "score": "1-0",
-                "prob": 12.6,
+                "prob": 12.5,
                 "odds": 6.75,
                 "tag": "前三"
               },
               {
                 "score": "2-0",
-                "prob": 11.4,
+                "prob": 11.1,
                 "odds": 5.8,
                 "tag": "前三"
               },
               {
                 "score": "1-1",
-                "prob": 10.8,
+                "prob": 11.0,
                 "odds": 11,
                 "tag": "前三"
               },
               {
                 "score": "3-0",
-                "prob": 6.9,
+                "prob": 6.6,
                 "big": true,
                 "odds": 5.25,
                 "tag": "搏大"
@@ -15928,19 +15969,19 @@ window.__WORLD_CUP_MODEL__ = {
             "scores": [
               {
                 "score": "1-1",
-                "prob": 12.8,
+                "prob": 13.0,
                 "odds": 5,
                 "tag": "前三"
               },
               {
                 "score": "0-1",
-                "prob": 11.9,
+                "prob": 11.5,
                 "odds": 8.8,
                 "tag": "前三"
               },
               {
                 "score": "1-0",
-                "prob": 9.5,
+                "prob": 10.1,
                 "odds": 6.3,
                 "tag": "前三"
               },
@@ -16263,60 +16304,60 @@ window.__WORLD_CUP_MODEL__ = {
       {
         "rank": 1,
         "team": "Portugal",
-        "points": 5.32,
-        "gd": 1.76,
-        "gf": 4.75
+        "points": 5.26,
+        "gd": 1.68,
+        "gf": 4.7
       },
       {
         "rank": 2,
         "team": "Colombia",
-        "points": 4.87,
-        "gd": 1.09,
-        "gf": 4.23
+        "points": 4.92,
+        "gd": 1.15,
+        "gf": 4.26
       },
       {
         "rank": 3,
         "team": "Uzbekistan",
-        "points": 3.52,
-        "gd": -0.85,
-        "gf": 3.37
+        "points": 3.47,
+        "gd": -0.92,
+        "gf": 3.34
       },
       {
         "rank": 4,
         "team": "DR Congo",
-        "points": 2.76,
-        "gd": -2.0,
-        "gf": 2.82
+        "points": 2.82,
+        "gd": -1.91,
+        "gf": 2.85
       }
     ],
     "L": [
       {
         "rank": 1,
         "team": "England",
-        "points": 5.88,
-        "gd": 2.67,
-        "gf": 5.48
+        "points": 5.98,
+        "gd": 2.81,
+        "gf": 5.57
       },
       {
         "rank": 2,
         "team": "Croatia",
-        "points": 5.0,
-        "gd": 1.28,
-        "gf": 4.55
+        "points": 4.9,
+        "gd": 1.13,
+        "gf": 4.46
       },
       {
         "rank": 3,
         "team": "Panama",
-        "points": 3.21,
-        "gd": -1.39,
-        "gf": 3.16
+        "points": 3.07,
+        "gd": -1.61,
+        "gf": 3.06
       },
       {
         "rank": 4,
         "team": "Ghana",
-        "points": 2.49,
-        "gd": -2.56,
-        "gf": 2.71
+        "points": 2.63,
+        "gd": -2.33,
+        "gf": 2.79
       }
     ]
   },
@@ -16342,10 +16383,10 @@ window.__WORLD_CUP_MODEL__ = {
       "defense": 0.32,
       "qualify": 86.4,
       "r16": 69.7,
-      "qf": 45.6,
-      "sf": 30.7,
-      "final": 22.0,
-      "champion": 13.7
+      "qf": 45.5,
+      "sf": 30.4,
+      "final": 21.8,
+      "champion": 13.6
     },
     {
       "team": "Brazil",
@@ -16354,11 +16395,11 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.43,
       "defense": 0.39,
       "qualify": 83.3,
-      "r16": 62.8,
+      "r16": 62.7,
       "qf": 44.5,
       "sf": 30.8,
-      "final": 16.5,
-      "champion": 9.5
+      "final": 16.4,
+      "champion": 9.3
     },
     {
       "team": "France",
@@ -16367,11 +16408,24 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.25,
       "defense": 0.12,
       "qualify": 81.6,
-      "r16": 62.8,
-      "qf": 32.8,
-      "sf": 18.8,
-      "final": 12.5,
-      "champion": 7.3
+      "r16": 62.9,
+      "qf": 32.9,
+      "sf": 18.7,
+      "final": 12.4,
+      "champion": 7.2
+    },
+    {
+      "team": "England",
+      "group": "L",
+      "elo": 1990,
+      "attack": 0.49,
+      "defense": 0.35,
+      "qualify": 85.3,
+      "r16": 61.4,
+      "qf": 36.5,
+      "sf": 18.5,
+      "final": 12.2,
+      "champion": 6.7
     },
     {
       "team": "Germany",
@@ -16380,37 +16434,24 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.49,
       "defense": 0.21,
       "qualify": 82.7,
-      "r16": 64.7,
+      "r16": 64.8,
       "qf": 38.8,
       "sf": 19.6,
       "final": 12.0,
-      "champion": 6.2
-    },
-    {
-      "team": "England",
-      "group": "L",
-      "elo": 1976,
-      "attack": 0.49,
-      "defense": 0.35,
-      "qualify": 84.7,
-      "r16": 59.4,
-      "qf": 34.9,
-      "sf": 17.6,
-      "final": 11.4,
       "champion": 6.1
     },
     {
       "team": "Portugal",
       "group": "K",
-      "elo": 1987,
+      "elo": 1979,
       "attack": 0.2,
       "defense": 0.24,
-      "qualify": 78.5,
-      "r16": 51.0,
-      "qf": 28.0,
-      "sf": 13.7,
-      "final": 7.9,
-      "champion": 3.9
+      "qualify": 77.8,
+      "r16": 49.4,
+      "qf": 26.8,
+      "sf": 12.7,
+      "final": 7.3,
+      "champion": 3.6
     },
     {
       "team": "Mexico",
@@ -16419,10 +16460,10 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.2,
       "defense": 0.28,
       "qualify": 75.4,
-      "r16": 55.0,
-      "qf": 36.7,
-      "sf": 19.1,
-      "final": 8.6,
+      "r16": 55.2,
+      "qf": 36.8,
+      "sf": 19.3,
+      "final": 8.7,
       "champion": 3.6
     },
     {
@@ -16433,9 +16474,9 @@ window.__WORLD_CUP_MODEL__ = {
       "defense": 0.17,
       "qualify": 74.4,
       "r16": 52.8,
-      "qf": 29.0,
+      "qf": 29.1,
       "sf": 13.5,
-      "final": 6.7,
+      "final": 6.6,
       "champion": 3.0
     },
     {
@@ -16459,23 +16500,23 @@ window.__WORLD_CUP_MODEL__ = {
       "defense": 0.46,
       "qualify": 66.9,
       "r16": 41.0,
-      "qf": 25.2,
-      "sf": 14.0,
-      "final": 6.3,
+      "qf": 25.1,
+      "sf": 13.8,
+      "final": 6.2,
       "champion": 2.8
     },
     {
       "team": "Colombia",
       "group": "K",
-      "elo": 1986,
+      "elo": 1993,
       "attack": -0.12,
       "defense": 0.22,
-      "qualify": 66.9,
-      "r16": 42.2,
-      "qf": 21.0,
-      "sf": 10.2,
-      "final": 5.9,
-      "champion": 2.5
+      "qualify": 67.9,
+      "r16": 43.8,
+      "qf": 21.9,
+      "sf": 10.8,
+      "final": 6.3,
+      "champion": 2.7
     },
     {
       "team": "Belgium",
@@ -16488,20 +16529,7 @@ window.__WORLD_CUP_MODEL__ = {
       "qf": 20.3,
       "sf": 10.0,
       "final": 5.0,
-      "champion": 1.9
-    },
-    {
-      "team": "Croatia",
-      "group": "L",
-      "elo": 1914,
-      "attack": 0.18,
-      "defense": 0.31,
-      "qualify": 71.7,
-      "r16": 37.4,
-      "qf": 18.8,
-      "sf": 8.5,
-      "final": 4.0,
-      "champion": 1.9
+      "champion": 2.0
     },
     {
       "team": "Korea Republic",
@@ -16510,11 +16538,24 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.21,
       "defense": 0.31,
       "qualify": 55.6,
-      "r16": 42.2,
-      "qf": 25.5,
-      "sf": 11.7,
-      "final": 4.2,
-      "champion": 1.8
+      "r16": 42.4,
+      "qf": 25.7,
+      "sf": 11.9,
+      "final": 4.3,
+      "champion": 1.9
+    },
+    {
+      "team": "Croatia",
+      "group": "L",
+      "elo": 1901,
+      "attack": 0.18,
+      "defense": 0.31,
+      "qualify": 70.4,
+      "r16": 35.5,
+      "qf": 17.7,
+      "sf": 7.9,
+      "final": 3.8,
+      "champion": 1.7
     },
     {
       "team": "Iran",
@@ -16523,10 +16564,10 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.28,
       "defense": 0.46,
       "qualify": 58.8,
-      "r16": 42.7,
+      "r16": 42.9,
       "qf": 18.0,
       "sf": 8.6,
-      "final": 3.8,
+      "final": 3.9,
       "champion": 1.5
     },
     {
@@ -16536,9 +16577,9 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.35,
       "defense": 0.26,
       "qualify": 56.2,
-      "r16": 43.7,
+      "r16": 43.8,
       "qf": 19.2,
-      "sf": 9.4,
+      "sf": 9.5,
       "final": 4.0,
       "champion": 1.5
     },
@@ -16549,24 +16590,11 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.08,
       "defense": 0.17,
       "qualify": 54.3,
-      "r16": 30.0,
-      "qf": 16.6,
+      "r16": 29.9,
+      "qf": 16.5,
       "sf": 8.5,
-      "final": 3.5,
+      "final": 3.6,
       "champion": 1.4
-    },
-    {
-      "team": "Switzerland",
-      "group": "B",
-      "elo": 1875,
-      "attack": 0.02,
-      "defense": -0.11,
-      "qualify": 66.3,
-      "r16": 50.0,
-      "qf": 22.7,
-      "sf": 9.9,
-      "final": 3.1,
-      "champion": 1.1
     },
     {
       "team": "Turkey",
@@ -16575,7 +16603,7 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": -0.05,
       "defense": 0.04,
       "qualify": 43.5,
-      "r16": 33.6,
+      "r16": 33.7,
       "qf": 14.5,
       "sf": 7.5,
       "final": 2.7,
@@ -16588,24 +16616,24 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": -0.17,
       "defense": -0.04,
       "qualify": 48.3,
-      "r16": 33.9,
-      "qf": 16.0,
-      "sf": 6.5,
+      "r16": 33.8,
+      "qf": 15.9,
+      "sf": 6.6,
       "final": 2.3,
       "champion": 1.0
     },
     {
-      "team": "Austria",
-      "group": "J",
-      "elo": 1867,
-      "attack": 0.22,
-      "defense": -0.04,
-      "qualify": 43.4,
-      "r16": 24.7,
-      "qf": 11.7,
-      "sf": 5.7,
-      "final": 2.3,
-      "champion": 0.9
+      "team": "Switzerland",
+      "group": "B",
+      "elo": 1875,
+      "attack": 0.02,
+      "defense": -0.11,
+      "qualify": 66.3,
+      "r16": 50.1,
+      "qf": 22.7,
+      "sf": 9.9,
+      "final": 3.1,
+      "champion": 1.0
     },
     {
       "team": "Norway",
@@ -16614,11 +16642,24 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.05,
       "defense": -0.1,
       "qualify": 45.0,
-      "r16": 28.5,
+      "r16": 28.7,
+      "qf": 11.8,
+      "sf": 5.1,
+      "final": 1.8,
+      "champion": 0.9
+    },
+    {
+      "team": "Austria",
+      "group": "J",
+      "elo": 1867,
+      "attack": 0.22,
+      "defense": -0.04,
+      "qualify": 43.4,
+      "r16": 24.8,
       "qf": 11.6,
-      "sf": 5.0,
-      "final": 1.7,
-      "champion": 0.8
+      "sf": 5.6,
+      "final": 2.3,
+      "champion": 0.9
     },
     {
       "team": "Ivory Coast",
@@ -16634,16 +16675,29 @@ window.__WORLD_CUP_MODEL__ = {
       "champion": 0.8
     },
     {
-      "team": "Algeria",
-      "group": "J",
-      "elo": 1854,
-      "attack": 0.05,
-      "defense": 0.32,
-      "qualify": 52.9,
-      "r16": 22.1,
-      "qf": 10.1,
-      "sf": 3.9,
-      "final": 1.7,
+      "team": "Czechia",
+      "group": "A",
+      "elo": 1764,
+      "attack": 0.22,
+      "defense": 0.3,
+      "qualify": 39.7,
+      "r16": 30.9,
+      "qf": 15.7,
+      "sf": 6.3,
+      "final": 1.9,
+      "champion": 0.7
+    },
+    {
+      "team": "Senegal",
+      "group": "I",
+      "elo": 1844,
+      "attack": -0.06,
+      "defense": 0.36,
+      "qualify": 50.8,
+      "r16": 24.8,
+      "qf": 9.4,
+      "sf": 3.5,
+      "final": 1.3,
       "champion": 0.6
     },
     {
@@ -16653,7 +16707,7 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": -0.14,
       "defense": 0.11,
       "qualify": 70.4,
-      "r16": 44.6,
+      "r16": 44.5,
       "qf": 19.1,
       "sf": 7.6,
       "final": 1.9,
@@ -16666,36 +16720,23 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.16,
       "defense": 0.16,
       "qualify": 32.4,
-      "r16": 25.1,
+      "r16": 24.9,
       "qf": 11.3,
       "sf": 5.0,
-      "final": 1.7,
+      "final": 1.8,
       "champion": 0.6
     },
     {
-      "team": "Czechia",
-      "group": "A",
-      "elo": 1764,
-      "attack": 0.22,
-      "defense": 0.3,
-      "qualify": 39.7,
-      "r16": 30.9,
-      "qf": 15.7,
-      "sf": 6.3,
-      "final": 1.9,
-      "champion": 0.6
-    },
-    {
-      "team": "Senegal",
-      "group": "I",
-      "elo": 1844,
-      "attack": -0.06,
-      "defense": 0.36,
-      "qualify": 50.8,
-      "r16": 24.9,
-      "qf": 9.3,
-      "sf": 3.4,
-      "final": 1.2,
+      "team": "Algeria",
+      "group": "J",
+      "elo": 1854,
+      "attack": 0.05,
+      "defense": 0.32,
+      "qualify": 52.9,
+      "r16": 22.0,
+      "qf": 10.1,
+      "sf": 3.8,
+      "final": 1.5,
       "champion": 0.5
     },
     {
@@ -16705,10 +16746,10 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.1,
       "defense": 0.31,
       "qualify": 47.6,
-      "r16": 29.8,
+      "r16": 29.9,
       "qf": 10.4,
-      "sf": 3.6,
-      "final": 1.2,
+      "sf": 3.7,
+      "final": 1.1,
       "champion": 0.5
     },
     {
@@ -16718,7 +16759,7 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.01,
       "defense": 0.1,
       "qualify": 55.2,
-      "r16": 35.0,
+      "r16": 35.1,
       "qf": 13.4,
       "sf": 6.0,
       "final": 1.6,
@@ -16731,8 +16772,8 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": -0.13,
       "defense": 0.03,
       "qualify": 45.1,
-      "r16": 28.6,
-      "qf": 10.9,
+      "r16": 28.7,
+      "qf": 11.0,
       "sf": 4.7,
       "final": 0.9,
       "champion": 0.4
@@ -16744,8 +16785,8 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.34,
       "defense": 0.12,
       "qualify": 34.7,
-      "r16": 25.0,
-      "qf": 10.7,
+      "r16": 25.1,
+      "qf": 10.9,
       "sf": 4.3,
       "final": 1.4,
       "champion": 0.4
@@ -16753,13 +16794,13 @@ window.__WORLD_CUP_MODEL__ = {
     {
       "team": "Uzbekistan",
       "group": "K",
-      "elo": 1759,
+      "elo": 1752,
       "attack": 0.18,
       "defense": 0.24,
-      "qualify": 34.6,
-      "r16": 21.6,
+      "qualify": 33.6,
+      "r16": 21.4,
       "qf": 8.5,
-      "sf": 3.4,
+      "sf": 3.3,
       "final": 1.2,
       "champion": 0.3
     },
@@ -16784,36 +16825,10 @@ window.__WORLD_CUP_MODEL__ = {
       "defense": 0.29,
       "qualify": 29.4,
       "r16": 12.0,
-      "qf": 4.1,
+      "qf": 4.0,
       "sf": 1.5,
       "final": 0.4,
       "champion": 0.2
-    },
-    {
-      "team": "New Zealand",
-      "group": "G",
-      "elo": 1654,
-      "attack": 0.19,
-      "defense": -0.02,
-      "qualify": 20.8,
-      "r16": 14.9,
-      "qf": 4.4,
-      "sf": 1.5,
-      "final": 0.4,
-      "champion": 0.2
-    },
-    {
-      "team": "Panama",
-      "group": "L",
-      "elo": 1758,
-      "attack": -0.14,
-      "defense": -0.04,
-      "qualify": 25.5,
-      "r16": 15.7,
-      "qf": 5.4,
-      "sf": 1.5,
-      "final": 0.4,
-      "champion": 0.1
     },
     {
       "team": "Tunisia",
@@ -16822,8 +16837,8 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": -0.02,
       "defense": 0.31,
       "qualify": 25.0,
-      "r16": 15.9,
-      "qf": 5.1,
+      "r16": 16.0,
+      "qf": 5.2,
       "sf": 1.6,
       "final": 0.4,
       "champion": 0.1
@@ -16831,14 +16846,27 @@ window.__WORLD_CUP_MODEL__ = {
     {
       "team": "DR Congo",
       "group": "K",
-      "elo": 1685,
+      "elo": 1693,
       "attack": 0.01,
       "defense": 0.19,
-      "qualify": 20.0,
-      "r16": 11.7,
-      "qf": 3.8,
-      "sf": 1.0,
-      "final": 0.2,
+      "qualify": 20.7,
+      "r16": 12.3,
+      "qf": 4.3,
+      "sf": 1.3,
+      "final": 0.3,
+      "champion": 0.1
+    },
+    {
+      "team": "New Zealand",
+      "group": "G",
+      "elo": 1654,
+      "attack": 0.19,
+      "defense": -0.02,
+      "qualify": 20.8,
+      "r16": 14.7,
+      "qf": 4.2,
+      "sf": 1.4,
+      "final": 0.3,
       "champion": 0.1
     },
     {
@@ -16848,10 +16876,10 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": -0.07,
       "defense": 0.07,
       "qualify": 29.7,
-      "r16": 19.3,
+      "r16": 19.5,
       "qf": 5.4,
       "sf": 1.6,
-      "final": 0.3,
+      "final": 0.2,
       "champion": 0.1
     },
     {
@@ -16868,14 +16896,27 @@ window.__WORLD_CUP_MODEL__ = {
       "champion": 0.1
     },
     {
+      "team": "Panama",
+      "group": "L",
+      "elo": 1738,
+      "attack": -0.14,
+      "defense": -0.04,
+      "qualify": 23.9,
+      "r16": 14.2,
+      "qf": 4.5,
+      "sf": 1.2,
+      "final": 0.2,
+      "champion": 0.0
+    },
+    {
       "team": "Iraq",
       "group": "I",
       "elo": 1694,
       "attack": 0.04,
       "defense": 0.37,
       "qualify": 22.6,
-      "r16": 15.2,
-      "qf": 5.3,
+      "r16": 15.1,
+      "qf": 5.1,
       "sf": 1.5,
       "final": 0.2,
       "champion": 0.0
@@ -16887,8 +16928,8 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": -0.25,
       "defense": 0.23,
       "qualify": 25.4,
-      "r16": 7.9,
-      "qf": 2.5,
+      "r16": 8.1,
+      "qf": 2.6,
       "sf": 0.5,
       "final": 0.1,
       "champion": 0
@@ -16900,8 +16941,8 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.12,
       "defense": 0.08,
       "qualify": 17.3,
-      "r16": 12.2,
-      "qf": 3.9,
+      "r16": 12.1,
+      "qf": 3.8,
       "sf": 1.4,
       "final": 0.3,
       "champion": 0
@@ -16909,14 +16950,14 @@ window.__WORLD_CUP_MODEL__ = {
     {
       "team": "Ghana",
       "group": "L",
-      "elo": 1595,
+      "elo": 1615,
       "attack": 0.07,
       "defense": 0.29,
-      "qualify": 18.1,
-      "r16": 9.3,
-      "qf": 2.5,
-      "sf": 0.6,
-      "final": 0.1,
+      "qualify": 20.4,
+      "r16": 9.5,
+      "qf": 2.8,
+      "sf": 0.7,
+      "final": 0.2,
       "champion": 0.0
     },
     {
@@ -16926,7 +16967,7 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": -0.04,
       "defense": 0.18,
       "qualify": 33.6,
-      "r16": 17.3,
+      "r16": 17.2,
       "qf": 4.2,
       "sf": 0.9,
       "final": 0.3,
@@ -16939,11 +16980,11 @@ window.__WORLD_CUP_MODEL__ = {
       "attack": 0.12,
       "defense": -0.07,
       "qualify": 18.4,
-      "r16": 7.1,
-      "qf": 1.6,
+      "r16": 7.2,
+      "qf": 1.7,
       "sf": 0.3,
-      "final": 0,
-      "champion": 0
+      "final": 0.0,
+      "champion": 0.0
     }
   ],
   "bracket": [
@@ -17047,11 +17088,11 @@ window.__WORLD_CUP_MODEL__ = {
           "date": "",
           "home": "England",
           "away": "Algeria",
-          "home_win": 49.8,
-          "draw": 25.2,
-          "away_win": 25.0,
+          "home_win": 50.8,
+          "draw": 25.0,
+          "away_win": 24.3,
           "winner": "England",
-          "winner_prob": 66.6,
+          "winner_prob": 67.6,
           "path_note": "L组第1 vs 最佳第三名"
         },
         {
@@ -17086,11 +17127,11 @@ window.__WORLD_CUP_MODEL__ = {
           "date": "",
           "home": "Colombia",
           "away": "Croatia",
-          "home_win": 37.2,
+          "home_win": 38.6,
           "draw": 27.6,
-          "away_win": 35.1,
+          "away_win": 33.9,
           "winner": "Colombia",
-          "winner_prob": 51.5,
+          "winner_prob": 53.2,
           "path_note": "K组第2 vs L组第2"
         },
         {
@@ -17138,11 +17179,11 @@ window.__WORLD_CUP_MODEL__ = {
           "date": "",
           "home": "Portugal",
           "away": "Scotland",
-          "home_win": 52.9,
-          "draw": 24.5,
-          "away_win": 22.6,
+          "home_win": 52.3,
+          "draw": 24.6,
+          "away_win": 23.1,
           "winner": "Portugal",
-          "winner_prob": 70.1,
+          "winner_prob": 69.4,
           "path_note": "K组第1 vs 最佳第三名"
         },
         {
@@ -17205,11 +17246,11 @@ window.__WORLD_CUP_MODEL__ = {
           "date": "",
           "home": "Mexico",
           "away": "England",
-          "home_win": 30.4,
-          "draw": 25.8,
-          "away_win": 43.8,
+          "home_win": 29.6,
+          "draw": 25.6,
+          "away_win": 44.7,
           "winner": "England",
-          "winner_prob": 59.0
+          "winner_prob": 60.2
         },
         {
           "id": 93,
@@ -17229,11 +17270,11 @@ window.__WORLD_CUP_MODEL__ = {
           "date": "",
           "home": "Colombia",
           "away": "Spain",
-          "home_win": 24.9,
-          "draw": 25.8,
-          "away_win": 49.4,
+          "home_win": 25.2,
+          "draw": 25.9,
+          "away_win": 48.9,
           "winner": "Spain",
-          "winner_prob": 66.5
+          "winner_prob": 66.0
         },
         {
           "id": 95,
@@ -17253,11 +17294,11 @@ window.__WORLD_CUP_MODEL__ = {
           "date": "",
           "home": "Portugal",
           "away": "Iran",
-          "home_win": 43.9,
-          "draw": 26.3,
-          "away_win": 29.8,
+          "home_win": 43.4,
+          "draw": 26.4,
+          "away_win": 30.3,
           "winner": "Portugal",
-          "winner_prob": 59.6
+          "winner_prob": 58.9
         }
       ]
     },
@@ -17282,11 +17323,11 @@ window.__WORLD_CUP_MODEL__ = {
           "date": "",
           "home": "France",
           "away": "England",
-          "home_win": 37.8,
+          "home_win": 36.9,
           "draw": 25.8,
-          "away_win": 36.4,
-          "winner": "France",
-          "winner_prob": 50.9
+          "away_win": 37.3,
+          "winner": "England",
+          "winner_prob": 50.3
         },
         {
           "id": 99,
@@ -17306,11 +17347,11 @@ window.__WORLD_CUP_MODEL__ = {
           "date": "",
           "home": "Argentina",
           "away": "Portugal",
-          "home_win": 46.6,
-          "draw": 25.7,
-          "away_win": 27.7,
+          "home_win": 47.2,
+          "draw": 25.6,
+          "away_win": 27.2,
           "winner": "Argentina",
-          "winner_prob": 62.7
+          "winner_prob": 63.4
         }
       ]
     },
@@ -17322,12 +17363,12 @@ window.__WORLD_CUP_MODEL__ = {
           "round": "半决赛",
           "date": "",
           "home": "Brazil",
-          "away": "France",
-          "home_win": 37.5,
-          "draw": 26.0,
-          "away_win": 36.5,
+          "away": "England",
+          "home_win": 37.3,
+          "draw": 25.8,
+          "away_win": 36.9,
           "winner": "Brazil",
-          "winner_prob": 50.7
+          "winner_prob": 50.3
         },
         {
           "id": 102,
@@ -18691,40 +18732,40 @@ window.__WORLD_CUP_MODEL__ = {
       "date": "",
       "home": "England",
       "away": "Algeria",
-      "home_win": 49.8,
-      "draw": 25.2,
-      "away_win": 25.0,
+      "home_win": 50.8,
+      "draw": 25.0,
+      "away_win": 24.3,
       "winner": "England",
-      "winner_prob": 49.8,
+      "winner_prob": 50.8,
       "path_note": "L组第1 vs 最佳第三名",
-      "lambda_home": 1.58,
-      "lambda_away": 1.04,
+      "lambda_home": 1.6,
+      "lambda_away": 1.03,
       "matrix": [
         [
-          7.3,
-          7.6,
-          3.9,
-          1.4,
-          0.4,
+          7.2,
+          7.4,
+          3.8,
+          1.3,
+          0.3,
           0.1,
           0.0,
           0.0,
           0.0
         ],
         [
-          11.5,
-          12.0,
-          6.2,
-          2.2,
-          0.6,
+          11.6,
+          11.9,
+          6.1,
+          2.1,
+          0.5,
           0.1,
           0.0,
           0.0,
           0.0
         ],
         [
-          9.1,
-          9.4,
+          9.3,
+          9.5,
           4.9,
           1.7,
           0.4,
@@ -18734,8 +18775,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          4.8,
           5.0,
+          5.1,
           2.6,
           0.9,
           0.2,
@@ -18745,7 +18786,7 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          1.9,
+          2.0,
           2.0,
           1.0,
           0.4,
@@ -18757,7 +18798,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.6,
-          0.6,
+          0.7,
           0.3,
           0.1,
           0.0,
@@ -18804,28 +18845,32 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.0
+          "prob": 11.9
         },
         {
           "score": "1-0",
-          "prob": 11.5
+          "prob": 11.6
         },
         {
           "score": "2-1",
-          "prob": 9.4
+          "prob": 9.5
         },
         {
           "score": "2-0",
-          "prob": 9.1
+          "prob": 9.3
         },
         {
           "score": "0-1",
-          "prob": 7.6
+          "prob": 7.4
         }
       ],
       "big_score_candidates": [
         {
           "score": "3-1",
+          "prob": 5.1
+        },
+        {
+          "score": "3-0",
           "prob": 5.0
         },
         {
@@ -18833,28 +18878,24 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 4.9
         },
         {
-          "score": "3-0",
-          "prob": 4.8
-        },
-        {
           "score": "3-2",
           "prob": 2.6
         },
         {
           "score": "1-3",
-          "prob": 2.2
+          "prob": 2.1
         }
       ],
       "big_score_signal": {
         "over_3_5": 26.7,
-        "margin_3_plus": 13.4,
+        "margin_3_plus": 13.5,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "England Elo 1976 vs Algeria 1854，差距 123 分，前者占优。"
+          "text": "England Elo 1990 vs Algeria 1854，差距 136 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -18862,11 +18903,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 England 1.58 : 1.04 Algeria，数值越高代表越容易进球。"
+          "text": "期望进球 England 1.6 : 1.03 Algeria，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.0%, 1-0 11.5%, 2-1 9.4%。"
+          "text": "最可能比分：1-1 11.9%, 1-0 11.6%, 2-1 9.5%。"
         },
         {
           "title": "综合结论",
@@ -19258,20 +19299,20 @@ window.__WORLD_CUP_MODEL__ = {
       "date": "",
       "home": "Colombia",
       "away": "Croatia",
-      "home_win": 37.2,
+      "home_win": 38.6,
       "draw": 27.6,
-      "away_win": 35.1,
+      "away_win": 33.9,
       "winner": "Colombia",
-      "winner_prob": 37.2,
+      "winner_prob": 38.6,
       "path_note": "K组第2 vs L组第2",
-      "lambda_home": 1.22,
-      "lambda_away": 1.18,
+      "lambda_home": 1.25,
+      "lambda_away": 1.15,
       "matrix": [
         [
           9.0,
-          10.7,
-          6.3,
-          2.5,
+          10.4,
+          6.0,
+          2.3,
           0.7,
           0.2,
           0.0,
@@ -19279,21 +19320,21 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          11.1,
-          13.1,
-          7.7,
-          3.0,
-          0.9,
+          11.3,
+          13.0,
+          7.5,
+          2.9,
+          0.8,
           0.2,
           0.0,
           0.0,
           0.0
         ],
         [
-          6.8,
-          8.0,
+          7.1,
+          8.2,
           4.7,
-          1.9,
+          1.8,
           0.5,
           0.1,
           0.0,
@@ -19301,9 +19342,9 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          2.8,
-          3.3,
-          1.9,
+          2.9,
+          3.4,
+          2.0,
           0.8,
           0.2,
           0.1,
@@ -19312,8 +19353,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          0.8,
-          1.0,
+          0.9,
+          1.1,
           0.6,
           0.2,
           0.1,
@@ -19324,8 +19365,8 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.2,
+          0.3,
           0.2,
-          0.1,
           0.1,
           0.0,
           0.0,
@@ -19335,7 +19376,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.0,
-          0.0,
+          0.1,
           0.0,
           0.0,
           0.0,
@@ -19371,15 +19412,15 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 13.1
+          "prob": 13.0
         },
         {
           "score": "1-0",
-          "prob": 11.1
+          "prob": 11.3
         },
         {
           "score": "0-1",
-          "prob": 10.7
+          "prob": 10.4
         },
         {
           "score": "0-0",
@@ -19387,7 +19428,7 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "2-1",
-          "prob": 8.0
+          "prob": 8.2
         }
       ],
       "big_score_candidates": [
@@ -19397,31 +19438,31 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "3-1",
-          "prob": 3.3
+          "prob": 3.4
         },
         {
           "score": "1-3",
-          "prob": 3.0
+          "prob": 2.9
         },
         {
           "score": "3-0",
-          "prob": 2.8
+          "prob": 2.9
         },
         {
           "score": "0-3",
-          "prob": 2.5
+          "prob": 2.3
         }
       ],
       "big_score_signal": {
-        "over_3_5": 21.8,
-        "margin_3_plus": 9.7,
+        "over_3_5": 22.2,
+        "margin_3_plus": 10.0,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Colombia Elo 1986 vs Croatia 1914，差距 72 分，前者占优。"
+          "text": "Colombia Elo 1993 vs Croatia 1901，差距 92 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -19429,11 +19470,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Colombia 1.22 : 1.18 Croatia，数值越高代表越容易进球。"
+          "text": "期望进球 Colombia 1.25 : 1.15 Croatia，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 13.1%, 1-0 11.1%, 0-1 10.7%。"
+          "text": "最可能比分：1-1 13.0%, 1-0 11.3%, 0-1 10.4%。"
         },
         {
           "title": "综合结论",
@@ -20014,19 +20055,19 @@ window.__WORLD_CUP_MODEL__ = {
       "date": "",
       "home": "Portugal",
       "away": "Scotland",
-      "home_win": 52.9,
-      "draw": 24.5,
-      "away_win": 22.6,
+      "home_win": 52.3,
+      "draw": 24.6,
+      "away_win": 23.1,
       "winner": "Portugal",
-      "winner_prob": 52.9,
+      "winner_prob": 52.3,
       "path_note": "K组第1 vs 最佳第三名",
-      "lambda_home": 1.66,
-      "lambda_away": 0.99,
+      "lambda_home": 1.64,
+      "lambda_away": 1.0,
       "matrix": [
         [
           7.1,
-          7.0,
-          3.5,
+          7.1,
+          3.6,
           1.2,
           0.3,
           0.1,
@@ -20036,9 +20077,9 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           11.7,
-          11.6,
-          5.8,
-          1.9,
+          11.7,
+          5.9,
+          2.0,
           0.5,
           0.1,
           0.0,
@@ -20046,7 +20087,7 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          9.7,
+          9.6,
           9.6,
           4.8,
           1.6,
@@ -20057,8 +20098,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          5.4,
-          5.3,
+          5.2,
+          5.2,
           2.6,
           0.9,
           0.2,
@@ -20068,7 +20109,7 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          2.2,
+          2.1,
           2.2,
           1.1,
           0.4,
@@ -20131,11 +20172,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "1-1",
-          "prob": 11.6
+          "prob": 11.7
         },
         {
           "score": "2-0",
-          "prob": 9.7
+          "prob": 9.6
         },
         {
           "score": "2-1",
@@ -20149,11 +20190,11 @@ window.__WORLD_CUP_MODEL__ = {
       "big_score_candidates": [
         {
           "score": "3-0",
-          "prob": 5.4
+          "prob": 5.2
         },
         {
           "score": "3-1",
-          "prob": 5.3
+          "prob": 5.2
         },
         {
           "score": "2-2",
@@ -20164,20 +20205,20 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.6
         },
         {
-          "score": "4-0",
+          "score": "4-1",
           "prob": 2.2
         }
       ],
       "big_score_signal": {
-        "over_3_5": 27.2,
-        "margin_3_plus": 14.4,
+        "over_3_5": 27.1,
+        "margin_3_plus": 14.1,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Portugal Elo 1987 vs Scotland 1769，差距 218 分，前者占优。"
+          "text": "Portugal Elo 1979 vs Scotland 1769，差距 210 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -20185,11 +20226,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Portugal 1.66 : 0.99 Scotland，数值越高代表越容易进球。"
+          "text": "期望进球 Portugal 1.64 : 1.0 Scotland，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-0 11.7%, 1-1 11.6%, 2-0 9.7%。"
+          "text": "最可能比分：1-0 11.7%, 1-1 11.7%, 2-0 9.6%。"
         },
         {
           "title": "综合结论",
@@ -20956,19 +20997,19 @@ window.__WORLD_CUP_MODEL__ = {
       "date": "",
       "home": "Mexico",
       "away": "England",
-      "home_win": 30.4,
-      "draw": 25.8,
-      "away_win": 43.8,
+      "home_win": 29.6,
+      "draw": 25.6,
+      "away_win": 44.7,
       "winner": "England",
-      "winner_prob": 43.8,
-      "lambda_home": 1.18,
-      "lambda_away": 1.47,
+      "winner_prob": 44.7,
+      "lambda_home": 1.16,
+      "lambda_away": 1.49,
       "matrix": [
         [
           7.0,
-          10.4,
-          7.6,
-          3.7,
+          10.5,
+          7.8,
+          3.9,
           1.4,
           0.4,
           0.1,
@@ -20976,19 +21017,19 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          8.3,
+          8.2,
           12.2,
-          9.0,
-          4.4,
-          1.6,
+          9.1,
+          4.5,
+          1.7,
           0.5,
           0.1,
           0.0,
           0.0
         ],
         [
-          4.9,
-          7.2,
+          4.8,
+          7.1,
           5.3,
           2.6,
           1.0,
@@ -20998,8 +21039,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          1.9,
-          2.9,
+          1.8,
+          2.8,
           2.1,
           1.0,
           0.4,
@@ -21009,7 +21050,7 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          0.6,
+          0.5,
           0.8,
           0.6,
           0.3,
@@ -21072,19 +21113,19 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "0-1",
-          "prob": 10.4
+          "prob": 10.5
         },
         {
           "score": "1-2",
-          "prob": 9.0
+          "prob": 9.1
         },
         {
           "score": "1-0",
-          "prob": 8.3
+          "prob": 8.2
         },
         {
           "score": "0-2",
-          "prob": 7.6
+          "prob": 7.8
         }
       ],
       "big_score_candidates": [
@@ -21094,15 +21135,15 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "1-3",
-          "prob": 4.4
+          "prob": 4.5
         },
         {
           "score": "0-3",
-          "prob": 3.7
+          "prob": 3.9
         },
         {
           "score": "3-1",
-          "prob": 2.9
+          "prob": 2.8
         },
         {
           "score": "2-3",
@@ -21111,14 +21152,14 @@ window.__WORLD_CUP_MODEL__ = {
       ],
       "big_score_signal": {
         "over_3_5": 27.2,
-        "margin_3_plus": 11.9,
+        "margin_3_plus": 12.0,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Mexico Elo 1924 vs England 1976，差距 52 分，后者占优。"
+          "text": "Mexico Elo 1924 vs England 1990，差距 65 分，后者占优。"
         },
         {
           "title": "近期状态",
@@ -21126,11 +21167,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Mexico 1.18 : 1.47 England，数值越高代表越容易进球。"
+          "text": "期望进球 Mexico 1.16 : 1.49 England，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.2%, 0-1 10.4%, 1-2 9.0%。"
+          "text": "最可能比分：1-1 12.2%, 0-1 10.5%, 1-2 9.1%。"
         },
         {
           "title": "综合结论",
@@ -21332,41 +21373,41 @@ window.__WORLD_CUP_MODEL__ = {
       "date": "",
       "home": "Colombia",
       "away": "Spain",
-      "home_win": 24.9,
-      "draw": 25.8,
-      "away_win": 49.4,
+      "home_win": 25.2,
+      "draw": 25.9,
+      "away_win": 48.9,
       "winner": "Spain",
-      "winner_prob": 49.4,
-      "lambda_home": 1.0,
-      "lambda_away": 1.52,
+      "winner_prob": 48.9,
+      "lambda_home": 1.01,
+      "lambda_away": 1.51,
       "matrix": [
         [
-          8.0,
+          8.1,
           12.2,
-          9.3,
-          4.7,
-          1.8,
-          0.5,
-          0.1,
-          0.0,
-          0.0
-        ],
-        [
-          8.0,
-          12.2,
-          9.3,
-          4.7,
-          1.8,
-          0.5,
-          0.1,
-          0.0,
-          0.0
-        ],
-        [
-          4.0,
-          6.1,
+          9.2,
           4.6,
-          2.4,
+          1.7,
+          0.5,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          8.1,
+          12.3,
+          9.3,
+          4.7,
+          1.8,
+          0.5,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          4.1,
+          6.2,
+          4.7,
+          2.3,
           0.9,
           0.3,
           0.1,
@@ -21374,9 +21415,9 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          1.3,
-          2.0,
-          1.5,
+          1.4,
+          2.1,
+          1.6,
           0.8,
           0.3,
           0.1,
@@ -21443,58 +21484,58 @@ window.__WORLD_CUP_MODEL__ = {
       "score_max": 8,
       "top_scores": [
         {
+          "score": "1-1",
+          "prob": 12.3
+        },
+        {
           "score": "0-1",
           "prob": 12.2
-        },
-        {
-          "score": "1-1",
-          "prob": 12.2
-        },
-        {
-          "score": "0-2",
-          "prob": 9.3
         },
         {
           "score": "1-2",
           "prob": 9.3
         },
         {
+          "score": "0-2",
+          "prob": 9.2
+        },
+        {
           "score": "0-0",
-          "prob": 8.0
+          "prob": 8.1
         }
       ],
       "big_score_candidates": [
-        {
-          "score": "0-3",
-          "prob": 4.7
-        },
         {
           "score": "1-3",
           "prob": 4.7
         },
         {
           "score": "2-2",
+          "prob": 4.7
+        },
+        {
+          "score": "0-3",
           "prob": 4.6
         },
         {
           "score": "2-3",
-          "prob": 2.4
+          "prob": 2.3
         },
         {
           "score": "3-1",
-          "prob": 2.0
+          "prob": 2.1
         }
       ],
       "big_score_signal": {
-        "over_3_5": 24.3,
-        "margin_3_plus": 12.3,
+        "over_3_5": 24.4,
+        "margin_3_plus": 12.2,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Colombia Elo 1986 vs Spain 2083，差距 97 分，后者占优。"
+          "text": "Colombia Elo 1993 vs Spain 2083，差距 90 分，后者占优。"
         },
         {
           "title": "近期状态",
@@ -21502,11 +21543,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Colombia 1.0 : 1.52 Spain，数值越高代表越容易进球。"
+          "text": "期望进球 Colombia 1.01 : 1.51 Spain，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：0-1 12.2%, 1-1 12.2%, 0-2 9.3%。"
+          "text": "最可能比分：1-1 12.3%, 0-1 12.2%, 1-2 9.3%。"
         },
         {
           "title": "综合结论",
@@ -21708,39 +21749,17 @@ window.__WORLD_CUP_MODEL__ = {
       "date": "",
       "home": "Portugal",
       "away": "Iran",
-      "home_win": 43.9,
-      "draw": 26.3,
-      "away_win": 29.8,
+      "home_win": 43.4,
+      "draw": 26.4,
+      "away_win": 30.3,
       "winner": "Portugal",
-      "winner_prob": 43.9,
-      "lambda_home": 1.43,
-      "lambda_away": 1.13,
+      "winner_prob": 43.4,
+      "lambda_home": 1.42,
+      "lambda_away": 1.14,
       "matrix": [
         [
-          7.7,
-          8.7,
-          4.9,
-          1.9,
-          0.5,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          11.1,
-          12.5,
-          7.0,
-          2.7,
-          0.7,
-          0.2,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          7.9,
-          8.9,
+          7.8,
+          8.8,
           5.0,
           1.9,
           0.5,
@@ -21750,8 +21769,30 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          3.8,
-          4.3,
+          11.0,
+          12.5,
+          7.1,
+          2.7,
+          0.8,
+          0.2,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          7.8,
+          8.9,
+          5.1,
+          1.9,
+          0.5,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.7,
+          4.2,
           2.4,
           0.9,
           0.3,
@@ -21763,7 +21804,7 @@ window.__WORLD_CUP_MODEL__ = {
         [
           1.3,
           1.5,
-          0.9,
+          0.8,
           0.3,
           0.1,
           0.0,
@@ -21824,7 +21865,7 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "1-0",
-          "prob": 11.1
+          "prob": 11.0
         },
         {
           "score": "2-1",
@@ -21832,25 +21873,25 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "0-1",
-          "prob": 8.7
+          "prob": 8.8
         },
         {
-          "score": "2-0",
-          "prob": 7.9
+          "score": "0-0",
+          "prob": 7.8
         }
       ],
       "big_score_candidates": [
         {
           "score": "2-2",
-          "prob": 5.0
+          "prob": 5.1
         },
         {
           "score": "3-1",
-          "prob": 4.3
+          "prob": 4.2
         },
         {
           "score": "3-0",
-          "prob": 3.8
+          "prob": 3.7
         },
         {
           "score": "1-3",
@@ -21870,7 +21911,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "Portugal Elo 1987 vs Iran 1849，差距 138 分，前者占优。"
+          "text": "Portugal Elo 1979 vs Iran 1849，差距 130 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -21878,11 +21919,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Portugal 1.43 : 1.13 Iran，数值越高代表越容易进球。"
+          "text": "期望进球 Portugal 1.42 : 1.14 Iran，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.5%, 1-0 11.1%, 2-1 8.9%。"
+          "text": "最可能比分：1-1 12.5%, 1-0 11.0%, 2-1 8.9%。"
         },
         {
           "title": "综合结论",
@@ -22084,19 +22125,41 @@ window.__WORLD_CUP_MODEL__ = {
       "date": "",
       "home": "France",
       "away": "England",
-      "home_win": 37.8,
+      "home_win": 36.9,
       "draw": 25.8,
-      "away_win": 36.4,
-      "winner": "France",
-      "winner_prob": 37.8,
-      "lambda_home": 1.36,
-      "lambda_away": 1.33,
+      "away_win": 37.3,
+      "winner": "England",
+      "winner_prob": 37.3,
+      "lambda_home": 1.34,
+      "lambda_away": 1.35,
       "matrix": [
         [
           6.7,
+          9.1,
+          6.2,
+          2.8,
+          0.9,
+          0.3,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
           9.0,
-          6.0,
-          2.7,
+          12.2,
+          8.3,
+          3.7,
+          1.3,
+          0.3,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          6.1,
+          8.2,
+          5.6,
+          2.5,
           0.9,
           0.2,
           0.1,
@@ -22104,30 +22167,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          9.2,
-          12.2,
-          8.2,
-          3.6,
-          1.2,
-          0.3,
-          0.1,
-          0.0,
-          0.0
-        ],
-        [
-          6.3,
-          8.4,
-          5.6,
-          2.5,
-          0.8,
-          0.2,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          2.8,
-          3.8,
+          2.7,
+          3.7,
           2.5,
           1.1,
           0.4,
@@ -22137,9 +22178,9 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          1.0,
-          1.3,
           0.9,
+          1.2,
+          0.8,
           0.4,
           0.1,
           0.0,
@@ -22148,8 +22189,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
+          0.2,
           0.3,
-          0.4,
           0.2,
           0.1,
           0.0,
@@ -22199,19 +22240,19 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 12.2
         },
         {
-          "score": "1-0",
-          "prob": 9.2
+          "score": "0-1",
+          "prob": 9.1
         },
         {
-          "score": "0-1",
+          "score": "1-0",
           "prob": 9.0
         },
         {
-          "score": "2-1",
-          "prob": 8.4
+          "score": "1-2",
+          "prob": 8.3
         },
         {
-          "score": "1-2",
+          "score": "2-1",
           "prob": 8.2
         }
       ],
@@ -22221,32 +22262,32 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 5.6
         },
         {
-          "score": "3-1",
-          "prob": 3.8
-        },
-        {
           "score": "1-3",
-          "prob": 3.6
+          "prob": 3.7
         },
         {
-          "score": "3-0",
-          "prob": 2.8
+          "score": "3-1",
+          "prob": 3.7
         },
         {
           "score": "0-3",
+          "prob": 2.8
+        },
+        {
+          "score": "3-0",
           "prob": 2.7
         }
       ],
       "big_score_signal": {
-        "over_3_5": 28.4,
-        "margin_3_plus": 12.0,
+        "over_3_5": 28.3,
+        "margin_3_plus": 11.9,
         "level": "high"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "France Elo 2039 vs England 1976，差距 63 分，前者占优。"
+          "text": "France Elo 2039 vs England 1990，差距 50 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -22254,15 +22295,15 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 France 1.36 : 1.33 England，数值越高代表越容易进球。"
+          "text": "期望进球 France 1.34 : 1.35 England，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.2%, 1-0 9.2%, 0-1 9.0%。"
+          "text": "最可能比分：1-1 12.2%, 0-1 9.1%, 1-0 9.0%。"
         },
         {
           "title": "综合结论",
-          "text": "模型倾向 France，但足球不是数学题；这代表更值得支持，不代表一定发生。"
+          "text": "模型倾向 England，但足球不是数学题；这代表更值得支持，不代表一定发生。"
         }
       ]
     },
@@ -22460,20 +22501,20 @@ window.__WORLD_CUP_MODEL__ = {
       "date": "",
       "home": "Argentina",
       "away": "Portugal",
-      "home_win": 46.6,
-      "draw": 25.7,
-      "away_win": 27.7,
+      "home_win": 47.2,
+      "draw": 25.6,
+      "away_win": 27.2,
       "winner": "Argentina",
-      "winner_prob": 46.6,
-      "lambda_home": 1.51,
-      "lambda_away": 1.1,
+      "winner_prob": 47.2,
+      "lambda_home": 1.52,
+      "lambda_away": 1.09,
       "matrix": [
         [
           7.3,
-          8.1,
-          4.5,
+          8.0,
+          4.4,
           1.6,
-          0.5,
+          0.4,
           0.1,
           0.0,
           0.0,
@@ -22482,8 +22523,8 @@ window.__WORLD_CUP_MODEL__ = {
         [
           11.1,
           12.2,
-          6.7,
-          2.5,
+          6.6,
+          2.4,
           0.7,
           0.1,
           0.0,
@@ -22491,10 +22532,10 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          8.4,
-          9.2,
+          8.5,
+          9.3,
           5.1,
-          1.9,
+          1.8,
           0.5,
           0.1,
           0.0,
@@ -22502,8 +22543,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          4.2,
-          4.6,
+          4.3,
+          4.7,
           2.6,
           0.9,
           0.3,
@@ -22580,15 +22621,15 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "2-1",
-          "prob": 9.2
+          "prob": 9.3
         },
         {
           "score": "2-0",
-          "prob": 8.4
+          "prob": 8.5
         },
         {
           "score": "0-1",
-          "prob": 8.1
+          "prob": 8.0
         }
       ],
       "big_score_candidates": [
@@ -22598,11 +22639,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "3-1",
-          "prob": 4.6
+          "prob": 4.7
         },
         {
           "score": "3-0",
-          "prob": 4.2
+          "prob": 4.3
         },
         {
           "score": "3-2",
@@ -22610,11 +22651,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "1-3",
-          "prob": 2.5
+          "prob": 2.4
         }
       ],
       "big_score_signal": {
-        "over_3_5": 26.6,
+        "over_3_5": 26.4,
         "margin_3_plus": 12.3,
         "level": "watch"
       },
@@ -22622,7 +22663,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "Argentina Elo 2110 vs Portugal 1987，差距 122 分，前者占优。"
+          "text": "Argentina Elo 2110 vs Portugal 1979，差距 131 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -22630,11 +22671,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Argentina 1.51 : 1.1 Portugal，数值越高代表越容易进球。"
+          "text": "期望进球 Argentina 1.52 : 1.09 Portugal，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.2%, 1-0 11.1%, 2-1 9.2%。"
+          "text": "最可能比分：1-1 12.2%, 1-0 11.1%, 2-1 9.3%。"
         },
         {
           "title": "综合结论",
@@ -22642,23 +22683,23 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "Brazil__France": {
+    "Brazil__England": {
       "id": 101,
       "round": "半决赛",
       "date": "",
       "home": "Brazil",
-      "away": "France",
-      "home_win": 37.5,
-      "draw": 26.0,
-      "away_win": 36.5,
+      "away": "England",
+      "home_win": 37.3,
+      "draw": 25.8,
+      "away_win": 36.9,
       "winner": "Brazil",
-      "winner_prob": 37.5,
-      "lambda_home": 1.34,
-      "lambda_away": 1.32,
+      "winner_prob": 37.3,
+      "lambda_home": 1.36,
+      "lambda_away": 1.35,
       "matrix": [
         [
-          6.9,
-          9.2,
+          6.7,
+          9.0,
           6.1,
           2.7,
           0.9,
@@ -22668,30 +22709,30 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          9.3,
-          12.3,
+          9.1,
+          12.2,
           8.2,
-          3.6,
-          1.2,
+          3.7,
+          1.3,
           0.3,
           0.1,
           0.0,
           0.0
         ],
         [
-          6.3,
+          6.2,
           8.3,
-          5.5,
-          2.4,
-          0.8,
+          5.6,
+          2.5,
+          0.9,
           0.2,
-          0.0,
+          0.1,
           0.0,
           0.0
         ],
         [
           2.8,
-          3.7,
+          3.8,
           2.5,
           1.1,
           0.4,
@@ -22702,8 +22743,8 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.9,
-          1.2,
-          0.8,
+          1.3,
+          0.9,
           0.4,
           0.1,
           0.0,
@@ -22725,7 +22766,7 @@ window.__WORLD_CUP_MODEL__ = {
         [
           0.1,
           0.1,
-          0.0,
+          0.1,
           0.0,
           0.0,
           0.0,
@@ -22760,15 +22801,15 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.3
+          "prob": 12.2
         },
         {
           "score": "1-0",
-          "prob": 9.3
+          "prob": 9.1
         },
         {
           "score": "0-1",
-          "prob": 9.2
+          "prob": 9.0
         },
         {
           "score": "2-1",
@@ -22782,15 +22823,15 @@ window.__WORLD_CUP_MODEL__ = {
       "big_score_candidates": [
         {
           "score": "2-2",
-          "prob": 5.5
+          "prob": 5.6
         },
         {
           "score": "3-1",
-          "prob": 3.7
+          "prob": 3.8
         },
         {
           "score": "1-3",
-          "prob": 3.6
+          "prob": 3.7
         },
         {
           "score": "3-0",
@@ -22802,15 +22843,15 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ],
       "big_score_signal": {
-        "over_3_5": 27.6,
-        "margin_3_plus": 11.6,
-        "level": "watch"
+        "over_3_5": 28.6,
+        "margin_3_plus": 12.0,
+        "level": "high"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Brazil Elo 1997 vs France 2039，差距 42 分，后者占优。"
+          "text": "Brazil Elo 1997 vs England 1990，差距 8 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -22818,11 +22859,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Brazil 1.34 : 1.32 France，数值越高代表越容易进球。"
+          "text": "期望进球 Brazil 1.36 : 1.35 England，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.3%, 1-0 9.3%, 0-1 9.2%。"
+          "text": "最可能比分：1-1 12.2%, 1-0 9.1%, 0-1 9.0%。"
         },
         {
           "title": "综合结论",
