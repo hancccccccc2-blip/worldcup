@@ -246,7 +246,7 @@
     ]
   },
   "market": {
-    "updated_at": "2026-06-18T11:11:39.036Z",
+    "updated_at": "2026-06-18T11:22:59.831Z",
     "note": "自动抓取自中国体育彩票官网计算器；如果官网拦截或停售，以抓取结果为空为准。",
     "matches": {
       "Portugal__DR Congo": {
@@ -15770,21 +15770,16 @@
     {
       "date": "2026-06-18",
       "group_no": 1,
-      "status": "red",
-      "summary": "不建议4场串起来买",
-      "reason": "风险点：Portugal vs DR Congo、Ghana vs Panama；观望放弃：Ghana vs Panama",
+      "status": "green",
+      "summary": "可以小额做4场胜平负参考",
+      "reason": "4场方向相对清楚，但仍需小额。",
       "outcome_ticket": [
         {
-          "match": "Uzbekistan vs Colombia",
-          "pick": "Colombia",
-          "prob": 49.2,
+          "match": "Switzerland vs Bosnia and Herzegovina",
+          "pick": "Switzerland",
+          "prob": 53.2,
           "note": "",
           "risk_tags": [
-            {
-              "level": "amber",
-              "label": "热门方向提醒",
-              "text": "哥伦比亚胜方向清楚，但赔率过低，比分玩法不要追太散。"
-            },
             {
               "level": "amber",
               "label": "防平提醒",
@@ -15798,16 +15793,11 @@
           ]
         },
         {
-          "match": "England vs Croatia",
-          "pick": "England",
-          "prob": 46.4,
+          "match": "Canada vs Qatar",
+          "pick": "Canada",
+          "prob": 51.7,
           "note": "",
           "risk_tags": [
-            {
-              "level": "amber",
-              "label": "防平提醒",
-              "text": "英格兰更值得支持，但这场不能只看名气，平局和小比分要防。"
-            },
             {
               "level": "amber",
               "label": "防平提醒",
@@ -15821,16 +15811,637 @@
           ]
         },
         {
-          "match": "Portugal vs DR Congo",
-          "pick": "Portugal",
-          "prob": 58.7,
+          "match": "Czechia vs South Africa",
+          "pick": "Czechia",
+          "prob": 48.7,
           "note": "",
           "risk_tags": [
             {
               "level": "amber",
-              "label": "让球风险提醒",
-              "text": "葡萄牙胜方向清楚，但深让球不适合当稳项，比分更适合小额娱乐。"
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
             },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Mexico vs Korea Republic",
+          "pick": "Mexico",
+          "prob": 42.0,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        }
+      ],
+      "score_ticket": {
+        "status": "red",
+        "summary": "比分串只适合小额娱乐，中了收益高，但命中率低。",
+        "items": [
+          {
+            "match": "Switzerland vs Bosnia and Herzegovina",
+            "scores": [
+              {
+                "score": "1-0",
+                "prob": 12.4,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 11.8,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-0",
+                "prob": 10.0,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 5.4,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Canada vs Qatar",
+            "scores": [
+              {
+                "score": "1-0",
+                "prob": 13.3,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 12.1,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-0",
+                "prob": 10.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 5.2,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Czechia vs South Africa",
+            "scores": [
+              {
+                "score": "1-0",
+                "prob": 12.8,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 12.4,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-0",
+                "prob": 9.4,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 4.6,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Mexico vs Korea Republic",
+            "scores": [
+              {
+                "score": "1-1",
+                "prob": 12.6,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-0",
+                "prob": 10.9,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-1",
+                "prob": 9.1,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-2",
+                "prob": 5.1,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "group_no": 1,
+      "status": "green",
+      "summary": "可以小额做4场胜平负参考",
+      "reason": "4场方向相对清楚，但仍需小额。",
+      "outcome_ticket": [
+        {
+          "match": "Brazil vs Haiti",
+          "pick": "Brazil",
+          "prob": 68.0,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Czechia vs South Africa",
+          "pick": "Czechia",
+          "prob": 48.7,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Scotland vs Morocco",
+          "pick": "Morocco",
+          "prob": 47.1,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "USA vs Australia",
+          "pick": "Australia",
+          "prob": 42.5,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        }
+      ],
+      "score_ticket": {
+        "status": "red",
+        "summary": "比分串只适合小额娱乐，中了收益高，但命中率低。",
+        "items": [
+          {
+            "match": "Brazil vs Haiti",
+            "scores": [
+              {
+                "score": "2-0",
+                "prob": 12.1,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-0",
+                "prob": 11.3,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-1",
+                "prob": 9.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 8.6,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Czechia vs South Africa",
+            "scores": [
+              {
+                "score": "1-0",
+                "prob": 12.8,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 12.4,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-0",
+                "prob": 9.4,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 4.6,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Scotland vs Morocco",
+            "scores": [
+              {
+                "score": "1-1",
+                "prob": 12.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-1",
+                "prob": 12.3,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-2",
+                "prob": 9.1,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-2",
+                "prob": 4.6,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "USA vs Australia",
+            "scores": [
+              {
+                "score": "1-1",
+                "prob": 12.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-1",
+                "prob": 10.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-0",
+                "prob": 8.9,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-2",
+                "prob": 5.2,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "group_no": 1,
+      "status": "red",
+      "summary": "不建议4场串起来买",
+      "reason": "风险点：Ecuador vs Curaçao",
+      "outcome_ticket": [
+        {
+          "match": "Tunisia vs Japan",
+          "pick": "Japan",
+          "prob": 54.0,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Germany vs Ivory Coast",
+          "pick": "Germany",
+          "prob": 50.7,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Netherlands vs Sweden",
+          "pick": "Netherlands",
+          "prob": 49.7,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Ecuador vs Curaçao",
+          "pick": "Ecuador",
+          "prob": 60.1,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "red",
+              "label": "强队不胜风险",
+              "text": "热门方优势明显，反而要单独提醒不胜风险。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        }
+      ],
+      "score_ticket": {
+        "status": "red",
+        "summary": "比分串只适合小额娱乐，中了收益高，但命中率低。",
+        "items": [
+          {
+            "match": "Tunisia vs Japan",
+            "scores": [
+              {
+                "score": "0-1",
+                "prob": 12.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 11.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-2",
+                "prob": 10.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-3",
+                "prob": 5.6,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Germany vs Ivory Coast",
+            "scores": [
+              {
+                "score": "1-1",
+                "prob": 11.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-0",
+                "prob": 11.1,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-1",
+                "prob": 9.6,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-1",
+                "prob": 5.2,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Netherlands vs Sweden",
+            "scores": [
+              {
+                "score": "1-1",
+                "prob": 11.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-0",
+                "prob": 10.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-1",
+                "prob": 9.6,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-2",
+                "prob": 5.4,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Ecuador vs Curaçao",
+            "scores": [
+              {
+                "score": "1-0",
+                "prob": 12.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-0",
+                "prob": 11.4,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 10.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 6.9,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "group_no": 1,
+      "status": "red",
+      "summary": "不建议4场串起来买",
+      "reason": "风险点：Uruguay vs Cape Verde",
+      "outcome_ticket": [
+        {
+          "match": "Spain vs Saudi Arabia",
+          "pick": "Spain",
+          "prob": 69.4,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "New Zealand vs Egypt",
+          "pick": "Egypt",
+          "prob": 46.1,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Belgium vs Iran",
+          "pick": "Belgium",
+          "prob": 38.7,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Uruguay vs Cape Verde",
+          "pick": "Uruguay",
+          "prob": 56.6,
+          "note": "",
+          "risk_tags": [
             {
               "level": "amber",
               "label": "防平提醒",
@@ -15847,17 +16458,205 @@
               "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
             }
           ]
+        }
+      ],
+      "score_ticket": {
+        "status": "red",
+        "summary": "比分串只适合小额娱乐，中了收益高，但命中率低。",
+        "items": [
+          {
+            "match": "Spain vs Saudi Arabia",
+            "scores": [
+              {
+                "score": "2-0",
+                "prob": 12.8,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-0",
+                "prob": 12.0,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-1",
+                "prob": 9.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 9.1,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "New Zealand vs Egypt",
+            "scores": [
+              {
+                "score": "1-1",
+                "prob": 12.3,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-1",
+                "prob": 11.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-2",
+                "prob": 9.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-2",
+                "prob": 5.0,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Belgium vs Iran",
+            "scores": [
+              {
+                "score": "1-1",
+                "prob": 12.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-0",
+                "prob": 9.8,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-1",
+                "prob": 9.3,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-2",
+                "prob": 5.3,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Uruguay vs Cape Verde",
+            "scores": [
+              {
+                "score": "1-0",
+                "prob": 13.9,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 11.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-0",
+                "prob": 11.4,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 6.2,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "group_no": 1,
+      "status": "red",
+      "summary": "不建议4场串起来买",
+      "reason": "风险点：France vs Iraq、Argentina vs Austria",
+      "outcome_ticket": [
+        {
+          "match": "Jordan vs Algeria",
+          "pick": "Algeria",
+          "prob": 49.4,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
         },
         {
-          "match": "Ghana vs Panama",
-          "pick": "观望放弃",
-          "prob": 40.3,
-          "note": "模型偏Panama，赔率偏Ghana，方向打架。",
+          "match": "Norway vs Senegal",
+          "pick": "Norway",
+          "prob": 36.8,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "France vs Iraq",
+          "pick": "France",
+          "prob": 61.3,
+          "note": "",
           "risk_tags": [
             {
               "level": "red",
-              "label": "赔率异常红灯",
-              "text": "加纳略占优，但赔率接近，平局和反向结果都有空间，不建议放进4场串关。"
+              "label": "强队不胜风险",
+              "text": "热门方优势明显，反而要单独提醒不胜风险。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Argentina vs Austria",
+          "pick": "Argentina",
+          "prob": 57.2,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "red",
+              "label": "强队不胜风险",
+              "text": "热门方优势明显，反而要单独提醒不胜风险。"
             },
             {
               "level": "blue",
@@ -15872,117 +16671,529 @@
         "summary": "比分串只适合小额娱乐，中了收益高，但命中率低。",
         "items": [
           {
-            "match": "Uzbekistan vs Colombia",
+            "match": "Jordan vs Algeria",
             "scores": [
               {
                 "score": "0-1",
-                "prob": 12.6,
-                "odds": 5.6,
+                "prob": 13.3,
+                "odds": null,
                 "tag": "前三"
               },
               {
                 "score": "1-1",
-                "prob": 12.3,
-                "odds": 9,
+                "prob": 12.4,
+                "odds": null,
                 "tag": "前三"
               },
               {
                 "score": "0-2",
-                "prob": 9.4,
-                "odds": 5.2,
+                "prob": 9.7,
+                "odds": null,
                 "tag": "前三"
               },
               {
                 "score": "0-3",
                 "prob": 4.7,
                 "big": true,
-                "odds": 8,
+                "odds": null,
                 "tag": "搏大"
               }
             ],
             "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
           },
           {
-            "match": "England vs Croatia",
+            "match": "Norway vs Senegal",
             "scores": [
               {
                 "score": "1-1",
-                "prob": 12.1,
-                "odds": 5.8,
+                "prob": 13.0,
+                "odds": null,
                 "tag": "前三"
               },
               {
                 "score": "1-0",
                 "prob": 10.7,
-                "odds": 6.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-1",
+                "prob": 10.6,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-2",
+                "prob": 4.8,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "France vs Iraq",
+            "scores": [
+              {
+                "score": "1-0",
+                "prob": 12.4,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-0",
+                "prob": 11.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 10.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 7.2,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Argentina vs Austria",
+            "scores": [
+              {
+                "score": "1-0",
+                "prob": 11.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 10.9,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-0",
+                "prob": 10.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 6.2,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "group_no": 1,
+      "status": "red",
+      "summary": "不建议4场串起来买",
+      "reason": "风险点：Colombia vs DR Congo",
+      "outcome_ticket": [
+        {
+          "match": "England vs Ghana",
+          "pick": "England",
+          "prob": 67.7,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Panama vs Croatia",
+          "pick": "Croatia",
+          "prob": 53.1,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Portugal vs Uzbekistan",
+          "pick": "Portugal",
+          "prob": 52.8,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Colombia vs DR Congo",
+          "pick": "Colombia",
+          "prob": 55.0,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "red",
+              "label": "强队不胜风险",
+              "text": "热门方优势明显，反而要单独提醒不胜风险。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        }
+      ],
+      "score_ticket": {
+        "status": "red",
+        "summary": "比分串只适合小额娱乐，中了收益高，但命中率低。",
+        "items": [
+          {
+            "match": "England vs Ghana",
+            "scores": [
+              {
+                "score": "2-0",
+                "prob": 12.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-0",
+                "prob": 11.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-1",
+                "prob": 9.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 8.6,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Panama vs Croatia",
+            "scores": [
+              {
+                "score": "0-1",
+                "prob": 12.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 11.8,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-2",
+                "prob": 10.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-3",
+                "prob": 5.4,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Portugal vs Uzbekistan",
+            "scores": [
+              {
+                "score": "1-0",
+                "prob": 11.8,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 11.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-0",
+                "prob": 9.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 5.3,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Colombia vs DR Congo",
+            "scores": [
+              {
+                "score": "1-0",
+                "prob": 13.5,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 11.7,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-0",
+                "prob": 10.9,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "3-0",
+                "prob": 5.9,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "group_no": 1,
+      "status": "green",
+      "summary": "可以小额做4场胜平负参考",
+      "reason": "4场方向相对清楚，但仍需小额。",
+      "outcome_ticket": [
+        {
+          "match": "South Africa vs Korea Republic",
+          "pick": "Korea Republic",
+          "prob": 54.0,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Mexico vs Czechia",
+          "pick": "Mexico",
+          "prob": 47.4,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "amber",
+              "label": "防平提醒",
+              "text": "强队方向清楚，但平局概率不低，不能只看胜负方向。"
+            },
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Canada vs Switzerland",
+          "pick": "Switzerland",
+          "prob": 39.9,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        },
+        {
+          "match": "Bosnia and Herzegovina vs Qatar",
+          "pick": "Bosnia and Herzegovina",
+          "prob": 39.1,
+          "note": "",
+          "risk_tags": [
+            {
+              "level": "blue",
+              "label": "小比分拉扯",
+              "text": "最可能比分含平局，小球和僵局风险需要前置提醒。"
+            }
+          ]
+        }
+      ],
+      "score_ticket": {
+        "status": "red",
+        "summary": "比分串只适合小额娱乐，中了收益高，但命中率低。",
+        "items": [
+          {
+            "match": "South Africa vs Korea Republic",
+            "scores": [
+              {
+                "score": "0-1",
+                "prob": 13.3,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-1",
+                "prob": 11.8,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-2",
+                "prob": 10.6,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-3",
+                "prob": 5.7,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Mexico vs Czechia",
+            "scores": [
+              {
+                "score": "1-1",
+                "prob": 12.2,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-0",
+                "prob": 11.5,
+                "odds": null,
                 "tag": "前三"
               },
               {
                 "score": "2-1",
                 "prob": 9.2,
-                "odds": 5.7,
+                "odds": null,
                 "tag": "前三"
               },
               {
                 "score": "2-2",
-                "prob": 5.2,
+                "prob": 4.9,
                 "big": true,
-                "odds": 12.5,
+                "odds": null,
                 "tag": "搏大"
               }
             ],
             "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
           },
           {
-            "match": "Portugal vs DR Congo",
-            "scores": [
-              {
-                "score": "1-0",
-                "prob": 12.5,
-                "odds": 6.75,
-                "tag": "前三"
-              },
-              {
-                "score": "2-0",
-                "prob": 11.1,
-                "odds": 5.8,
-                "tag": "前三"
-              },
-              {
-                "score": "1-1",
-                "prob": 11.0,
-                "odds": 11,
-                "tag": "前三"
-              },
-              {
-                "score": "3-0",
-                "prob": 6.6,
-                "big": true,
-                "odds": 5.25,
-                "tag": "搏大"
-              }
-            ],
-            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
-          },
-          {
-            "match": "Ghana vs Panama",
+            "match": "Canada vs Switzerland",
             "scores": [
               {
                 "score": "1-1",
-                "prob": 13.0,
-                "odds": 5,
+                "prob": 12.9,
+                "odds": null,
                 "tag": "前三"
               },
               {
                 "score": "0-1",
-                "prob": 11.5,
-                "odds": 8.8,
+                "prob": 11.2,
+                "odds": null,
                 "tag": "前三"
               },
               {
                 "score": "1-0",
-                "prob": 10.1,
-                "odds": 6.3,
+                "prob": 9.9,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "2-2",
+                "prob": 4.8,
+                "big": true,
+                "odds": null,
+                "tag": "搏大"
+              }
+            ],
+            "risk": "比分命中难度高，适合小额娱乐，不适合作为主票。"
+          },
+          {
+            "match": "Bosnia and Herzegovina vs Qatar",
+            "scores": [
+              {
+                "score": "1-1",
+                "prob": 13.0,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "1-0",
+                "prob": 11.4,
+                "odds": null,
+                "tag": "前三"
+              },
+              {
+                "score": "0-1",
+                "prob": 10.3,
+                "odds": null,
                 "tag": "前三"
               },
               {
