@@ -246,7 +246,7 @@ window.__WORLD_CUP_MODEL__ = {
     ]
   },
   "market": {
-    "updated_at": "2026-06-19T12:12:40.752Z",
+    "updated_at": "2026-06-19T12:21:54.778Z",
     "note": "自动抓取自中国体育彩票官网计算器；如果官网拦截或停售，以抓取结果为空为准。",
     "matches": {
       "Portugal__DR Congo": {
@@ -628,6 +628,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.4
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 2.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-0",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 0
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 25.3,
         "margin_3_plus": 16.1,
@@ -846,6 +896,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-4",
+          "prob": 0.7,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 24.9,
         "margin_3_plus": 10.9,
@@ -1052,6 +1152,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "1-3",
           "prob": 1.9
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 1.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.5,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -1272,6 +1422,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.6
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-1",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-4",
+          "prob": 0.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-0",
+          "prob": 0.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 22.3,
         "margin_3_plus": 9.8,
@@ -1478,6 +1678,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "2-3",
           "prob": 2.5
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "0-4",
+          "prob": 2.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-5",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "1-5",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
         }
       ],
       "big_score_signal": {
@@ -1703,6 +1953,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 23.8,
         "margin_3_plus": 11.2,
@@ -1921,6 +2221,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.5
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.5,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "1-5",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 26.2,
         "margin_3_plus": 12.2,
@@ -2134,6 +2484,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.6
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "1-4",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-0",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "0-4",
+          "prob": 0.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 25.4,
         "margin_3_plus": 11.1,
@@ -2342,6 +2742,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 3.7
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 5.6,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 4.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "5-0",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 2.1,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "6-0",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 6
+        },
+        {
+          "score": "2-3",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 1
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 38.7,
         "margin_3_plus": 29.0,
@@ -2548,6 +2998,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "3-0",
           "prob": 2.1
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "2-4",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "4-1",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 0.6,
+          "total_goals": 4,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -2763,6 +3263,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.6
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 28.3,
         "margin_3_plus": 12.0,
@@ -2976,6 +3526,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-4",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 25.0,
         "margin_3_plus": 11.1,
@@ -3182,6 +3782,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "1-3",
           "prob": 2.4
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 1.6,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "5-1",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -3400,6 +4050,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "4-0",
           "prob": 2.5
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 2.5,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-1",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-0",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -3625,6 +4325,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.8
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 6.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 3.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "5-0",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "3-2",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "5-1",
+          "prob": 1.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "6-0",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 6
+        },
+        {
+          "score": "6-1",
+          "prob": 0.7,
+          "total_goals": 7,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 33.3,
         "margin_3_plus": 29.3,
@@ -3836,6 +4586,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "0-4",
           "prob": 2.1
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-4",
+          "prob": 2.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-5",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "1-5",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -4056,6 +4856,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 1.9
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 24.8,
         "margin_3_plus": 13.0,
@@ -4269,6 +5119,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 24.1,
         "margin_3_plus": 11.4,
@@ -4475,6 +5375,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "4-0",
           "prob": 2.5
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 2.5,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-0",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
         }
       ],
       "big_score_signal": {
@@ -4695,6 +5645,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.0
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 24.8,
         "margin_3_plus": 12.6,
@@ -4906,6 +5906,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "4-1",
           "prob": 2.7
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 3.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-0",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
         }
       ],
       "big_score_signal": {
@@ -5169,6 +6219,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.0
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-2",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-5",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "0-5",
+          "prob": 0.5,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 23.3,
         "margin_3_plus": 11.9,
@@ -5423,6 +6523,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.6
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 27.1,
         "margin_3_plus": 12.0,
@@ -5671,6 +6821,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "2-3",
           "prob": 2.1
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 0.5,
+          "total_goals": 4,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -5929,6 +7129,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.0
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 1.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.5,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 23.0,
         "margin_3_plus": 11.8,
@@ -6167,6 +7417,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-4",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 25.0,
         "margin_3_plus": 11.1,
@@ -6395,6 +7695,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.2
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 2.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 25.6,
         "margin_3_plus": 13.9,
@@ -6606,6 +7956,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "4-0",
           "prob": 2.0
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 2.0,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -6821,6 +8221,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.2
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-4",
+          "prob": 1.6,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "1-5",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 23.7,
         "margin_3_plus": 11.8,
@@ -7030,6 +8480,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 3.7
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 4.6,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 3.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "5-0",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 1.6,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.5,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "2-3",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "6-0",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 6
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 33.8,
         "margin_3_plus": 24.1,
@@ -7232,6 +8732,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "2-3",
           "prob": 2.4
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
         }
       ],
       "big_score_signal": {
@@ -7438,6 +8988,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.0
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-2",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-4",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 0.6,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 22.4,
         "margin_3_plus": 10.3,
@@ -7640,6 +9240,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "1-3",
           "prob": 2.2
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 2.0,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -7851,6 +9501,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.7
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 3.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "2-3",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "5-0",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 27.7,
         "margin_3_plus": 17.3,
@@ -8058,6 +9758,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "1-3",
           "prob": 2.5
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 3.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 1.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
         }
       ],
       "big_score_signal": {
@@ -8269,6 +10019,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-4",
+          "prob": 2.3,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-5",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "1-5",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 25.8,
         "margin_3_plus": 14.2,
@@ -8478,6 +10278,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.5
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "1-4",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-0",
+          "prob": 1.0,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-4",
+          "prob": 0.8,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 26.6,
         "margin_3_plus": 11.5,
@@ -8680,6 +10530,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "3-1",
           "prob": 2.5
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.5,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "1-5",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -8891,6 +10791,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 3.6
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 4.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 3.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "5-0",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 1.5,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.4,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "2-3",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "6-0",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 6
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 32.6,
         "margin_3_plus": 24.7,
@@ -9093,6 +11043,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "3-2",
           "prob": 2.1
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 2.5,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-0",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 0
         }
       ],
       "big_score_signal": {
@@ -9329,6 +11329,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.8
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 3.3,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-0",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "2-3",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "5-1",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 28.2,
         "margin_3_plus": 18.0,
@@ -9538,6 +11588,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.6
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-1",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-4",
+          "prob": 0.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-0",
+          "prob": 0.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 22.6,
         "margin_3_plus": 10.0,
@@ -9740,6 +11840,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "4-0",
           "prob": 2.8
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 2.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.3,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-1",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
         }
       ],
       "big_score_signal": {
@@ -9951,6 +12101,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 1.8
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-4",
+          "prob": 1.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-5",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "0-5",
+          "prob": 0.5,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 21.9,
         "margin_3_plus": 11.7,
@@ -10160,6 +12360,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.2
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 2.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 27.1,
         "margin_3_plus": 14.3,
@@ -10367,6 +12617,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "3-2",
           "prob": 2.2
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 2.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-2",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-0",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 0
         }
       ],
       "big_score_signal": {
@@ -10583,6 +12883,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 3.6
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 4.5,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 3.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "5-0",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 1.5,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.4,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "2-3",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "6-0",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 6
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 32.9,
         "margin_3_plus": 23.6,
@@ -10785,6 +13135,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "0-4",
           "prob": 2.2
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-4",
+          "prob": 2.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-5",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-5",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -10996,6 +13396,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.2
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 1.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 3
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 25.6,
         "margin_3_plus": 12.6,
@@ -11203,6 +13653,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "0-4",
           "prob": 2.1
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-4",
+          "prob": 2.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-5",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "1-5",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -11414,6 +13914,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.2
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.0,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "4-0",
+          "prob": 0.6,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 23.1,
         "margin_3_plus": 10.3,
@@ -11618,6 +14168,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.2
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.0,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-2",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-4",
+          "prob": 0.6,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 22.0,
         "margin_3_plus": 10.0,
@@ -11820,6 +14420,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "2-3",
           "prob": 2.8
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-4",
+          "prob": 2.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.3,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-5",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "0-5",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
         }
       ],
       "big_score_signal": {
@@ -12036,6 +14686,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.4
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 2.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-0",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 26.0,
         "margin_3_plus": 16.0,
@@ -12250,6 +14950,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.4
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-1",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "2-4",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "4-0",
+          "prob": 0.7,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 23.3,
         "margin_3_plus": 10.3,
@@ -12452,6 +15202,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "2-3",
           "prob": 2.4
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "1-5",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -12661,6 +15461,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "1-4",
           "prob": 2.6
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "0-4",
+          "prob": 2.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-5",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "1-5",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
         }
       ],
       "big_score_signal": {
@@ -12877,6 +15727,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-4",
+          "prob": 1.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-5",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 3
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 26.6,
         "margin_3_plus": 12.7,
@@ -13086,6 +15986,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.6
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "5-1",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 28.7,
         "margin_3_plus": 13.0,
@@ -13293,6 +16243,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "2-3",
           "prob": 2.6
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "0-4",
+          "prob": 2.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-5",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "0-5",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
         }
       ],
       "big_score_signal": {
@@ -13509,6 +16509,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.3,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 24.2,
         "margin_3_plus": 11.3,
@@ -13711,6 +16761,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "0-4",
           "prob": 2.8
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 3.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 2.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-2",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.4,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-5",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-5",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -13922,6 +17022,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 1.9
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 0.5,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 20.2,
         "margin_3_plus": 9.7,
@@ -14124,6 +17274,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "0-4",
           "prob": 2.4
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-4",
+          "prob": 2.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-5",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "0-5",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -14335,6 +17535,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.2
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 2.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-2",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-5",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "0-5",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 28.3,
         "margin_3_plus": 14.2,
@@ -14544,6 +17794,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.0
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.3,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "5-1",
+          "prob": 0.4,
+          "total_goals": 6,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 21.4,
         "margin_3_plus": 10.5,
@@ -14746,6 +18046,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "3-0",
           "prob": 2.6
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-1",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-4",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-0",
+          "prob": 0.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
         }
       ],
       "big_score_signal": {
@@ -14952,6 +18302,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 3.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "0-4",
+          "prob": 4.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 3.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-5",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "1-5",
+          "prob": 1.5,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-2",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-6",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 6
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 30.8,
         "margin_3_plus": 24.5,
@@ -15154,6 +18554,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "3-0",
           "prob": 2.3
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-1",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-0",
+          "prob": 0.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
         }
       ],
       "big_score_signal": {
@@ -15360,6 +18810,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.2
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 23.9,
         "margin_3_plus": 10.9,
@@ -15562,6 +19062,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "1-4",
           "prob": 3.1
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "0-4",
+          "prob": 3.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 3.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-5",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "2-4",
+          "prob": 1.3,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-5",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-2",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
         }
       ],
       "big_score_signal": {
@@ -15773,6 +19323,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.5
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 2.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-0",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 26.5,
         "margin_3_plus": 15.9,
@@ -15920,8 +19520,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "3-0",
-                "prob": 8.6,
+                "score": "4-0",
+                "prob": 4.6,
+                "total_goals": 4,
+                "margin": 4,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -15951,8 +19553,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 4.6,
+                "score": "2-3",
+                "prob": 2.2,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -15982,8 +19586,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 5.2,
+                "score": "2-3",
+                "prob": 2.4,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16013,8 +19619,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 4.7,
+                "score": "3-2",
+                "prob": 2.0,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16131,8 +19739,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "0-3",
-                "prob": 5.6,
+                "score": "2-3",
+                "prob": 2.5,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16162,8 +19772,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "3-1",
-                "prob": 5.2,
+                "score": "3-2",
+                "prob": 2.8,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16193,8 +19805,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 5.4,
+                "score": "3-2",
+                "prob": 3.0,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16224,8 +19838,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "3-0",
-                "prob": 6.9,
+                "score": "4-0",
+                "prob": 3.1,
+                "total_goals": 4,
+                "margin": 4,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16337,8 +19953,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "3-0",
-                "prob": 9.1,
+                "score": "4-0",
+                "prob": 4.9,
+                "total_goals": 4,
+                "margin": 4,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16368,8 +19986,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 5.0,
+                "score": "2-3",
+                "prob": 2.5,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16399,8 +20019,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 5.3,
+                "score": "3-2",
+                "prob": 2.4,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16430,8 +20052,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "3-0",
-                "prob": 6.2,
+                "score": "4-0",
+                "prob": 2.5,
+                "total_goals": 4,
+                "margin": 4,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16543,8 +20167,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "0-3",
-                "prob": 4.7,
+                "score": "2-3",
+                "prob": 2.1,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16574,8 +20200,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 4.8,
+                "score": "3-2",
+                "prob": 2.0,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16605,8 +20233,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "3-0",
-                "prob": 7.2,
+                "score": "4-0",
+                "prob": 3.3,
+                "total_goals": 4,
+                "margin": 4,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16636,8 +20266,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "3-0",
-                "prob": 6.2,
+                "score": "3-2",
+                "prob": 2.9,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16754,8 +20386,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "3-0",
-                "prob": 8.6,
+                "score": "4-0",
+                "prob": 4.5,
+                "total_goals": 4,
+                "margin": 4,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16785,8 +20419,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "0-3",
-                "prob": 5.4,
+                "score": "2-3",
+                "prob": 2.4,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16816,8 +20452,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "3-0",
-                "prob": 5.3,
+                "score": "3-2",
+                "prob": 2.6,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16847,8 +20485,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "3-0",
-                "prob": 5.9,
+                "score": "4-0",
+                "prob": 2.4,
+                "total_goals": 4,
+                "margin": 4,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16955,8 +20595,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "0-3",
-                "prob": 5.4,
+                "score": "2-3",
+                "prob": 2.2,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -16986,8 +20628,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 4.9,
+                "score": "3-2",
+                "prob": 2.5,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -17017,8 +20661,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 4.8,
+                "score": "2-3",
+                "prob": 2.1,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -17048,8 +20694,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 4.7,
+                "score": "3-2",
+                "prob": 2.0,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -17161,8 +20809,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 5.0,
+                "score": "2-3",
+                "prob": 2.6,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -17192,8 +20842,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 5.4,
+                "score": "3-2",
+                "prob": 2.8,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -17223,8 +20875,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 4.9,
+                "score": "2-3",
+                "prob": 2.4,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -17254,8 +20908,10 @@ window.__WORLD_CUP_MODEL__ = {
                 "tag": "前三"
               },
               {
-                "score": "2-2",
-                "prob": 4.9,
+                "score": "2-3",
+                "prob": 2.1,
+                "total_goals": 5,
+                "margin": 1,
                 "big": true,
                 "odds": null,
                 "tag": "搏大"
@@ -18831,6 +22487,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.1
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-4",
+          "prob": 0.6,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 22.9,
         "margin_3_plus": 10.5,
@@ -19018,6 +22724,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "4-1",
           "prob": 2.3
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 2.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -19209,6 +22965,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.0,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-4",
+          "prob": 0.7,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 24.5,
         "margin_3_plus": 10.6,
@@ -19396,6 +23202,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "3-2",
           "prob": 2.7
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.5,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
         }
       ],
       "big_score_signal": {
@@ -19587,6 +23443,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.5
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 2.5,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-0",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "5-1",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 27.5,
         "margin_3_plus": 15.4,
@@ -19774,6 +23680,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "0-3",
           "prob": 2.6
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-1",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-4",
+          "prob": 0.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
         }
       ],
       "big_score_signal": {
@@ -19965,6 +23921,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.1
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.3,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "5-1",
+          "prob": 0.4,
+          "total_goals": 6,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 22.4,
         "margin_3_plus": 10.8,
@@ -20152,6 +24158,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "1-3",
           "prob": 2.1
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 2.0,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -20343,6 +24399,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-4",
+          "prob": 0.7,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 25.3,
         "margin_3_plus": 11.1,
@@ -20530,6 +24636,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "1-3",
           "prob": 2.5
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.6,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "5-1",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -20721,6 +24877,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.3
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 0.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 22.2,
         "margin_3_plus": 10.0,
@@ -20908,6 +25114,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "4-0",
           "prob": 2.8
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 2.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.3,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-1",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-0",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -21099,6 +25355,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.5
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-0",
+          "prob": 1.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 1.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "2-4",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 27.4,
         "margin_3_plus": 11.8,
@@ -21286,6 +25592,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "4-0",
           "prob": 2.4
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 2.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-1",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-0",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -21477,6 +25833,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.2
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 2.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 27.1,
         "margin_3_plus": 14.1,
@@ -21664,6 +26070,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "2-3",
           "prob": 2.2
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "4-0",
+          "prob": 0.6,
+          "total_goals": 4,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -21854,6 +26310,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.5
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "0-4",
+          "prob": 1.8,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "1-5",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 28.6,
         "margin_3_plus": 13.4,
@@ -22040,6 +26546,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "2-3",
           "prob": 2.8
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "2-4",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "4-1",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
         }
       ],
       "big_score_signal": {
@@ -22230,6 +26786,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.0
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 2.0,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 2.0,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "5-1",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 25.8,
         "margin_3_plus": 13.4,
@@ -22416,6 +27022,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "2-3",
           "prob": 2.6
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
         }
       ],
       "big_score_signal": {
@@ -22606,6 +27262,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.6
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-1",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.1,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 28.4,
         "margin_3_plus": 12.0,
@@ -22792,6 +27498,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "3-1",
           "prob": 2.1
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.7,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-2",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-5",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "0-5",
+          "prob": 0.5,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
@@ -22982,6 +27738,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.7
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "0-4",
+          "prob": 2.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-5",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "1-5",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 0
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 28.9,
         "margin_3_plus": 17.0,
@@ -23168,6 +27974,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "3-2",
           "prob": 2.4
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.3,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-4",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 2
         }
       ],
       "big_score_signal": {
@@ -23358,6 +28214,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.7
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-4",
+          "prob": 1.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 29.3,
         "margin_3_plus": 12.3,
@@ -23544,6 +28450,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "3-0",
           "prob": 2.7
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-1",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-4",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-0",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -23734,6 +28690,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.4
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.9,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 2.2,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-2",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-5",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "0-5",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 5
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 29.6,
         "margin_3_plus": 14.9,
@@ -23920,6 +28926,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "1-3",
           "prob": 2.4
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-3",
+          "prob": 1.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-0",
+          "prob": 1.6,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "5-1",
+          "prob": 0.5,
+          "total_goals": 6,
+          "margin": 4
         }
       ],
       "big_score_signal": {
@@ -24110,6 +29166,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.7
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-1",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "4-2",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "0-4",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 28.6,
         "margin_3_plus": 12.0,
@@ -24298,6 +29404,56 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 2.7
         }
       ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.4,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-1",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-4",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-0",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
       "big_score_signal": {
         "over_3_5": 26.5,
         "margin_3_plus": 11.3,
@@ -24484,6 +29640,56 @@ window.__WORLD_CUP_MODEL__ = {
         {
           "score": "2-3",
           "prob": 2.6
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "0-4",
+          "prob": 1.3,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "2-4",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "4-1",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-2",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
         }
       ],
       "big_score_signal": {
