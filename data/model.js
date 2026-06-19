@@ -246,7 +246,7 @@ window.__WORLD_CUP_MODEL__ = {
     ]
   },
   "market": {
-    "updated_at": "2026-06-19T12:26:33.475Z",
+    "updated_at": "2026-06-19T12:35:07.599Z",
     "note": "自动抓取自中国体育彩票官网计算器；如果官网拦截或停售，以抓取结果为空为准。",
     "matches": {
       "Portugal__DR Congo": {
@@ -20928,402 +20928,389 @@ window.__WORLD_CUP_MODEL__ = {
       {
         "rank": 1,
         "team": "Mexico",
-        "points": 5.31,
-        "gd": 1.73,
-        "gf": 4.72
+        "points": 7.71,
+        "gd": 3.49,
+        "gf": 4.54
       },
       {
         "rank": 2,
         "team": "Korea Republic",
-        "points": 4.52,
-        "gd": 0.57,
-        "gf": 4.07
+        "points": 4.84,
+        "gd": 0.66,
+        "gf": 3.57
       },
       {
         "rank": 3,
         "team": "Czechia",
-        "points": 3.97,
-        "gd": -0.21,
-        "gf": 3.68
+        "points": 2.03,
+        "gd": -1.49,
+        "gf": 3.05
       },
       {
         "rank": 4,
         "team": "South Africa",
-        "points": 2.67,
-        "gd": -2.09,
-        "gf": 2.7
+        "points": 1.9,
+        "gd": -2.66,
+        "gf": 1.91
       }
     ],
     "B": [
       {
         "rank": 1,
         "team": "Switzerland",
-        "points": 5.29,
-        "gd": 1.71,
-        "gf": 4.68
+        "points": 5.47,
+        "gd": 3.15,
+        "gf": 6.3
       },
       {
         "rank": 2,
         "team": "Canada",
-        "points": 4.85,
-        "gd": 1.04,
-        "gf": 4.18
+        "points": 5.26,
+        "gd": 5.85,
+        "gf": 8.15
       },
       {
         "rank": 3,
         "team": "Bosnia and Herzegovina",
-        "points": 3.32,
-        "gd": -1.12,
-        "gf": 3.15
+        "points": 2.45,
+        "gd": -2.88,
+        "gf": 3.26
       },
       {
         "rank": 4,
         "team": "Qatar",
-        "points": 2.98,
-        "gd": -1.63,
-        "gf": 2.91
+        "points": 2.27,
+        "gd": -6.12,
+        "gf": 2.14
       }
     ],
     "C": [
       {
         "rank": 1,
         "team": "Brazil",
-        "points": 5.8,
-        "gd": 2.53,
-        "gf": 5.36
+        "points": 5.18,
+        "gd": 2.18,
+        "gf": 4.93
       },
       {
         "rank": 2,
-        "team": "Morocco",
-        "points": 4.77,
-        "gd": 0.94,
-        "gf": 4.25
+        "team": "Scotland",
+        "points": 4.88,
+        "gd": -0.28,
+        "gf": 2.97
       },
       {
         "rank": 3,
-        "team": "Scotland",
-        "points": 3.56,
-        "gd": -0.84,
-        "gf": 3.49
+        "team": "Morocco",
+        "points": 4.65,
+        "gd": 1.29,
+        "gf": 4.17
       },
       {
         "rank": 4,
         "team": "Haiti",
-        "points": 2.44,
-        "gd": -2.63,
-        "gf": 2.74
+        "points": 1.37,
+        "gd": -3.19,
+        "gf": 1.66
       }
     ],
     "D": [
       {
         "rank": 1,
         "team": "Australia",
-        "points": 4.62,
-        "gd": 0.73,
-        "gf": 4.21
+        "points": 6.15,
+        "gd": 2.59,
+        "gf": 4.86
       },
       {
         "rank": 2,
-        "team": "Turkey",
-        "points": 4.2,
-        "gd": 0.15,
-        "gf": 3.79
+        "team": "USA",
+        "points": 5.5,
+        "gd": 2.67,
+        "gf": 6.35
       },
       {
         "rank": 3,
-        "team": "USA",
-        "points": 3.95,
-        "gd": -0.22,
-        "gf": 3.62
+        "team": "Turkey",
+        "points": 2.93,
+        "gd": -1.71,
+        "gf": 2.58
       },
       {
         "rank": 4,
         "team": "Paraguay",
-        "points": 3.63,
-        "gd": -0.66,
-        "gf": 3.37
+        "points": 2.34,
+        "gd": -3.55,
+        "gf": 3.21
       }
     ],
     "E": [
       {
         "rank": 1,
         "team": "Germany",
-        "points": 5.83,
-        "gd": 2.66,
-        "gf": 5.57
+        "points": 6.47,
+        "gd": 7.05,
+        "gf": 10.18
       },
       {
         "rank": 2,
-        "team": "Ecuador",
-        "points": 4.49,
-        "gd": 0.56,
-        "gf": 4.13
+        "team": "Ivory Coast",
+        "points": 5.97,
+        "gd": 1.32,
+        "gf": 3.85
       },
       {
         "rank": 3,
-        "team": "Ivory Coast",
-        "points": 4.27,
-        "gd": 0.24,
-        "gf": 4.01
+        "team": "Ecuador",
+        "points": 3.07,
+        "gd": -0.52,
+        "gf": 2.89
       },
       {
         "rank": 4,
         "team": "Curaçao",
-        "points": 2.01,
-        "gd": -3.46,
-        "gf": 2.54
+        "points": 1.53,
+        "gd": -7.85,
+        "gf": 2.76
       }
     ],
     "F": [
       {
         "rank": 1,
-        "team": "Netherlands",
+        "team": "Sweden",
         "points": 5.11,
-        "gd": 1.46,
-        "gf": 4.81
+        "gd": 3.05,
+        "gf": 7.28
       },
       {
         "rank": 2,
-        "team": "Japan",
-        "points": 4.83,
-        "gd": 1.03,
-        "gf": 4.52
+        "team": "Netherlands",
+        "points": 4.67,
+        "gd": 1.36,
+        "gf": 5.41
       },
       {
         "rank": 3,
-        "team": "Sweden",
-        "points": 3.71,
-        "gd": -0.62,
-        "gf": 3.72
+        "team": "Japan",
+        "points": 4.53,
+        "gd": 1.13,
+        "gf": 5.22
       },
       {
         "rank": 4,
         "team": "Tunisia",
-        "points": 2.86,
-        "gd": -1.87,
-        "gf": 2.97
+        "points": 1.71,
+        "gd": -5.54,
+        "gf": 2.86
       }
     ],
     "G": [
       {
         "rank": 1,
         "team": "Belgium",
-        "points": 5.01,
-        "gd": 1.33,
-        "gf": 4.69
+        "points": 4.36,
+        "gd": 0.92,
+        "gf": 4.18
       },
       {
         "rank": 2,
         "team": "Iran",
-        "points": 4.78,
-        "gd": 0.97,
-        "gf": 4.39
+        "points": 3.9,
+        "gd": 0.24,
+        "gf": 4.68
       },
       {
         "rank": 3,
         "team": "Egypt",
-        "points": 3.88,
-        "gd": -0.34,
-        "gf": 3.68
+        "points": 3.79,
+        "gd": 0.07,
+        "gf": 3.58
       },
       {
         "rank": 4,
         "team": "New Zealand",
-        "points": 2.82,
-        "gd": -1.96,
-        "gf": 3.07
+        "points": 2.93,
+        "gd": -1.23,
+        "gf": 4.09
       }
     ],
     "H": [
       {
         "rank": 1,
         "team": "Spain",
-        "points": 6.53,
-        "gd": 3.72,
-        "gf": 6.08
+        "points": 5.15,
+        "gd": 2.12,
+        "gf": 3.84
       },
       {
         "rank": 2,
         "team": "Uruguay",
-        "points": 4.62,
-        "gd": 0.68,
-        "gf": 4.17
+        "points": 3.83,
+        "gd": 0.08,
+        "gf": 3.61
       },
       {
         "rank": 3,
         "team": "Saudi Arabia",
-        "points": 3.01,
-        "gd": -1.77,
-        "gf": 2.97
+        "points": 3.06,
+        "gd": -1.17,
+        "gf": 3.01
       },
       {
         "rank": 4,
         "team": "Cape Verde",
-        "points": 2.45,
-        "gd": -2.63,
-        "gf": 2.51
+        "points": 3.01,
+        "gd": -1.03,
+        "gf": 1.87
       }
     ],
     "I": [
       {
         "rank": 1,
         "team": "France",
-        "points": 5.67,
-        "gd": 2.26,
-        "gf": 5.11
+        "points": 6.87,
+        "gd": 3.64,
+        "gf": 6.53
       },
       {
         "rank": 2,
         "team": "Norway",
-        "points": 3.97,
-        "gd": -0.22,
-        "gf": 3.72
+        "points": 5.33,
+        "gd": 2.39,
+        "gf": 6.27
       },
       {
         "rank": 3,
         "team": "Senegal",
-        "points": 3.91,
-        "gd": -0.29,
-        "gf": 3.52
+        "points": 2.96,
+        "gd": -1.67,
+        "gf": 3.56
       },
       {
         "rank": 4,
         "team": "Iraq",
-        "points": 2.92,
-        "gd": -1.75,
-        "gf": 2.91
+        "points": 1.83,
+        "gd": -4.36,
+        "gf": 2.85
       }
     ],
     "J": [
       {
         "rank": 1,
         "team": "Argentina",
-        "points": 6.17,
-        "gd": 3.07,
-        "gf": 5.64
+        "points": 7.23,
+        "gd": 5.25,
+        "gf": 6.92
       },
       {
         "rank": 2,
         "team": "Austria",
-        "points": 3.99,
-        "gd": -0.24,
-        "gf": 3.83
+        "points": 5.21,
+        "gd": 1.18,
+        "gf": 5.26
       },
       {
         "rank": 3,
         "team": "Algeria",
-        "points": 3.92,
-        "gd": -0.32,
-        "gf": 3.62
+        "points": 3.1,
+        "gd": -2.5,
+        "gf": 2.72
       },
       {
         "rank": 4,
         "team": "Jordan",
-        "points": 2.48,
-        "gd": -2.51,
-        "gf": 2.62
+        "points": 1.52,
+        "gd": -3.93,
+        "gf": 2.63
       }
     ],
     "K": [
       {
         "rank": 1,
-        "team": "Portugal",
-        "points": 5.26,
-        "gd": 1.68,
-        "gf": 4.7
+        "team": "Colombia",
+        "points": 6.19,
+        "gd": 2.64,
+        "gf": 5.77
       },
       {
         "rank": 2,
-        "team": "Colombia",
-        "points": 4.92,
-        "gd": 1.15,
-        "gf": 4.26
+        "team": "Portugal",
+        "points": 4.27,
+        "gd": 0.77,
+        "gf": 3.92
       },
       {
         "rank": 3,
-        "team": "Uzbekistan",
-        "points": 3.47,
-        "gd": -0.92,
-        "gf": 3.34
+        "team": "DR Congo",
+        "points": 3.04,
+        "gd": -1.0,
+        "gf": 2.98
       },
       {
         "rank": 4,
-        "team": "DR Congo",
-        "points": 2.82,
-        "gd": -1.91,
-        "gf": 2.85
+        "team": "Uzbekistan",
+        "points": 2.47,
+        "gd": -2.41,
+        "gf": 3.36
       }
     ],
     "L": [
       {
         "rank": 1,
         "team": "England",
-        "points": 5.98,
-        "gd": 2.81,
-        "gf": 5.57
+        "points": 7.34,
+        "gd": 4.42,
+        "gf": 8.05
       },
       {
         "rank": 2,
-        "team": "Croatia",
-        "points": 4.9,
-        "gd": 1.13,
-        "gf": 4.46
+        "team": "Ghana",
+        "points": 4.38,
+        "gd": -1.16,
+        "gf": 2.67
       },
       {
         "rank": 3,
-        "team": "Panama",
-        "points": 3.07,
-        "gd": -1.61,
-        "gf": 3.06
+        "team": "Croatia",
+        "points": 3.8,
+        "gd": -0.48,
+        "gf": 5.33
       },
       {
         "rank": 4,
-        "team": "Ghana",
-        "points": 2.63,
-        "gd": -2.33,
-        "gf": 2.79
+        "team": "Panama",
+        "points": 1.59,
+        "gd": -2.78,
+        "gf": 1.77
       }
     ]
   },
   "ranking": [
-    {
-      "team": "Spain",
-      "group": "H",
-      "elo": 2083,
-      "attack": 0.39,
-      "defense": 0.39,
-      "qualify": 90.9,
-      "r16": 76.3,
-      "qf": 54.4,
-      "sf": 38.0,
-      "final": 26.9,
-      "champion": 16.7
-    },
     {
       "team": "Argentina",
       "group": "J",
       "elo": 2110,
       "attack": 0.29,
       "defense": 0.32,
-      "qualify": 86.4,
-      "r16": 69.7,
-      "qf": 45.6,
-      "sf": 30.5,
-      "final": 21.9,
-      "champion": 13.7
+      "qualify": 97.2,
+      "r16": 72.0,
+      "qf": 54.2,
+      "sf": 39.2,
+      "final": 26.7,
+      "champion": 17.3
     },
     {
-      "team": "Brazil",
-      "group": "C",
-      "elo": 1997,
-      "attack": 0.43,
+      "team": "Spain",
+      "group": "H",
+      "elo": 2083,
+      "attack": 0.39,
       "defense": 0.39,
-      "qualify": 83.3,
-      "r16": 62.7,
-      "qf": 44.5,
-      "sf": 30.6,
-      "final": 16.3,
-      "champion": 9.3
+      "qualify": 71.8,
+      "r16": 60.4,
+      "qf": 43.6,
+      "sf": 31.1,
+      "final": 19.9,
+      "champion": 13.2
     },
     {
       "team": "France",
@@ -21331,12 +21318,12 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 2039,
       "attack": 0.25,
       "defense": 0.12,
-      "qualify": 81.6,
-      "r16": 62.9,
-      "qf": 32.8,
-      "sf": 18.6,
-      "final": 12.3,
-      "champion": 7.2
+      "qualify": 93.7,
+      "r16": 67.2,
+      "qf": 44.7,
+      "sf": 26.1,
+      "final": 15.5,
+      "champion": 8.7
     },
     {
       "team": "England",
@@ -21344,12 +21331,25 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1990,
       "attack": 0.49,
       "defense": 0.35,
-      "qualify": 85.3,
-      "r16": 61.4,
-      "qf": 36.4,
-      "sf": 18.5,
-      "final": 12.2,
-      "champion": 6.7
+      "qualify": 96.8,
+      "r16": 68.7,
+      "qf": 41.8,
+      "sf": 24.7,
+      "final": 14.8,
+      "champion": 8.1
+    },
+    {
+      "team": "Brazil",
+      "group": "C",
+      "elo": 1997,
+      "attack": 0.43,
+      "defense": 0.39,
+      "qualify": 80.4,
+      "r16": 56.1,
+      "qf": 36.3,
+      "sf": 23.4,
+      "final": 13.6,
+      "champion": 7.6
     },
     {
       "team": "Germany",
@@ -21357,64 +21357,12 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1957,
       "attack": 0.49,
       "defense": 0.21,
-      "qualify": 82.7,
-      "r16": 64.8,
-      "qf": 38.9,
-      "sf": 19.6,
-      "final": 11.9,
-      "champion": 6.1
-    },
-    {
-      "team": "Mexico",
-      "group": "A",
-      "elo": 1935,
-      "attack": 0.2,
-      "defense": 0.28,
-      "qualify": 76.7,
-      "r16": 57.0,
-      "qf": 38.3,
-      "sf": 20.2,
-      "final": 9.3,
-      "champion": 4.1
-    },
-    {
-      "team": "Portugal",
-      "group": "K",
-      "elo": 1979,
-      "attack": 0.2,
-      "defense": 0.24,
-      "qualify": 77.8,
-      "r16": 49.5,
-      "qf": 26.9,
-      "sf": 12.8,
-      "final": 7.4,
-      "champion": 3.6
-    },
-    {
-      "team": "Netherlands",
-      "group": "F",
-      "elo": 1935,
-      "attack": 0.39,
-      "defense": 0.17,
-      "qualify": 74.4,
-      "r16": 52.7,
-      "qf": 29.1,
-      "sf": 13.5,
-      "final": 6.6,
-      "champion": 3.1
-    },
-    {
-      "team": "Japan",
-      "group": "F",
-      "elo": 1924,
-      "attack": 0.23,
-      "defense": 0.16,
-      "qualify": 65.9,
-      "r16": 44.1,
-      "qf": 22.5,
-      "sf": 11.4,
-      "final": 5.6,
-      "champion": 3.0
+      "qualify": 91.4,
+      "r16": 62.0,
+      "qf": 39.6,
+      "sf": 22.6,
+      "final": 12.2,
+      "champion": 5.7
     },
     {
       "team": "Colombia",
@@ -21422,11 +21370,76 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1993,
       "attack": -0.12,
       "defense": 0.22,
-      "qualify": 67.9,
-      "r16": 43.9,
-      "qf": 21.9,
-      "sf": 10.8,
-      "final": 6.2,
+      "qualify": 88.9,
+      "r16": 61.9,
+      "qf": 36.2,
+      "sf": 18.2,
+      "final": 9.0,
+      "champion": 4.0
+    },
+    {
+      "team": "Portugal",
+      "group": "K",
+      "elo": 1979,
+      "attack": 0.2,
+      "defense": 0.24,
+      "qualify": 66.1,
+      "r16": 49.9,
+      "qf": 28.3,
+      "sf": 15.8,
+      "final": 8.0,
+      "champion": 3.8
+    },
+    {
+      "team": "Netherlands",
+      "group": "F",
+      "elo": 1935,
+      "attack": 0.39,
+      "defense": 0.17,
+      "qualify": 69.0,
+      "r16": 47.3,
+      "qf": 25.8,
+      "sf": 14.2,
+      "final": 6.7,
+      "champion": 3.0
+    },
+    {
+      "team": "Mexico",
+      "group": "A",
+      "elo": 1935,
+      "attack": 0.2,
+      "defense": 0.28,
+      "qualify": 100.0,
+      "r16": 60.4,
+      "qf": 29.5,
+      "sf": 14.5,
+      "final": 7.0,
+      "champion": 2.9
+    },
+    {
+      "team": "Belgium",
+      "group": "G",
+      "elo": 1924,
+      "attack": 0.24,
+      "defense": -0.03,
+      "qualify": 57.2,
+      "r16": 47.1,
+      "qf": 26.3,
+      "sf": 12.2,
+      "final": 5.7,
+      "champion": 2.8
+    },
+    {
+      "team": "Japan",
+      "group": "F",
+      "elo": 1924,
+      "attack": 0.23,
+      "defense": 0.16,
+      "qualify": 58.2,
+      "r16": 43.1,
+      "qf": 21.8,
+      "sf": 11.2,
+      "final": 5.3,
       "champion": 2.7
     },
     {
@@ -21435,24 +21448,24 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1926,
       "attack": 0.01,
       "defense": 0.46,
-      "qualify": 66.9,
-      "r16": 40.9,
-      "qf": 25.0,
-      "sf": 13.8,
-      "final": 6.1,
-      "champion": 2.7
+      "qualify": 63.7,
+      "r16": 42.9,
+      "qf": 20.9,
+      "sf": 11.0,
+      "final": 4.5,
+      "champion": 2.0
     },
     {
-      "team": "Belgium",
-      "group": "G",
-      "elo": 1924,
-      "attack": 0.24,
-      "defense": -0.03,
-      "qualify": 72.7,
-      "r16": 48.8,
-      "qf": 20.5,
-      "sf": 10.2,
-      "final": 5.1,
+      "team": "Australia",
+      "group": "D",
+      "elo": 1836,
+      "attack": 0.35,
+      "defense": 0.26,
+      "qualify": 88.1,
+      "r16": 57.8,
+      "qf": 29.3,
+      "sf": 12.1,
+      "final": 5.0,
       "champion": 2.0
     },
     {
@@ -21461,25 +21474,12 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1901,
       "attack": 0.18,
       "defense": 0.31,
-      "qualify": 70.4,
-      "r16": 35.4,
-      "qf": 17.6,
-      "sf": 7.8,
-      "final": 3.8,
+      "qualify": 36.8,
+      "r16": 31.5,
+      "qf": 15.7,
+      "sf": 8.7,
+      "final": 3.6,
       "champion": 1.7
-    },
-    {
-      "team": "Korea Republic",
-      "group": "A",
-      "elo": 1830,
-      "attack": 0.21,
-      "defense": 0.31,
-      "qualify": 54.1,
-      "r16": 40.3,
-      "qf": 23.9,
-      "sf": 11.2,
-      "final": 3.8,
-      "champion": 1.6
     },
     {
       "team": "Iran",
@@ -21487,38 +21487,51 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1849,
       "attack": 0.28,
       "defense": 0.46,
-      "qualify": 58.8,
-      "r16": 42.8,
-      "qf": 18.0,
-      "sf": 8.7,
-      "final": 3.9,
+      "qualify": 65.7,
+      "r16": 44.9,
+      "qf": 22.3,
+      "sf": 9.6,
+      "final": 4.1,
+      "champion": 1.6
+    },
+    {
+      "team": "Austria",
+      "group": "J",
+      "elo": 1867,
+      "attack": 0.22,
+      "defense": -0.04,
+      "qualify": 77.9,
+      "r16": 43.3,
+      "qf": 21.5,
+      "sf": 10.5,
+      "final": 4.3,
       "champion": 1.5
     },
     {
-      "team": "Australia",
-      "group": "D",
-      "elo": 1836,
-      "attack": 0.35,
-      "defense": 0.26,
-      "qualify": 56.2,
+      "team": "Korea Republic",
+      "group": "A",
+      "elo": 1830,
+      "attack": 0.21,
+      "defense": 0.31,
+      "qualify": 71.3,
+      "r16": 46.3,
+      "qf": 20.6,
+      "sf": 8.2,
+      "final": 3.3,
+      "champion": 1.5
+    },
+    {
+      "team": "Ivory Coast",
+      "group": "E",
+      "elo": 1806,
+      "attack": 0.11,
+      "defense": 0.32,
+      "qualify": 91.1,
       "r16": 44.0,
-      "qf": 19.4,
-      "sf": 9.5,
-      "final": 3.9,
-      "champion": 1.5
-    },
-    {
-      "team": "Uruguay",
-      "group": "H",
-      "elo": 1893,
-      "attack": 0.08,
-      "defense": 0.17,
-      "qualify": 54.3,
-      "r16": 30.1,
-      "qf": 16.6,
-      "sf": 8.5,
-      "final": 3.6,
-      "champion": 1.4
+      "qf": 19.0,
+      "sf": 7.1,
+      "final": 2.9,
+      "champion": 1.2
     },
     {
       "team": "Switzerland",
@@ -21526,24 +21539,24 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1882,
       "attack": 0.02,
       "defense": -0.11,
-      "qualify": 67.0,
-      "r16": 51.0,
-      "qf": 23.0,
-      "sf": 9.8,
-      "final": 3.4,
+      "qualify": 100.0,
+      "r16": 54.3,
+      "qf": 21.0,
+      "sf": 8.4,
+      "final": 2.7,
       "champion": 1.1
     },
     {
-      "team": "Turkey",
-      "group": "D",
-      "elo": 1862,
-      "attack": -0.05,
-      "defense": 0.04,
-      "qualify": 43.5,
-      "r16": 33.7,
-      "qf": 14.4,
-      "sf": 7.3,
-      "final": 2.5,
+      "team": "Uruguay",
+      "group": "H",
+      "elo": 1893,
+      "attack": 0.08,
+      "defense": 0.17,
+      "qualify": 59.0,
+      "r16": 30.2,
+      "qf": 15.7,
+      "sf": 7.6,
+      "final": 3.1,
       "champion": 1.0
     },
     {
@@ -21552,12 +21565,12 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1912,
       "attack": -0.17,
       "defense": -0.04,
-      "qualify": 48.3,
-      "r16": 33.9,
-      "qf": 16.0,
-      "sf": 6.7,
-      "final": 2.4,
-      "champion": 0.9
+      "qualify": 12.9,
+      "r16": 30.4,
+      "qf": 13.8,
+      "sf": 5.7,
+      "final": 2.3,
+      "champion": 0.8
     },
     {
       "team": "Norway",
@@ -21565,90 +21578,12 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1872,
       "attack": 0.05,
       "defense": -0.1,
-      "qualify": 45.0,
-      "r16": 28.6,
-      "qf": 11.7,
-      "sf": 5.1,
-      "final": 1.9,
-      "champion": 0.9
-    },
-    {
-      "team": "Austria",
-      "group": "J",
-      "elo": 1867,
-      "attack": 0.22,
-      "defense": -0.04,
-      "qualify": 43.4,
-      "r16": 24.9,
-      "qf": 11.6,
-      "sf": 5.6,
-      "final": 2.3,
-      "champion": 0.9
-    },
-    {
-      "team": "Ivory Coast",
-      "group": "E",
-      "elo": 1806,
-      "attack": 0.11,
-      "defense": 0.32,
-      "qualify": 50.6,
-      "r16": 31.6,
-      "qf": 15.2,
+      "qualify": 81.3,
+      "r16": 47.5,
+      "qf": 18.1,
       "sf": 6.4,
-      "final": 2.5,
+      "final": 2.4,
       "champion": 0.8
-    },
-    {
-      "team": "Senegal",
-      "group": "I",
-      "elo": 1844,
-      "attack": -0.06,
-      "defense": 0.36,
-      "qualify": 50.8,
-      "r16": 24.9,
-      "qf": 9.3,
-      "sf": 3.5,
-      "final": 1.3,
-      "champion": 0.6
-    },
-    {
-      "team": "Canada",
-      "group": "B",
-      "elo": 1836,
-      "attack": -0.14,
-      "defense": 0.11,
-      "qualify": 71.2,
-      "r16": 45.7,
-      "qf": 19.9,
-      "sf": 7.9,
-      "final": 2.1,
-      "champion": 0.6
-    },
-    {
-      "team": "Scotland",
-      "group": "C",
-      "elo": 1769,
-      "attack": 0.16,
-      "defense": 0.16,
-      "qualify": 32.4,
-      "r16": 24.9,
-      "qf": 11.6,
-      "sf": 5.1,
-      "final": 1.8,
-      "champion": 0.6
-    },
-    {
-      "team": "Czechia",
-      "group": "A",
-      "elo": 1759,
-      "attack": 0.22,
-      "defense": 0.3,
-      "qualify": 39.5,
-      "r16": 30.6,
-      "qf": 15.1,
-      "sf": 6.1,
-      "final": 1.8,
-      "champion": 0.6
     },
     {
       "team": "Algeria",
@@ -21656,10 +21591,49 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1854,
       "attack": 0.05,
       "defense": 0.32,
-      "qualify": 52.9,
-      "r16": 21.9,
-      "qf": 10.1,
-      "sf": 3.8,
+      "qualify": 20.6,
+      "r16": 23.2,
+      "qf": 11.1,
+      "sf": 4.7,
+      "final": 1.9,
+      "champion": 0.7
+    },
+    {
+      "team": "Sweden",
+      "group": "F",
+      "elo": 1772,
+      "attack": 0.34,
+      "defense": 0.12,
+      "qualify": 65.5,
+      "r16": 37.5,
+      "qf": 12.6,
+      "sf": 4.9,
+      "final": 1.8,
+      "champion": 0.7
+    },
+    {
+      "team": "USA",
+      "group": "D",
+      "elo": 1815,
+      "attack": 0.01,
+      "defense": 0.1,
+      "qualify": 81.8,
+      "r16": 49.6,
+      "qf": 21.5,
+      "sf": 7.1,
+      "final": 2.4,
+      "champion": 0.6
+    },
+    {
+      "team": "Senegal",
+      "group": "I",
+      "elo": 1844,
+      "attack": -0.06,
+      "defense": 0.36,
+      "qualify": 19.1,
+      "r16": 26.4,
+      "qf": 10.9,
+      "sf": 4.0,
       "final": 1.5,
       "champion": 0.5
     },
@@ -21669,38 +21643,64 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1776,
       "attack": 0.1,
       "defense": 0.31,
-      "qualify": 47.6,
-      "r16": 30.1,
-      "qf": 10.5,
+      "qualify": 38.0,
+      "r16": 29.0,
+      "qf": 12.3,
       "sf": 3.8,
-      "final": 1.2,
+      "final": 1.4,
       "champion": 0.5
     },
     {
-      "team": "USA",
-      "group": "D",
-      "elo": 1815,
-      "attack": 0.01,
-      "defense": 0.1,
-      "qualify": 55.2,
-      "r16": 35.0,
-      "qf": 13.2,
-      "sf": 5.9,
-      "final": 1.6,
+      "team": "Canada",
+      "group": "B",
+      "elo": 1836,
+      "attack": -0.14,
+      "defense": 0.11,
+      "qualify": 100.0,
+      "r16": 49.4,
+      "qf": 16.5,
+      "sf": 5.8,
+      "final": 1.8,
       "champion": 0.4
     },
     {
-      "team": "Sweden",
-      "group": "F",
-      "elo": 1772,
-      "attack": 0.34,
-      "defense": 0.12,
-      "qualify": 34.7,
-      "r16": 25.1,
-      "qf": 10.8,
-      "sf": 4.3,
-      "final": 1.3,
+      "team": "Scotland",
+      "group": "C",
+      "elo": 1769,
+      "attack": 0.16,
+      "defense": 0.16,
+      "qualify": 50.6,
+      "r16": 27.5,
+      "qf": 9.8,
+      "sf": 4.1,
+      "final": 1.4,
       "champion": 0.4
+    },
+    {
+      "team": "Turkey",
+      "group": "D",
+      "elo": 1862,
+      "attack": -0.05,
+      "defense": 0.04,
+      "qualify": 20.0,
+      "r16": 17.8,
+      "qf": 8.2,
+      "sf": 3.1,
+      "final": 1.0,
+      "champion": 0.2
+    },
+    {
+      "team": "Czechia",
+      "group": "A",
+      "elo": 1759,
+      "attack": 0.22,
+      "defense": 0.3,
+      "qualify": 11.6,
+      "r16": 13.8,
+      "qf": 6.1,
+      "sf": 2.0,
+      "final": 0.6,
+      "champion": 0.2
     },
     {
       "team": "Paraguay",
@@ -21708,12 +21708,12 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1803,
       "attack": -0.13,
       "defense": 0.03,
-      "qualify": 45.1,
-      "r16": 29.0,
-      "qf": 11.0,
-      "sf": 4.7,
-      "final": 0.7,
-      "champion": 0.3
+      "qualify": 10.1,
+      "r16": 9.0,
+      "qf": 3.4,
+      "sf": 0.8,
+      "final": 0.4,
+      "champion": 0.1
     },
     {
       "team": "Uzbekistan",
@@ -21721,38 +21721,12 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1752,
       "attack": 0.18,
       "defense": 0.24,
-      "qualify": 33.6,
-      "r16": 21.1,
-      "qf": 8.4,
-      "sf": 3.3,
-      "final": 1.2,
-      "champion": 0.3
-    },
-    {
-      "team": "Jordan",
-      "group": "J",
-      "elo": 1689,
-      "attack": -0.13,
-      "defense": 0.24,
-      "qualify": 17.3,
-      "r16": 10.4,
-      "qf": 3.7,
-      "sf": 1.2,
-      "final": 0.3,
-      "champion": 0.2
-    },
-    {
-      "team": "Saudi Arabia",
-      "group": "H",
-      "elo": 1668,
-      "attack": 0.05,
-      "defense": 0.29,
-      "qualify": 29.4,
-      "r16": 12.0,
-      "qf": 4.1,
+      "qualify": 18.7,
+      "r16": 11.6,
+      "qf": 4.2,
       "sf": 1.6,
-      "final": 0.4,
-      "champion": 0.2
+      "final": 0.5,
+      "champion": 0.1
     },
     {
       "team": "Panama",
@@ -21760,10 +21734,62 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1738,
       "attack": -0.14,
       "defense": -0.04,
-      "qualify": 23.9,
-      "r16": 14.2,
-      "qf": 4.6,
-      "sf": 1.3,
+      "qualify": 6.6,
+      "r16": 6.7,
+      "qf": 1.9,
+      "sf": 0.5,
+      "final": 0.1,
+      "champion": 0.1
+    },
+    {
+      "team": "Iraq",
+      "group": "I",
+      "elo": 1694,
+      "attack": 0.04,
+      "defense": 0.37,
+      "qualify": 5.9,
+      "r16": 7.9,
+      "qf": 2.6,
+      "sf": 0.6,
+      "final": 0.2,
+      "champion": 0.1
+    },
+    {
+      "team": "DR Congo",
+      "group": "K",
+      "elo": 1693,
+      "attack": 0.01,
+      "defense": 0.19,
+      "qualify": 26.3,
+      "r16": 15.7,
+      "qf": 4.3,
+      "sf": 1.5,
+      "final": 0.4,
+      "champion": 0.1
+    },
+    {
+      "team": "Saudi Arabia",
+      "group": "H",
+      "elo": 1668,
+      "attack": 0.05,
+      "defense": 0.29,
+      "qualify": 47.0,
+      "r16": 13.6,
+      "qf": 4.4,
+      "sf": 1.4,
+      "final": 0.5,
+      "champion": 0.1
+    },
+    {
+      "team": "Ghana",
+      "group": "L",
+      "elo": 1615,
+      "attack": 0.07,
+      "defense": 0.29,
+      "qualify": 59.8,
+      "r16": 21.7,
+      "qf": 5.1,
+      "sf": 1.2,
       "final": 0.3,
       "champion": 0.1
     },
@@ -21773,25 +21799,25 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1696,
       "attack": -0.02,
       "defense": 0.31,
-      "qualify": 25.0,
-      "r16": 15.9,
-      "qf": 5.1,
-      "sf": 1.5,
-      "final": 0.4,
-      "champion": 0.1
+      "qualify": 7.2,
+      "r16": 7.0,
+      "qf": 2.0,
+      "sf": 0.6,
+      "final": 0.1,
+      "champion": 0.0
     },
     {
-      "team": "DR Congo",
-      "group": "K",
-      "elo": 1693,
-      "attack": 0.01,
-      "defense": 0.19,
-      "qualify": 20.7,
-      "r16": 12.1,
-      "qf": 4.2,
-      "sf": 1.2,
-      "final": 0.3,
-      "champion": 0.1
+      "team": "Jordan",
+      "group": "J",
+      "elo": 1689,
+      "attack": -0.13,
+      "defense": 0.24,
+      "qualify": 4.3,
+      "r16": 8.3,
+      "qf": 2.3,
+      "sf": 0.4,
+      "final": 0.1,
+      "champion": 0
     },
     {
       "team": "New Zealand",
@@ -21799,64 +21825,12 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1654,
       "attack": 0.19,
       "defense": -0.02,
-      "qualify": 20.8,
-      "r16": 14.9,
-      "qf": 4.2,
-      "sf": 1.3,
-      "final": 0.3,
-      "champion": 0.1
-    },
-    {
-      "team": "South Africa",
-      "group": "A",
-      "elo": 1631,
-      "attack": -0.12,
-      "defense": 0.34,
-      "qualify": 29.7,
-      "r16": 14.8,
+      "qualify": 39.1,
+      "r16": 16.5,
       "qf": 4.9,
-      "sf": 1.3,
-      "final": 0.3,
-      "champion": 0.1
-    },
-    {
-      "team": "Bosnia and Herzegovina",
-      "group": "B",
-      "elo": 1625,
-      "attack": -0.07,
-      "defense": 0.07,
-      "qualify": 29.1,
-      "r16": 18.5,
-      "qf": 5.2,
-      "sf": 1.7,
-      "final": 0.3,
-      "champion": 0.1
-    },
-    {
-      "team": "Qatar",
-      "group": "B",
-      "elo": 1566,
-      "attack": -0.04,
-      "defense": 0.18,
-      "qualify": 32.7,
-      "r16": 16.4,
-      "qf": 4.0,
       "sf": 0.9,
       "final": 0.2,
-      "champion": 0.1
-    },
-    {
-      "team": "Iraq",
-      "group": "I",
-      "elo": 1694,
-      "attack": 0.04,
-      "defense": 0.37,
-      "qualify": 22.6,
-      "r16": 15.0,
-      "qf": 5.1,
-      "sf": 1.5,
-      "final": 0.2,
-      "champion": 0.0
+      "champion": 0
     },
     {
       "team": "Cape Verde",
@@ -21864,10 +21838,23 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1635,
       "attack": -0.25,
       "defense": 0.23,
-      "qualify": 25.4,
-      "r16": 8.1,
-      "qf": 2.5,
-      "sf": 0.5,
+      "qualify": 22.2,
+      "r16": 8.6,
+      "qf": 2.3,
+      "sf": 0.8,
+      "final": 0.2,
+      "champion": 0.0
+    },
+    {
+      "team": "South Africa",
+      "group": "A",
+      "elo": 1631,
+      "attack": -0.12,
+      "defense": 0.34,
+      "qualify": 17.1,
+      "r16": 6.9,
+      "qf": 1.9,
+      "sf": 0.3,
       "final": 0.1,
       "champion": 0
     },
@@ -21877,25 +21864,38 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1628,
       "attack": 0.12,
       "defense": 0.08,
-      "qualify": 17.3,
-      "r16": 12.0,
-      "qf": 3.8,
-      "sf": 1.4,
-      "final": 0.3,
-      "champion": 0
+      "qualify": 5.3,
+      "r16": 2.5,
+      "qf": 0.7,
+      "sf": 0.3,
+      "final": 0.1,
+      "champion": 0.0
     },
     {
-      "team": "Ghana",
-      "group": "L",
-      "elo": 1615,
-      "attack": 0.07,
-      "defense": 0.29,
-      "qualify": 20.4,
-      "r16": 9.5,
-      "qf": 2.8,
-      "sf": 0.6,
-      "final": 0.2,
+      "team": "Bosnia and Herzegovina",
+      "group": "B",
+      "elo": 1625,
+      "attack": -0.07,
+      "defense": 0.07,
+      "qualify": 0,
+      "r16": 9.6,
+      "qf": 2.6,
+      "sf": 0.5,
+      "final": 0.1,
       "champion": 0.0
+    },
+    {
+      "team": "Qatar",
+      "group": "B",
+      "elo": 1566,
+      "attack": -0.04,
+      "defense": 0.18,
+      "qualify": 0,
+      "r16": 7.1,
+      "qf": 1.9,
+      "sf": 0.3,
+      "final": 0.1,
+      "champion": 0
     },
     {
       "team": "Curaçao",
@@ -21903,12 +21903,12 @@ window.__WORLD_CUP_MODEL__ = {
       "elo": 1529,
       "attack": 0.12,
       "defense": -0.07,
-      "qualify": 18.4,
-      "r16": 7.3,
-      "qf": 1.8,
-      "sf": 0.3,
+      "qualify": 4.6,
+      "r16": 3.7,
+      "qf": 0.7,
+      "sf": 0.1,
       "final": 0.0,
-      "champion": 0.0
+      "champion": 0
     }
   ],
   "bracket": [
@@ -21933,25 +21933,25 @@ window.__WORLD_CUP_MODEL__ = {
           "round": "32强",
           "date": "",
           "home": "Germany",
-          "away": "USA",
-          "home_win": 52.6,
-          "draw": 24.2,
-          "away_win": 23.2,
+          "away": "Morocco",
+          "home_win": 42.0,
+          "draw": 26.4,
+          "away_win": 31.5,
           "winner": "Germany",
-          "winner_prob": 69.4,
+          "winner_prob": 57.1,
           "path_note": "E组第1 vs 最佳第三名"
         },
         {
           "id": 75,
           "round": "32强",
           "date": "",
-          "home": "Netherlands",
-          "away": "Morocco",
-          "home_win": 39.2,
-          "draw": 26.8,
-          "away_win": 34.0,
-          "winner": "Netherlands",
-          "winner_prob": 53.6,
+          "home": "Sweden",
+          "away": "Scotland",
+          "home_win": 38.7,
+          "draw": 26.1,
+          "away_win": 35.2,
+          "winner": "Sweden",
+          "winner_prob": 52.4,
           "path_note": "F组第1 vs C组第2"
         },
         {
@@ -21959,12 +21959,12 @@ window.__WORLD_CUP_MODEL__ = {
           "round": "32强",
           "date": "",
           "home": "Brazil",
-          "away": "Japan",
-          "home_win": 45.5,
-          "draw": 25.5,
-          "away_win": 29.0,
+          "away": "Netherlands",
+          "home_win": 43.3,
+          "draw": 25.4,
+          "away_win": 31.3,
           "winner": "Brazil",
-          "winner_prob": 61.1,
+          "winner_prob": 58.0,
           "path_note": "C组第1 vs F组第2"
         },
         {
@@ -21972,25 +21972,25 @@ window.__WORLD_CUP_MODEL__ = {
           "round": "32强",
           "date": "",
           "home": "France",
-          "away": "Egypt",
-          "home_win": 55.5,
-          "draw": 23.8,
-          "away_win": 20.7,
+          "away": "Japan",
+          "home_win": 45.0,
+          "draw": 25.6,
+          "away_win": 29.4,
           "winner": "France",
-          "winner_prob": 72.8,
+          "winner_prob": 60.5,
           "path_note": "I组第1 vs 最佳第三名"
         },
         {
           "id": 78,
           "round": "32强",
           "date": "",
-          "home": "Ecuador",
+          "home": "Ivory Coast",
           "away": "Norway",
-          "home_win": 37.0,
-          "draw": 27.1,
-          "away_win": 35.9,
-          "winner": "Ecuador",
-          "winner_prob": 50.8,
+          "home_win": 35.2,
+          "draw": 26.8,
+          "away_win": 38.0,
+          "winner": "Norway",
+          "winner_prob": 51.9,
           "path_note": "E组第2 vs I组第2"
         },
         {
@@ -21998,12 +21998,12 @@ window.__WORLD_CUP_MODEL__ = {
           "round": "32强",
           "date": "",
           "home": "Mexico",
-          "away": "Senegal",
-          "home_win": 44.5,
-          "draw": 27.0,
-          "away_win": 28.5,
+          "away": "Ecuador",
+          "home_win": 43.6,
+          "draw": 26.9,
+          "away_win": 29.5,
           "winner": "Mexico",
-          "winner_prob": 61.0,
+          "winner_prob": 59.6,
           "path_note": "A组第1 vs 最佳第三名"
         },
         {
@@ -22024,12 +22024,12 @@ window.__WORLD_CUP_MODEL__ = {
           "round": "32强",
           "date": "",
           "home": "Australia",
-          "away": "Ivory Coast",
-          "home_win": 40.6,
-          "draw": 26.5,
-          "away_win": 32.9,
+          "away": "Senegal",
+          "home_win": 39.3,
+          "draw": 27.1,
+          "away_win": 33.6,
           "winner": "Australia",
-          "winner_prob": 55.2,
+          "winner_prob": 53.9,
           "path_note": "D组第1 vs 最佳第三名"
         },
         {
@@ -22037,25 +22037,25 @@ window.__WORLD_CUP_MODEL__ = {
           "round": "32强",
           "date": "",
           "home": "Belgium",
-          "away": "Czechia",
-          "home_win": 46.7,
-          "draw": 25.4,
-          "away_win": 27.9,
+          "away": "Croatia",
+          "home_win": 37.0,
+          "draw": 26.3,
+          "away_win": 36.7,
           "winner": "Belgium",
-          "winner_prob": 62.6,
+          "winner_prob": 50.2,
           "path_note": "G组第1 vs 最佳第三名"
         },
         {
           "id": 83,
           "round": "32强",
           "date": "",
-          "home": "Colombia",
-          "away": "Croatia",
-          "home_win": 38.6,
-          "draw": 27.6,
-          "away_win": 33.9,
-          "winner": "Colombia",
-          "winner_prob": 53.2,
+          "home": "Portugal",
+          "away": "Ghana",
+          "home_win": 62.9,
+          "draw": 21.6,
+          "away_win": 15.5,
+          "winner": "Portugal",
+          "winner_prob": 80.2,
           "path_note": "K组第2 vs L组第2"
         },
         {
@@ -22076,12 +22076,12 @@ window.__WORLD_CUP_MODEL__ = {
           "round": "32强",
           "date": "",
           "home": "Switzerland",
-          "away": "Sweden",
-          "home_win": 39.9,
-          "draw": 26.0,
-          "away_win": 34.0,
+          "away": "Egypt",
+          "home_win": 40.4,
+          "draw": 26.8,
+          "away_win": 32.8,
           "winner": "Switzerland",
-          "winner_prob": 54.0,
+          "winner_prob": 55.2,
           "path_note": "B组第1 vs 最佳第三名"
         },
         {
@@ -22101,26 +22101,26 @@ window.__WORLD_CUP_MODEL__ = {
           "id": 87,
           "round": "32强",
           "date": "",
-          "home": "Portugal",
-          "away": "Scotland",
-          "home_win": 52.3,
-          "draw": 24.6,
-          "away_win": 23.1,
-          "winner": "Portugal",
-          "winner_prob": 69.4,
+          "home": "Colombia",
+          "away": "Turkey",
+          "home_win": 44.9,
+          "draw": 27.2,
+          "away_win": 27.9,
+          "winner": "Colombia",
+          "winner_prob": 61.7,
           "path_note": "K组第1 vs 最佳第三名"
         },
         {
           "id": 88,
           "round": "32强",
           "date": "",
-          "home": "Turkey",
+          "home": "USA",
           "away": "Iran",
-          "home_win": 31.7,
-          "draw": 26.9,
-          "away_win": 41.4,
+          "home_win": 29.8,
+          "draw": 26.6,
+          "away_win": 43.7,
           "winner": "Iran",
-          "winner_prob": 56.6,
+          "winner_prob": 59.5,
           "path_note": "D组第2 vs G组第2"
         }
       ]
@@ -22144,25 +22144,25 @@ window.__WORLD_CUP_MODEL__ = {
           "id": 90,
           "round": "16强",
           "date": "",
-          "home": "Netherlands",
+          "home": "Sweden",
           "away": "Brazil",
-          "home_win": 31.3,
-          "draw": 25.4,
-          "away_win": 43.3,
+          "home_win": 21.0,
+          "draw": 23.0,
+          "away_win": 56.0,
           "winner": "Brazil",
-          "winner_prob": 58.0
+          "winner_prob": 72.7
         },
         {
           "id": 91,
           "round": "16强",
           "date": "",
           "home": "France",
-          "away": "Ecuador",
-          "home_win": 50.8,
-          "draw": 25.2,
-          "away_win": 24.0,
+          "away": "Norway",
+          "home_win": 52.1,
+          "draw": 24.3,
+          "away_win": 23.5,
           "winner": "France",
-          "winner_prob": 67.9
+          "winner_prob": 68.9
         },
         {
           "id": 92,
@@ -22192,13 +22192,13 @@ window.__WORLD_CUP_MODEL__ = {
           "id": 94,
           "round": "16强",
           "date": "",
-          "home": "Colombia",
+          "home": "Portugal",
           "away": "Spain",
-          "home_win": 25.2,
-          "draw": 25.9,
-          "away_win": 48.9,
+          "home_win": 27.6,
+          "draw": 25.5,
+          "away_win": 46.9,
           "winner": "Spain",
-          "winner_prob": 66.0
+          "winner_prob": 63.0
         },
         {
           "id": 95,
@@ -22216,13 +22216,13 @@ window.__WORLD_CUP_MODEL__ = {
           "id": 96,
           "round": "16强",
           "date": "",
-          "home": "Portugal",
+          "home": "Colombia",
           "away": "Iran",
-          "home_win": 43.4,
-          "draw": 26.4,
-          "away_win": 30.3,
-          "winner": "Portugal",
-          "winner_prob": 58.9
+          "home_win": 40.1,
+          "draw": 27.5,
+          "away_win": 32.4,
+          "winner": "Colombia",
+          "winner_prob": 55.3
         }
       ]
     },
@@ -22270,12 +22270,12 @@ window.__WORLD_CUP_MODEL__ = {
           "round": "8强",
           "date": "",
           "home": "Argentina",
-          "away": "Portugal",
-          "home_win": 47.2,
-          "draw": 25.6,
-          "away_win": 27.2,
+          "away": "Colombia",
+          "home_win": 49.2,
+          "draw": 25.9,
+          "away_win": 24.9,
           "winner": "Argentina",
-          "winner_prob": 63.4
+          "winner_prob": 66.4
         }
       ]
     },
@@ -22566,285 +22566,46 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "Germany__USA": {
+    "Germany__Morocco": {
       "id": 74,
       "round": "32强",
       "date": "",
       "home": "Germany",
-      "away": "USA",
-      "home_win": 52.6,
-      "draw": 24.2,
-      "away_win": 23.2,
-      "winner": "Germany",
-      "winner_prob": 52.6,
-      "path_note": "E组第1 vs 最佳第三名",
-      "lambda_home": 1.68,
-      "lambda_away": 1.03,
-      "matrix": [
-        [
-          6.6,
-          6.8,
-          3.5,
-          1.2,
-          0.3,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          11.1,
-          11.5,
-          5.9,
-          2.0,
-          0.5,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          9.4,
-          9.7,
-          5.0,
-          1.7,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          5.3,
-          5.4,
-          2.8,
-          1.0,
-          0.2,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          2.2,
-          2.3,
-          1.2,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.7,
-          0.8,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.2,
-          0.2,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.1,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ]
-      ],
-      "score_max": 8,
-      "top_scores": [
-        {
-          "score": "1-1",
-          "prob": 11.5
-        },
-        {
-          "score": "1-0",
-          "prob": 11.1
-        },
-        {
-          "score": "2-1",
-          "prob": 9.7
-        },
-        {
-          "score": "2-0",
-          "prob": 9.4
-        },
-        {
-          "score": "0-1",
-          "prob": 6.8
-        }
-      ],
-      "big_score_candidates": [
-        {
-          "score": "3-1",
-          "prob": 5.4
-        },
-        {
-          "score": "3-0",
-          "prob": 5.3
-        },
-        {
-          "score": "2-2",
-          "prob": 5.0
-        },
-        {
-          "score": "3-2",
-          "prob": 2.8
-        },
-        {
-          "score": "4-1",
-          "prob": 2.3
-        }
-      ],
-      "bold_score_candidates": [
-        {
-          "score": "3-2",
-          "prob": 2.8,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "4-1",
-          "prob": 2.3,
-          "total_goals": 5,
-          "margin": 3
-        },
-        {
-          "score": "4-0",
-          "prob": 2.2,
-          "total_goals": 4,
-          "margin": 4
-        },
-        {
-          "score": "2-3",
-          "prob": 1.7,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "4-2",
-          "prob": 1.2,
-          "total_goals": 6,
-          "margin": 2
-        },
-        {
-          "score": "3-3",
-          "prob": 1.0,
-          "total_goals": 6,
-          "margin": 0
-        },
-        {
-          "score": "5-1",
-          "prob": 0.8,
-          "total_goals": 6,
-          "margin": 4
-        },
-        {
-          "score": "5-0",
-          "prob": 0.7,
-          "total_goals": 5,
-          "margin": 5
-        }
-      ],
-      "big_score_signal": {
-        "over_3_5": 28.6,
-        "margin_3_plus": 14.7,
-        "level": "high"
-      },
-      "market_observation": null,
-      "ai": [
-        {
-          "title": "实力对比",
-          "text": "Germany Elo 1957 vs USA 1815，差距 141 分，前者占优。"
-        },
-        {
-          "title": "近期状态",
-          "text": "模型按真实国际赛果滚动更新 Elo；越新的比赛越靠后进入计算，会自然影响当前强弱。"
-        },
-        {
-          "title": "攻防与期望进球",
-          "text": "期望进球 Germany 1.68 : 1.03 USA，数值越高代表越容易进球。"
-        },
-        {
-          "title": "比分概率",
-          "text": "最可能比分：1-1 11.5%, 1-0 11.1%, 2-1 9.7%。"
-        },
-        {
-          "title": "综合结论",
-          "text": "模型倾向 Germany，但足球不是数学题；这代表更值得支持，不代表一定发生。"
-        }
-      ]
-    },
-    "Netherlands__Morocco": {
-      "id": 75,
-      "round": "32强",
-      "date": "",
-      "home": "Netherlands",
       "away": "Morocco",
-      "home_win": 39.2,
-      "draw": 26.8,
-      "away_win": 34.0,
-      "winner": "Netherlands",
-      "winner_prob": 39.2,
-      "path_note": "F组第1 vs C组第2",
-      "lambda_home": 1.31,
-      "lambda_away": 1.21,
+      "home_win": 42.0,
+      "draw": 26.4,
+      "away_win": 31.5,
+      "winner": "Germany",
+      "winner_prob": 42.0,
+      "path_note": "E组第1 vs 最佳第三名",
+      "lambda_home": 1.39,
+      "lambda_away": 1.17,
       "matrix": [
         [
-          8.0,
-          9.7,
-          5.8,
-          2.3,
-          0.7,
-          0.2,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          10.6,
-          12.7,
           7.7,
-          3.1,
-          0.9,
+          9.0,
+          5.3,
+          2.1,
+          0.6,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          10.8,
+          12.6,
+          7.3,
+          2.9,
+          0.8,
           0.2,
           0.0,
           0.0,
           0.0
         ],
         [
-          7.0,
-          8.4,
+          7.5,
+          8.7,
           5.1,
           2.0,
           0.6,
@@ -22854,9 +22615,9 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          3.0,
-          3.7,
-          2.2,
+          3.5,
+          4.1,
+          2.4,
           0.9,
           0.3,
           0.1,
@@ -22865,9 +22626,9 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          1.0,
           1.2,
-          0.7,
+          1.4,
+          0.8,
           0.3,
           0.1,
           0.0,
@@ -22877,7 +22638,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.3,
-          0.3,
+          0.4,
           0.2,
           0.1,
           0.0,
@@ -22889,7 +22650,7 @@ window.__WORLD_CUP_MODEL__ = {
         [
           0.1,
           0.1,
-          0.0,
+          0.1,
           0.0,
           0.0,
           0.0,
@@ -22924,23 +22685,23 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.7
+          "prob": 12.6
         },
         {
           "score": "1-0",
-          "prob": 10.6
+          "prob": 10.8
         },
         {
           "score": "0-1",
-          "prob": 9.7
+          "prob": 9.0
         },
         {
           "score": "2-1",
-          "prob": 8.4
+          "prob": 8.7
         },
         {
           "score": "0-0",
-          "prob": 8.0
+          "prob": 7.7
         }
       ],
       "big_score_candidates": [
@@ -22950,25 +22711,25 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "3-1",
-          "prob": 3.7
-        },
-        {
-          "score": "1-3",
-          "prob": 3.1
+          "prob": 4.1
         },
         {
           "score": "3-0",
-          "prob": 3.0
+          "prob": 3.5
         },
         {
-          "score": "0-3",
-          "prob": 2.3
+          "score": "1-3",
+          "prob": 2.9
+        },
+        {
+          "score": "3-2",
+          "prob": 2.4
         }
       ],
       "bold_score_candidates": [
         {
           "score": "3-2",
-          "prob": 2.2,
+          "prob": 2.4,
           "total_goals": 5,
           "margin": 1
         },
@@ -22980,13 +22741,13 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "4-1",
-          "prob": 1.2,
+          "prob": 1.4,
           "total_goals": 5,
           "margin": 3
         },
         {
           "score": "4-0",
-          "prob": 1.0,
+          "prob": 1.2,
           "total_goals": 4,
           "margin": 4
         },
@@ -22997,34 +22758,34 @@ window.__WORLD_CUP_MODEL__ = {
           "margin": 0
         },
         {
-          "score": "1-4",
-          "prob": 0.9,
-          "total_goals": 5,
-          "margin": 3
-        },
-        {
           "score": "4-2",
-          "prob": 0.7,
+          "prob": 0.8,
           "total_goals": 6,
           "margin": 2
         },
         {
-          "score": "0-4",
-          "prob": 0.7,
-          "total_goals": 4,
-          "margin": 4
+          "score": "1-4",
+          "prob": 0.8,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 2
         }
       ],
       "big_score_signal": {
-        "over_3_5": 24.5,
-        "margin_3_plus": 10.6,
+        "over_3_5": 25.3,
+        "margin_3_plus": 11.2,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Netherlands Elo 1935 vs Morocco 1926，差距 9 分，前者占优。"
+          "text": "Germany Elo 1957 vs Morocco 1926，差距 30 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -23032,49 +22793,38 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Netherlands 1.31 : 1.21 Morocco，数值越高代表越容易进球。"
+          "text": "期望进球 Germany 1.39 : 1.17 Morocco，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.7%, 1-0 10.6%, 0-1 9.7%。"
+          "text": "最可能比分：1-1 12.6%, 1-0 10.8%, 0-1 9.0%。"
         },
         {
           "title": "综合结论",
-          "text": "模型倾向 Netherlands，但足球不是数学题；这代表更值得支持，不代表一定发生。"
+          "text": "模型倾向 Germany，但足球不是数学题；这代表更值得支持，不代表一定发生。"
         }
       ]
     },
-    "Brazil__Japan": {
-      "id": 76,
+    "Sweden__Scotland": {
+      "id": 75,
       "round": "32强",
       "date": "",
-      "home": "Brazil",
-      "away": "Japan",
-      "home_win": 45.5,
-      "draw": 25.5,
-      "away_win": 29.0,
-      "winner": "Brazil",
-      "winner_prob": 45.5,
-      "path_note": "C组第1 vs F组第2",
-      "lambda_home": 1.52,
-      "lambda_away": 1.16,
+      "home": "Sweden",
+      "away": "Scotland",
+      "home_win": 38.7,
+      "draw": 26.1,
+      "away_win": 35.2,
+      "winner": "Sweden",
+      "winner_prob": 38.7,
+      "path_note": "F组第1 vs C组第2",
+      "lambda_home": 1.36,
+      "lambda_away": 1.29,
       "matrix": [
         [
-          6.9,
-          8.0,
-          4.6,
-          1.8,
-          0.5,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          10.4,
-          12.1,
-          7.0,
-          2.7,
+          7.1,
+          9.1,
+          5.9,
+          2.5,
           0.8,
           0.2,
           0.0,
@@ -23082,21 +22832,32 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          7.9,
-          9.2,
-          5.3,
-          2.1,
-          0.6,
+          9.6,
+          12.4,
+          8.0,
+          3.4,
+          1.1,
+          0.3,
           0.1,
+          0.0,
+          0.0
+        ],
+        [
+          6.6,
+          8.4,
+          5.4,
+          2.3,
+          0.8,
+          0.2,
           0.0,
           0.0,
           0.0
         ],
         [
-          4.0,
-          4.6,
-          2.7,
-          1.0,
+          3.0,
+          3.8,
+          2.5,
+          1.1,
           0.3,
           0.1,
           0.0,
@@ -23104,8 +22865,247 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          1.5,
-          1.8,
+          1.0,
+          1.3,
+          0.8,
+          0.4,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.3,
+          0.4,
+          0.2,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "score_max": 8,
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 12.4
+        },
+        {
+          "score": "1-0",
+          "prob": 9.6
+        },
+        {
+          "score": "0-1",
+          "prob": 9.1
+        },
+        {
+          "score": "2-1",
+          "prob": 8.4
+        },
+        {
+          "score": "1-2",
+          "prob": 8.0
+        }
+      ],
+      "big_score_candidates": [
+        {
+          "score": "2-2",
+          "prob": 5.4
+        },
+        {
+          "score": "3-1",
+          "prob": 3.8
+        },
+        {
+          "score": "1-3",
+          "prob": 3.4
+        },
+        {
+          "score": "3-0",
+          "prob": 3.0
+        },
+        {
+          "score": "0-3",
+          "prob": 2.5
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.3,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.0,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "4-2",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
+      "big_score_signal": {
+        "over_3_5": 27.3,
+        "margin_3_plus": 11.7,
+        "level": "watch"
+      },
+      "market_observation": null,
+      "ai": [
+        {
+          "title": "实力对比",
+          "text": "Sweden Elo 1772 vs Scotland 1769，差距 3 分，前者占优。"
+        },
+        {
+          "title": "近期状态",
+          "text": "模型按真实国际赛果滚动更新 Elo；越新的比赛越靠后进入计算，会自然影响当前强弱。"
+        },
+        {
+          "title": "攻防与期望进球",
+          "text": "期望进球 Sweden 1.36 : 1.29 Scotland，数值越高代表越容易进球。"
+        },
+        {
+          "title": "比分概率",
+          "text": "最可能比分：1-1 12.4%, 1-0 9.6%, 0-1 9.1%。"
+        },
+        {
+          "title": "综合结论",
+          "text": "模型倾向 Sweden，但足球不是数学题；这代表更值得支持，不代表一定发生。"
+        }
+      ]
+    },
+    "Brazil__Netherlands": {
+      "id": 76,
+      "round": "32强",
+      "date": "",
+      "home": "Brazil",
+      "away": "Netherlands",
+      "home_win": 43.3,
+      "draw": 25.4,
+      "away_win": 31.3,
+      "winner": "Brazil",
+      "winner_prob": 43.3,
+      "path_note": "C组第1 vs F组第2",
+      "lambda_home": 1.5,
+      "lambda_away": 1.23,
+      "matrix": [
+        [
+          6.5,
+          8.1,
+          5.0,
+          2.0,
+          0.6,
+          0.2,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.8,
+          12.0,
+          7.4,
+          3.0,
+          0.9,
+          0.2,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          7.3,
+          9.0,
+          5.5,
+          2.3,
+          0.7,
+          0.2,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.6,
+          4.5,
+          2.8,
+          1.1,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.4,
+          1.7,
           1.0,
           0.4,
           0.1,
@@ -23115,7 +23115,7 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          0.5,
+          0.4,
           0.5,
           0.3,
           0.1,
@@ -23163,7 +23163,246 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.1
+          "prob": 12.0
+        },
+        {
+          "score": "1-0",
+          "prob": 9.8
+        },
+        {
+          "score": "2-1",
+          "prob": 9.0
+        },
+        {
+          "score": "0-1",
+          "prob": 8.1
+        },
+        {
+          "score": "1-2",
+          "prob": 7.4
+        }
+      ],
+      "big_score_candidates": [
+        {
+          "score": "2-2",
+          "prob": 5.5
+        },
+        {
+          "score": "3-1",
+          "prob": 4.5
+        },
+        {
+          "score": "3-0",
+          "prob": 3.6
+        },
+        {
+          "score": "1-3",
+          "prob": 3.0
+        },
+        {
+          "score": "3-2",
+          "prob": 2.8
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.8,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "3-3",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "4-2",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-4",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "2-4",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
+      "big_score_signal": {
+        "over_3_5": 28.6,
+        "margin_3_plus": 12.3,
+        "level": "high"
+      },
+      "market_observation": null,
+      "ai": [
+        {
+          "title": "实力对比",
+          "text": "Brazil Elo 1997 vs Netherlands 1935，差距 62 分，前者占优。"
+        },
+        {
+          "title": "近期状态",
+          "text": "模型按真实国际赛果滚动更新 Elo；越新的比赛越靠后进入计算，会自然影响当前强弱。"
+        },
+        {
+          "title": "攻防与期望进球",
+          "text": "期望进球 Brazil 1.5 : 1.23 Netherlands，数值越高代表越容易进球。"
+        },
+        {
+          "title": "比分概率",
+          "text": "最可能比分：1-1 12.0%, 1-0 9.8%, 2-1 9.0%。"
+        },
+        {
+          "title": "综合结论",
+          "text": "模型倾向 Brazil，但足球不是数学题；这代表更值得支持，不代表一定发生。"
+        }
+      ]
+    },
+    "France__Japan": {
+      "id": 77,
+      "round": "32强",
+      "date": "",
+      "home": "France",
+      "away": "Japan",
+      "home_win": 45.0,
+      "draw": 25.6,
+      "away_win": 29.4,
+      "winner": "France",
+      "winner_prob": 45.0,
+      "path_note": "I组第1 vs 最佳第三名",
+      "lambda_home": 1.5,
+      "lambda_away": 1.16,
+      "matrix": [
+        [
+          7.0,
+          8.1,
+          4.7,
+          1.8,
+          0.5,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          10.4,
+          12.2,
+          7.1,
+          2.7,
+          0.8,
+          0.2,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          7.8,
+          9.1,
+          5.3,
+          2.1,
+          0.6,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.9,
+          4.6,
+          2.7,
+          1.0,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.5,
+          1.7,
+          1.0,
+          0.4,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.4,
+          0.5,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "score_max": 8,
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 12.2
         },
         {
           "score": "1-0",
@@ -23171,15 +23410,15 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "2-1",
-          "prob": 9.2
+          "prob": 9.1
         },
         {
           "score": "0-1",
-          "prob": 8.0
+          "prob": 8.1
         },
         {
           "score": "2-0",
-          "prob": 7.9
+          "prob": 7.8
         }
       ],
       "big_score_candidates": [
@@ -23193,7 +23432,7 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "3-0",
-          "prob": 4.0
+          "prob": 3.9
         },
         {
           "score": "1-3",
@@ -23219,7 +23458,7 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "4-1",
-          "prob": 1.8,
+          "prob": 1.7,
           "total_goals": 5,
           "margin": 3
         },
@@ -23255,15 +23494,15 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ],
       "big_score_signal": {
-        "over_3_5": 27.6,
-        "margin_3_plus": 12.4,
+        "over_3_5": 27.4,
+        "margin_3_plus": 12.1,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Brazil Elo 1997 vs Japan 1924，差距 73 分，前者占优。"
+          "text": "France Elo 2039 vs Japan 1924，差距 115 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -23271,250 +23510,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Brazil 1.52 : 1.16 Japan，数值越高代表越容易进球。"
+          "text": "期望进球 France 1.5 : 1.16 Japan，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.1%, 1-0 10.4%, 2-1 9.2%。"
-        },
-        {
-          "title": "综合结论",
-          "text": "模型倾向 Brazil，但足球不是数学题；这代表更值得支持，不代表一定发生。"
-        }
-      ]
-    },
-    "France__Egypt": {
-      "id": 77,
-      "round": "32强",
-      "date": "",
-      "home": "France",
-      "away": "Egypt",
-      "home_win": 55.5,
-      "draw": 23.8,
-      "away_win": 20.7,
-      "winner": "France",
-      "winner_prob": 55.5,
-      "path_note": "I组第1 vs 最佳第三名",
-      "lambda_home": 1.72,
-      "lambda_away": 0.95,
-      "matrix": [
-        [
-          7.0,
-          6.6,
-          3.1,
-          1.0,
-          0.2,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          12.0,
-          11.3,
-          5.4,
-          1.7,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          10.3,
-          9.7,
-          4.6,
-          1.5,
-          0.3,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          5.9,
-          5.6,
-          2.6,
-          0.8,
-          0.2,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          2.5,
-          2.4,
-          1.1,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.9,
-          0.8,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.2,
-          0.2,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.1,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ]
-      ],
-      "score_max": 8,
-      "top_scores": [
-        {
-          "score": "1-0",
-          "prob": 12.0
-        },
-        {
-          "score": "1-1",
-          "prob": 11.3
-        },
-        {
-          "score": "2-0",
-          "prob": 10.3
-        },
-        {
-          "score": "2-1",
-          "prob": 9.7
-        },
-        {
-          "score": "0-0",
-          "prob": 7.0
-        }
-      ],
-      "big_score_candidates": [
-        {
-          "score": "3-0",
-          "prob": 5.9
-        },
-        {
-          "score": "3-1",
-          "prob": 5.6
-        },
-        {
-          "score": "2-2",
-          "prob": 4.6
-        },
-        {
-          "score": "3-2",
-          "prob": 2.6
-        },
-        {
-          "score": "4-0",
-          "prob": 2.5
-        }
-      ],
-      "bold_score_candidates": [
-        {
-          "score": "3-2",
-          "prob": 2.6,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "4-0",
-          "prob": 2.5,
-          "total_goals": 4,
-          "margin": 4
-        },
-        {
-          "score": "4-1",
-          "prob": 2.4,
-          "total_goals": 5,
-          "margin": 3
-        },
-        {
-          "score": "2-3",
-          "prob": 1.5,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "4-2",
-          "prob": 1.1,
-          "total_goals": 6,
-          "margin": 2
-        },
-        {
-          "score": "5-0",
-          "prob": 0.9,
-          "total_goals": 5,
-          "margin": 5
-        },
-        {
-          "score": "5-1",
-          "prob": 0.8,
-          "total_goals": 6,
-          "margin": 4
-        },
-        {
-          "score": "3-3",
-          "prob": 0.8,
-          "total_goals": 6,
-          "margin": 0
-        }
-      ],
-      "big_score_signal": {
-        "over_3_5": 27.5,
-        "margin_3_plus": 15.4,
-        "level": "watch"
-      },
-      "market_observation": null,
-      "ai": [
-        {
-          "title": "实力对比",
-          "text": "France Elo 2039 vs Egypt 1776，差距 263 分，前者占优。"
-        },
-        {
-          "title": "近期状态",
-          "text": "模型按真实国际赛果滚动更新 Elo；越新的比赛越靠后进入计算，会自然影响当前强弱。"
-        },
-        {
-          "title": "攻防与期望进球",
-          "text": "期望进球 France 1.72 : 0.95 Egypt，数值越高代表越容易进球。"
-        },
-        {
-          "title": "比分概率",
-          "text": "最可能比分：1-0 12.0%, 1-1 11.3%, 2-0 10.3%。"
+          "text": "最可能比分：1-1 12.2%, 1-0 10.4%, 2-1 9.1%。"
         },
         {
           "title": "综合结论",
@@ -23522,67 +23522,67 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "Ecuador__Norway": {
+    "Ivory Coast__Norway": {
       "id": 78,
       "round": "32强",
       "date": "",
-      "home": "Ecuador",
+      "home": "Ivory Coast",
       "away": "Norway",
-      "home_win": 37.0,
-      "draw": 27.1,
-      "away_win": 35.9,
-      "winner": "Ecuador",
-      "winner_prob": 37.0,
+      "home_win": 35.2,
+      "draw": 26.8,
+      "away_win": 38.0,
+      "winner": "Norway",
+      "winner_prob": 38.0,
       "path_note": "E组第2 vs I组第2",
-      "lambda_home": 1.25,
-      "lambda_away": 1.23,
+      "lambda_home": 1.23,
+      "lambda_away": 1.29,
       "matrix": [
         [
-          8.4,
-          10.3,
-          6.3,
-          2.6,
-          0.8,
-          0.2,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          10.5,
-          12.9,
-          7.9,
-          3.2,
-          1.0,
-          0.2,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          6.6,
-          8.1,
-          4.9,
-          2.0,
-          0.6,
-          0.2,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          2.7,
-          3.4,
-          2.1,
-          0.8,
-          0.3,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
+          8.0,
+          10.4,
+          6.7,
+          2.9,
           0.9,
+          0.2,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          9.9,
+          12.8,
+          8.2,
+          3.5,
+          1.1,
+          0.3,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          6.1,
+          7.9,
+          5.1,
+          2.2,
+          0.7,
+          0.2,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.5,
+          3.2,
+          2.1,
+          0.9,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.8,
           1.0,
           0.6,
           0.3,
@@ -23594,7 +23594,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.2,
-          0.3,
+          0.2,
           0.2,
           0.1,
           0.0,
@@ -23641,48 +23641,54 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.9
-        },
-        {
-          "score": "1-0",
-          "prob": 10.5
+          "prob": 12.8
         },
         {
           "score": "0-1",
-          "prob": 10.3
+          "prob": 10.4
+        },
+        {
+          "score": "1-0",
+          "prob": 9.9
+        },
+        {
+          "score": "1-2",
+          "prob": 8.2
         },
         {
           "score": "0-0",
-          "prob": 8.4
-        },
-        {
-          "score": "2-1",
-          "prob": 8.1
+          "prob": 8.0
         }
       ],
       "big_score_candidates": [
         {
           "score": "2-2",
-          "prob": 4.9
-        },
-        {
-          "score": "3-1",
-          "prob": 3.4
+          "prob": 5.1
         },
         {
           "score": "1-3",
+          "prob": 3.5
+        },
+        {
+          "score": "3-1",
           "prob": 3.2
         },
         {
-          "score": "3-0",
-          "prob": 2.7
+          "score": "0-3",
+          "prob": 2.9
         },
         {
-          "score": "0-3",
-          "prob": 2.6
+          "score": "3-0",
+          "prob": 2.5
         }
       ],
       "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.2,
+          "total_goals": 5,
+          "margin": 1
+        },
         {
           "score": "3-2",
           "prob": 2.1,
@@ -23690,14 +23696,8 @@ window.__WORLD_CUP_MODEL__ = {
           "margin": 1
         },
         {
-          "score": "2-3",
-          "prob": 2.0,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
           "score": "1-4",
-          "prob": 1.0,
+          "prob": 1.1,
           "total_goals": 5,
           "margin": 3
         },
@@ -23708,40 +23708,40 @@ window.__WORLD_CUP_MODEL__ = {
           "margin": 3
         },
         {
-          "score": "4-0",
-          "prob": 0.9,
-          "total_goals": 4,
-          "margin": 4
-        },
-        {
           "score": "3-3",
-          "prob": 0.8,
+          "prob": 0.9,
           "total_goals": 6,
           "margin": 0
         },
         {
           "score": "0-4",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-0",
           "prob": 0.8,
           "total_goals": 4,
           "margin": 4
         },
         {
           "score": "2-4",
-          "prob": 0.6,
+          "prob": 0.7,
           "total_goals": 6,
           "margin": 2
         }
       ],
       "big_score_signal": {
-        "over_3_5": 23.6,
-        "margin_3_plus": 10.4,
+        "over_3_5": 24.6,
+        "margin_3_plus": 10.8,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Ecuador Elo 1912 vs Norway 1872，差距 40 分，前者占优。"
+          "text": "Ivory Coast Elo 1806 vs Norway 1872，差距 66 分，后者占优。"
         },
         {
           "title": "近期状态",
@@ -23749,71 +23749,71 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Ecuador 1.25 : 1.23 Norway，数值越高代表越容易进球。"
+          "text": "期望进球 Ivory Coast 1.23 : 1.29 Norway，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.9%, 1-0 10.5%, 0-1 10.3%。"
+          "text": "最可能比分：1-1 12.8%, 0-1 10.4%, 1-0 9.9%。"
         },
         {
           "title": "综合结论",
-          "text": "模型倾向 Ecuador，但足球不是数学题；这代表更值得支持，不代表一定发生。"
+          "text": "模型倾向 Norway，但足球不是数学题；这代表更值得支持，不代表一定发生。"
         }
       ]
     },
-    "Mexico__Senegal": {
+    "Mexico__Ecuador": {
       "id": 79,
       "round": "32强",
       "date": "",
       "home": "Mexico",
-      "away": "Senegal",
-      "home_win": 44.5,
-      "draw": 27.0,
-      "away_win": 28.5,
+      "away": "Ecuador",
+      "home_win": 43.6,
+      "draw": 26.9,
+      "away_win": 29.5,
       "winner": "Mexico",
-      "winner_prob": 44.5,
+      "winner_prob": 43.6,
       "path_note": "A组第1 vs 最佳第三名",
       "lambda_home": 1.38,
-      "lambda_away": 1.05,
+      "lambda_away": 1.09,
       "matrix": [
         [
-          8.8,
+          8.5,
           9.2,
+          5.0,
+          1.8,
+          0.5,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          11.7,
+          12.7,
+          6.9,
+          2.5,
+          0.7,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.1,
+          8.8,
           4.8,
           1.7,
-          0.4,
+          0.5,
           0.1,
           0.0,
           0.0,
           0.0
         ],
         [
-          12.1,
-          12.7,
-          6.7,
-          2.3,
-          0.6,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          8.4,
-          8.8,
-          4.6,
-          1.6,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          3.9,
-          4.1,
-          2.1,
-          0.7,
+          3.7,
+          4.0,
+          2.2,
+          0.8,
           0.2,
           0.0,
           0.0,
@@ -23823,7 +23823,7 @@ window.__WORLD_CUP_MODEL__ = {
         [
           1.3,
           1.4,
-          0.7,
+          0.8,
           0.3,
           0.1,
           0.0,
@@ -23884,53 +23884,53 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "1-0",
-          "prob": 12.1
+          "prob": 11.7
         },
         {
           "score": "0-1",
           "prob": 9.2
         },
         {
-          "score": "0-0",
+          "score": "2-1",
           "prob": 8.8
         },
         {
-          "score": "2-1",
-          "prob": 8.8
+          "score": "0-0",
+          "prob": 8.5
         }
       ],
       "big_score_candidates": [
         {
           "score": "2-2",
-          "prob": 4.6
+          "prob": 4.8
         },
         {
           "score": "3-1",
-          "prob": 4.1
+          "prob": 4.0
         },
         {
           "score": "3-0",
-          "prob": 3.9
+          "prob": 3.7
         },
         {
           "score": "1-3",
-          "prob": 2.3
+          "prob": 2.5
         },
         {
           "score": "3-2",
-          "prob": 2.1
+          "prob": 2.2
         }
       ],
       "bold_score_candidates": [
         {
           "score": "3-2",
-          "prob": 2.1,
+          "prob": 2.2,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "2-3",
-          "prob": 1.6,
+          "prob": 1.7,
           "total_goals": 5,
           "margin": 1
         },
@@ -23948,39 +23948,39 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "4-2",
-          "prob": 0.7,
+          "prob": 0.8,
           "total_goals": 6,
           "margin": 2
         },
         {
           "score": "3-3",
-          "prob": 0.7,
+          "prob": 0.8,
           "total_goals": 6,
           "margin": 0
         },
         {
           "score": "1-4",
-          "prob": 0.6,
+          "prob": 0.7,
           "total_goals": 5,
           "margin": 3
         },
         {
-          "score": "5-1",
-          "prob": 0.4,
+          "score": "2-4",
+          "prob": 0.5,
           "total_goals": 6,
-          "margin": 4
+          "margin": 2
         }
       ],
       "big_score_signal": {
-        "over_3_5": 22.4,
-        "margin_3_plus": 10.8,
+        "over_3_5": 23.4,
+        "margin_3_plus": 10.9,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Mexico Elo 1935 vs Senegal 1844，差距 91 分，前者占优。"
+          "text": "Mexico Elo 1935 vs Ecuador 1912，差距 23 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -23988,11 +23988,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Mexico 1.38 : 1.05 Senegal，数值越高代表越容易进球。"
+          "text": "期望进球 Mexico 1.38 : 1.09 Ecuador，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.7%, 1-0 12.1%, 0-1 9.2%。"
+          "text": "最可能比分：1-1 12.7%, 1-0 11.7%, 0-1 9.2%。"
         },
         {
           "title": "综合结论",
@@ -24239,26 +24239,26 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "Australia__Ivory Coast": {
+    "Australia__Senegal": {
       "id": 81,
       "round": "32强",
       "date": "",
       "home": "Australia",
-      "away": "Ivory Coast",
-      "home_win": 40.6,
-      "draw": 26.5,
-      "away_win": 32.9,
+      "away": "Senegal",
+      "home_win": 39.3,
+      "draw": 27.1,
+      "away_win": 33.6,
       "winner": "Australia",
-      "winner_prob": 40.6,
+      "winner_prob": 39.3,
       "path_note": "D组第1 vs 最佳第三名",
-      "lambda_home": 1.37,
-      "lambda_away": 1.2,
+      "lambda_home": 1.3,
+      "lambda_away": 1.18,
       "matrix": [
         [
-          7.7,
-          9.2,
-          5.5,
-          2.2,
+          8.4,
+          9.9,
+          5.8,
+          2.3,
           0.7,
           0.2,
           0.0,
@@ -24266,8 +24266,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          10.5,
-          12.6,
+          10.9,
+          12.9,
           7.6,
           3.0,
           0.9,
@@ -24277,10 +24277,10 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          7.2,
-          8.6,
-          5.2,
-          2.1,
+          7.1,
+          8.3,
+          4.9,
+          1.9,
           0.6,
           0.1,
           0.0,
@@ -24288,20 +24288,20 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          3.3,
-          3.9,
-          2.3,
-          0.9,
-          0.3,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          1.1,
-          1.3,
+          3.1,
+          3.6,
+          2.1,
           0.8,
+          0.2,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.2,
+          0.7,
           0.3,
           0.1,
           0.0,
@@ -24311,7 +24311,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.3,
-          0.4,
+          0.3,
           0.2,
           0.1,
           0.0,
@@ -24358,519 +24358,41 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.6
+          "prob": 12.9
         },
         {
           "score": "1-0",
-          "prob": 10.5
+          "prob": 10.9
         },
         {
           "score": "0-1",
-          "prob": 9.2
-        },
-        {
-          "score": "2-1",
-          "prob": 8.6
+          "prob": 9.9
         },
         {
           "score": "0-0",
-          "prob": 7.7
+          "prob": 8.4
+        },
+        {
+          "score": "2-1",
+          "prob": 8.3
         }
       ],
       "big_score_candidates": [
         {
           "score": "2-2",
-          "prob": 5.2
+          "prob": 4.9
         },
         {
           "score": "3-1",
-          "prob": 3.9
+          "prob": 3.6
         },
         {
           "score": "3-0",
-          "prob": 3.3
+          "prob": 3.1
         },
         {
           "score": "1-3",
           "prob": 3.0
-        },
-        {
-          "score": "3-2",
-          "prob": 2.3
-        }
-      ],
-      "bold_score_candidates": [
-        {
-          "score": "3-2",
-          "prob": 2.3,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "2-3",
-          "prob": 2.1,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "4-1",
-          "prob": 1.3,
-          "total_goals": 5,
-          "margin": 3
-        },
-        {
-          "score": "4-0",
-          "prob": 1.1,
-          "total_goals": 4,
-          "margin": 4
-        },
-        {
-          "score": "3-3",
-          "prob": 0.9,
-          "total_goals": 6,
-          "margin": 0
-        },
-        {
-          "score": "1-4",
-          "prob": 0.9,
-          "total_goals": 5,
-          "margin": 3
-        },
-        {
-          "score": "4-2",
-          "prob": 0.8,
-          "total_goals": 6,
-          "margin": 2
-        },
-        {
-          "score": "0-4",
-          "prob": 0.7,
-          "total_goals": 4,
-          "margin": 4
-        }
-      ],
-      "big_score_signal": {
-        "over_3_5": 25.3,
-        "margin_3_plus": 11.1,
-        "level": "watch"
-      },
-      "market_observation": null,
-      "ai": [
-        {
-          "title": "实力对比",
-          "text": "Australia Elo 1836 vs Ivory Coast 1806，差距 30 分，前者占优。"
-        },
-        {
-          "title": "近期状态",
-          "text": "模型按真实国际赛果滚动更新 Elo；越新的比赛越靠后进入计算，会自然影响当前强弱。"
-        },
-        {
-          "title": "攻防与期望进球",
-          "text": "期望进球 Australia 1.37 : 1.2 Ivory Coast，数值越高代表越容易进球。"
-        },
-        {
-          "title": "比分概率",
-          "text": "最可能比分：1-1 12.6%, 1-0 10.5%, 0-1 9.2%。"
-        },
-        {
-          "title": "综合结论",
-          "text": "模型倾向 Australia，但足球不是数学题；这代表更值得支持，不代表一定发生。"
-        }
-      ]
-    },
-    "Belgium__Czechia": {
-      "id": 82,
-      "round": "32强",
-      "date": "",
-      "home": "Belgium",
-      "away": "Czechia",
-      "home_win": 46.7,
-      "draw": 25.4,
-      "away_win": 27.9,
-      "winner": "Belgium",
-      "winner_prob": 46.7,
-      "path_note": "G组第1 vs 最佳第三名",
-      "lambda_home": 1.54,
-      "lambda_away": 1.13,
-      "matrix": [
-        [
-          7.0,
-          7.9,
-          4.4,
-          1.7,
-          0.5,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          10.7,
-          12.1,
-          6.8,
-          2.5,
-          0.7,
-          0.2,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          8.2,
-          9.3,
-          5.2,
-          2.0,
-          0.6,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          4.2,
-          4.7,
-          2.7,
-          1.0,
-          0.3,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          1.6,
-          1.8,
-          1.0,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.5,
-          0.6,
-          0.3,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.1,
-          0.1,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ]
-      ],
-      "score_max": 8,
-      "top_scores": [
-        {
-          "score": "1-1",
-          "prob": 12.1
-        },
-        {
-          "score": "1-0",
-          "prob": 10.7
-        },
-        {
-          "score": "2-1",
-          "prob": 9.3
-        },
-        {
-          "score": "2-0",
-          "prob": 8.2
-        },
-        {
-          "score": "0-1",
-          "prob": 7.9
-        }
-      ],
-      "big_score_candidates": [
-        {
-          "score": "2-2",
-          "prob": 5.2
-        },
-        {
-          "score": "3-1",
-          "prob": 4.7
-        },
-        {
-          "score": "3-0",
-          "prob": 4.2
-        },
-        {
-          "score": "3-2",
-          "prob": 2.7
-        },
-        {
-          "score": "1-3",
-          "prob": 2.5
-        }
-      ],
-      "bold_score_candidates": [
-        {
-          "score": "3-2",
-          "prob": 2.7,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "2-3",
-          "prob": 2.0,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "4-1",
-          "prob": 1.8,
-          "total_goals": 5,
-          "margin": 3
-        },
-        {
-          "score": "4-0",
-          "prob": 1.6,
-          "total_goals": 4,
-          "margin": 4
-        },
-        {
-          "score": "4-2",
-          "prob": 1.0,
-          "total_goals": 6,
-          "margin": 2
-        },
-        {
-          "score": "3-3",
-          "prob": 1.0,
-          "total_goals": 6,
-          "margin": 0
-        },
-        {
-          "score": "1-4",
-          "prob": 0.7,
-          "total_goals": 5,
-          "margin": 3
-        },
-        {
-          "score": "5-1",
-          "prob": 0.6,
-          "total_goals": 6,
-          "margin": 4
-        }
-      ],
-      "big_score_signal": {
-        "over_3_5": 27.4,
-        "margin_3_plus": 12.6,
-        "level": "watch"
-      },
-      "market_observation": null,
-      "ai": [
-        {
-          "title": "实力对比",
-          "text": "Belgium Elo 1924 vs Czechia 1759，差距 165 分，前者占优。"
-        },
-        {
-          "title": "近期状态",
-          "text": "模型按真实国际赛果滚动更新 Elo；越新的比赛越靠后进入计算，会自然影响当前强弱。"
-        },
-        {
-          "title": "攻防与期望进球",
-          "text": "期望进球 Belgium 1.54 : 1.13 Czechia，数值越高代表越容易进球。"
-        },
-        {
-          "title": "比分概率",
-          "text": "最可能比分：1-1 12.1%, 1-0 10.7%, 2-1 9.3%。"
-        },
-        {
-          "title": "综合结论",
-          "text": "模型倾向 Belgium，但足球不是数学题；这代表更值得支持，不代表一定发生。"
-        }
-      ]
-    },
-    "Colombia__Croatia": {
-      "id": 83,
-      "round": "32强",
-      "date": "",
-      "home": "Colombia",
-      "away": "Croatia",
-      "home_win": 38.6,
-      "draw": 27.6,
-      "away_win": 33.9,
-      "winner": "Colombia",
-      "winner_prob": 38.6,
-      "path_note": "K组第2 vs L组第2",
-      "lambda_home": 1.25,
-      "lambda_away": 1.15,
-      "matrix": [
-        [
-          9.0,
-          10.4,
-          6.0,
-          2.3,
-          0.7,
-          0.2,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          11.3,
-          13.0,
-          7.5,
-          2.9,
-          0.8,
-          0.2,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          7.1,
-          8.2,
-          4.7,
-          1.8,
-          0.5,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          2.9,
-          3.4,
-          2.0,
-          0.8,
-          0.2,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.9,
-          1.1,
-          0.6,
-          0.2,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.2,
-          0.3,
-          0.2,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ]
-      ],
-      "score_max": 8,
-      "top_scores": [
-        {
-          "score": "1-1",
-          "prob": 13.0
-        },
-        {
-          "score": "1-0",
-          "prob": 11.3
-        },
-        {
-          "score": "0-1",
-          "prob": 10.4
-        },
-        {
-          "score": "0-0",
-          "prob": 9.0
-        },
-        {
-          "score": "2-1",
-          "prob": 8.2
-        }
-      ],
-      "big_score_candidates": [
-        {
-          "score": "2-2",
-          "prob": 4.7
-        },
-        {
-          "score": "3-1",
-          "prob": 3.4
-        },
-        {
-          "score": "1-3",
-          "prob": 2.9
-        },
-        {
-          "score": "3-0",
-          "prob": 2.9
         },
         {
           "score": "0-3",
@@ -24880,27 +24402,33 @@ window.__WORLD_CUP_MODEL__ = {
       "bold_score_candidates": [
         {
           "score": "3-2",
-          "prob": 2.0,
+          "prob": 2.1,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "2-3",
-          "prob": 1.8,
+          "prob": 1.9,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "4-1",
-          "prob": 1.1,
+          "prob": 1.2,
           "total_goals": 5,
           "margin": 3
         },
         {
           "score": "4-0",
-          "prob": 0.9,
+          "prob": 1.0,
           "total_goals": 4,
           "margin": 4
+        },
+        {
+          "score": "1-4",
+          "prob": 0.9,
+          "total_goals": 5,
+          "margin": 3
         },
         {
           "score": "3-3",
@@ -24909,34 +24437,28 @@ window.__WORLD_CUP_MODEL__ = {
           "margin": 0
         },
         {
-          "score": "1-4",
-          "prob": 0.8,
-          "total_goals": 5,
-          "margin": 3
+          "score": "4-2",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
         },
         {
           "score": "0-4",
           "prob": 0.7,
           "total_goals": 4,
           "margin": 4
-        },
-        {
-          "score": "4-2",
-          "prob": 0.6,
-          "total_goals": 6,
-          "margin": 2
         }
       ],
       "big_score_signal": {
-        "over_3_5": 22.2,
-        "margin_3_plus": 10.0,
+        "over_3_5": 23.7,
+        "margin_3_plus": 10.7,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Colombia Elo 1993 vs Croatia 1901，差距 92 分，前者占优。"
+          "text": "Australia Elo 1836 vs Senegal 1844，差距 8 分，后者占优。"
         },
         {
           "title": "近期状态",
@@ -24944,15 +24466,493 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Colombia 1.25 : 1.15 Croatia，数值越高代表越容易进球。"
+          "text": "期望进球 Australia 1.3 : 1.18 Senegal，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 13.0%, 1-0 11.3%, 0-1 10.4%。"
+          "text": "最可能比分：1-1 12.9%, 1-0 10.9%, 0-1 9.9%。"
         },
         {
           "title": "综合结论",
-          "text": "模型倾向 Colombia，但足球不是数学题；这代表更值得支持，不代表一定发生。"
+          "text": "模型倾向 Australia，但足球不是数学题；这代表更值得支持，不代表一定发生。"
+        }
+      ]
+    },
+    "Belgium__Croatia": {
+      "id": 82,
+      "round": "32强",
+      "date": "",
+      "home": "Belgium",
+      "away": "Croatia",
+      "home_win": 37.0,
+      "draw": 26.3,
+      "away_win": 36.7,
+      "winner": "Belgium",
+      "winner_prob": 37.0,
+      "path_note": "G组第1 vs 最佳第三名",
+      "lambda_home": 1.31,
+      "lambda_away": 1.3,
+      "matrix": [
+        [
+          7.3,
+          9.5,
+          6.2,
+          2.7,
+          0.9,
+          0.2,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.6,
+          12.5,
+          8.2,
+          3.5,
+          1.2,
+          0.3,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          6.3,
+          8.2,
+          5.3,
+          2.3,
+          0.8,
+          0.2,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.8,
+          3.6,
+          2.3,
+          1.0,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.9,
+          1.2,
+          0.8,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.2,
+          0.3,
+          0.2,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "score_max": 8,
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 12.5
+        },
+        {
+          "score": "1-0",
+          "prob": 9.6
+        },
+        {
+          "score": "0-1",
+          "prob": 9.5
+        },
+        {
+          "score": "1-2",
+          "prob": 8.2
+        },
+        {
+          "score": "2-1",
+          "prob": 8.2
+        }
+      ],
+      "big_score_candidates": [
+        {
+          "score": "2-2",
+          "prob": 5.3
+        },
+        {
+          "score": "3-1",
+          "prob": 3.6
+        },
+        {
+          "score": "1-3",
+          "prob": 3.5
+        },
+        {
+          "score": "3-0",
+          "prob": 2.8
+        },
+        {
+          "score": "0-3",
+          "prob": 2.7
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "2-3",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 2.3,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "1-4",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-1",
+          "prob": 1.2,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-3",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "0-4",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-0",
+          "prob": 0.9,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
+        }
+      ],
+      "big_score_signal": {
+        "over_3_5": 26.4,
+        "margin_3_plus": 11.4,
+        "level": "watch"
+      },
+      "market_observation": null,
+      "ai": [
+        {
+          "title": "实力对比",
+          "text": "Belgium Elo 1924 vs Croatia 1901，差距 23 分，前者占优。"
+        },
+        {
+          "title": "近期状态",
+          "text": "模型按真实国际赛果滚动更新 Elo；越新的比赛越靠后进入计算，会自然影响当前强弱。"
+        },
+        {
+          "title": "攻防与期望进球",
+          "text": "期望进球 Belgium 1.31 : 1.3 Croatia，数值越高代表越容易进球。"
+        },
+        {
+          "title": "比分概率",
+          "text": "最可能比分：1-1 12.5%, 1-0 9.6%, 0-1 9.5%。"
+        },
+        {
+          "title": "综合结论",
+          "text": "模型倾向 Belgium，但足球不是数学题；这代表更值得支持，不代表一定发生。"
+        }
+      ]
+    },
+    "Portugal__Ghana": {
+      "id": 83,
+      "round": "32强",
+      "date": "",
+      "home": "Portugal",
+      "away": "Ghana",
+      "home_win": 62.9,
+      "draw": 21.6,
+      "away_win": 15.5,
+      "winner": "Portugal",
+      "winner_prob": 62.9,
+      "path_note": "K组第2 vs L组第2",
+      "lambda_home": 1.9,
+      "lambda_away": 0.82,
+      "matrix": [
+        [
+          6.6,
+          5.4,
+          2.2,
+          0.6,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          12.6,
+          10.3,
+          4.2,
+          1.1,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          11.9,
+          9.7,
+          4.0,
+          1.1,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          7.5,
+          6.2,
+          2.5,
+          0.7,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.6,
+          2.9,
+          1.2,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.4,
+          1.1,
+          0.5,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.4,
+          0.4,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "score_max": 8,
+      "top_scores": [
+        {
+          "score": "1-0",
+          "prob": 12.6
+        },
+        {
+          "score": "2-0",
+          "prob": 11.9
+        },
+        {
+          "score": "1-1",
+          "prob": 10.3
+        },
+        {
+          "score": "2-1",
+          "prob": 9.7
+        },
+        {
+          "score": "3-0",
+          "prob": 7.5
+        }
+      ],
+      "big_score_candidates": [
+        {
+          "score": "3-0",
+          "prob": 7.5
+        },
+        {
+          "score": "3-1",
+          "prob": 6.2
+        },
+        {
+          "score": "2-2",
+          "prob": 4.0
+        },
+        {
+          "score": "4-0",
+          "prob": 3.6
+        },
+        {
+          "score": "4-1",
+          "prob": 2.9
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "4-0",
+          "prob": 3.6,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-1",
+          "prob": 2.9,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "3-2",
+          "prob": 2.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "5-0",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 5
+        },
+        {
+          "score": "4-2",
+          "prob": 1.2,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "5-1",
+          "prob": 1.1,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
+          "score": "2-3",
+          "prob": 1.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        }
+      ],
+      "big_score_signal": {
+        "over_3_5": 28.5,
+        "margin_3_plus": 19.0,
+        "level": "high"
+      },
+      "market_observation": null,
+      "ai": [
+        {
+          "title": "实力对比",
+          "text": "Portugal Elo 1979 vs Ghana 1615，差距 364 分，前者占优。"
+        },
+        {
+          "title": "近期状态",
+          "text": "模型按真实国际赛果滚动更新 Elo；越新的比赛越靠后进入计算，会自然影响当前强弱。"
+        },
+        {
+          "title": "攻防与期望进球",
+          "text": "期望进球 Portugal 1.9 : 0.82 Ghana，数值越高代表越容易进球。"
+        },
+        {
+          "title": "比分概率",
+          "text": "最可能比分：1-0 12.6%, 2-0 11.9%, 1-1 10.3%。"
+        },
+        {
+          "title": "综合结论",
+          "text": "模型倾向 Portugal，但足球不是数学题；这代表更值得支持，不代表一定发生。"
         }
       ]
     },
@@ -25195,70 +25195,70 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "Switzerland__Sweden": {
+    "Switzerland__Egypt": {
       "id": 85,
       "round": "32强",
       "date": "",
       "home": "Switzerland",
-      "away": "Sweden",
-      "home_win": 39.9,
-      "draw": 26.0,
-      "away_win": 34.0,
+      "away": "Egypt",
+      "home_win": 40.4,
+      "draw": 26.8,
+      "away_win": 32.8,
       "winner": "Switzerland",
-      "winner_prob": 39.9,
+      "winner_prob": 40.4,
       "path_note": "B组第1 vs 最佳第三名",
-      "lambda_home": 1.39,
-      "lambda_away": 1.26,
+      "lambda_home": 1.34,
+      "lambda_away": 1.17,
       "matrix": [
         [
-          7.0,
-          8.9,
+          8.1,
+          9.5,
           5.6,
-          2.4,
-          0.7,
+          2.2,
+          0.6,
           0.2,
           0.0,
           0.0,
           0.0
         ],
         [
-          9.8,
-          12.4,
-          7.8,
-          3.3,
-          1.0,
-          0.3,
+          10.9,
+          12.7,
+          7.5,
+          2.9,
+          0.9,
+          0.2,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          7.2,
+          8.5,
+          5.0,
+          2.0,
+          0.6,
           0.1,
-          0.0,
-          0.0
-        ],
-        [
-          6.8,
-          8.6,
-          5.4,
-          2.3,
-          0.7,
-          0.2,
           0.0,
           0.0,
           0.0
         ],
         [
           3.2,
-          4.0,
-          2.5,
-          1.1,
-          0.3,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          1.1,
-          1.4,
+          3.8,
+          2.2,
           0.9,
-          0.4,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.1,
+          1.3,
+          0.7,
+          0.3,
           0.1,
           0.0,
           0.0,
@@ -25267,7 +25267,7 @@ window.__WORLD_CUP_MODEL__ = {
         ],
         [
           0.3,
-          0.4,
+          0.3,
           0.2,
           0.1,
           0.0,
@@ -25279,7 +25279,7 @@ window.__WORLD_CUP_MODEL__ = {
         [
           0.1,
           0.1,
-          0.1,
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -25314,71 +25314,65 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.4
+          "prob": 12.7
         },
         {
           "score": "1-0",
-          "prob": 9.8
+          "prob": 10.9
         },
         {
           "score": "0-1",
-          "prob": 8.9
+          "prob": 9.5
         },
         {
           "score": "2-1",
-          "prob": 8.6
+          "prob": 8.5
         },
         {
-          "score": "1-2",
-          "prob": 7.8
+          "score": "0-0",
+          "prob": 8.1
         }
       ],
       "big_score_candidates": [
         {
           "score": "2-2",
-          "prob": 5.4
+          "prob": 5.0
         },
         {
           "score": "3-1",
-          "prob": 4.0
-        },
-        {
-          "score": "1-3",
-          "prob": 3.3
+          "prob": 3.8
         },
         {
           "score": "3-0",
           "prob": 3.2
         },
         {
-          "score": "3-2",
-          "prob": 2.5
+          "score": "1-3",
+          "prob": 2.9
+        },
+        {
+          "score": "0-3",
+          "prob": 2.2
         }
       ],
       "bold_score_candidates": [
         {
           "score": "3-2",
-          "prob": 2.5,
+          "prob": 2.2,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "2-3",
-          "prob": 2.3,
+          "prob": 2.0,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "4-1",
-          "prob": 1.4,
+          "prob": 1.3,
           "total_goals": 5,
           "margin": 3
-        },
-        {
-          "score": "3-3",
-          "prob": 1.1,
-          "total_goals": 6,
-          "margin": 0
         },
         {
           "score": "4-0",
@@ -25387,34 +25381,40 @@ window.__WORLD_CUP_MODEL__ = {
           "margin": 4
         },
         {
+          "score": "3-3",
+          "prob": 0.9,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
           "score": "1-4",
-          "prob": 1.0,
+          "prob": 0.9,
           "total_goals": 5,
           "margin": 3
         },
         {
           "score": "4-2",
-          "prob": 0.9,
+          "prob": 0.7,
           "total_goals": 6,
           "margin": 2
         },
         {
           "score": "2-4",
-          "prob": 0.7,
+          "prob": 0.6,
           "total_goals": 6,
           "margin": 2
         }
       ],
       "big_score_signal": {
-        "over_3_5": 27.4,
-        "margin_3_plus": 11.8,
+        "over_3_5": 24.4,
+        "margin_3_plus": 10.8,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Switzerland Elo 1882 vs Sweden 1772，差距 110 分，前者占优。"
+          "text": "Switzerland Elo 1882 vs Egypt 1776，差距 106 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -25422,11 +25422,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Switzerland 1.39 : 1.26 Sweden，数值越高代表越容易进球。"
+          "text": "期望进球 Switzerland 1.34 : 1.17 Egypt，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.4%, 1-0 9.8%, 0-1 8.9%。"
+          "text": "最可能比分：1-1 12.7%, 1-0 10.9%, 0-1 9.5%。"
         },
         {
           "title": "综合结论",
@@ -25673,46 +25673,24 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "Portugal__Scotland": {
+    "Colombia__Turkey": {
       "id": 87,
       "round": "32强",
       "date": "",
-      "home": "Portugal",
-      "away": "Scotland",
-      "home_win": 52.3,
-      "draw": 24.6,
-      "away_win": 23.1,
-      "winner": "Portugal",
-      "winner_prob": 52.3,
+      "home": "Colombia",
+      "away": "Turkey",
+      "home_win": 44.9,
+      "draw": 27.2,
+      "away_win": 27.9,
+      "winner": "Colombia",
+      "winner_prob": 44.9,
       "path_note": "K组第1 vs 最佳第三名",
-      "lambda_home": 1.64,
-      "lambda_away": 1.0,
+      "lambda_home": 1.37,
+      "lambda_away": 1.02,
       "matrix": [
         [
-          7.1,
-          7.1,
-          3.6,
-          1.2,
-          0.3,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          11.7,
-          11.7,
-          5.9,
-          2.0,
-          0.5,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          9.6,
-          9.6,
+          9.1,
+          9.3,
           4.8,
           1.6,
           0.4,
@@ -25722,259 +25700,42 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          5.2,
-          5.2,
-          2.6,
-          0.9,
-          0.2,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          2.1,
-          2.2,
-          1.1,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.7,
-          0.7,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.2,
-          0.2,
-          0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ]
-      ],
-      "score_max": 8,
-      "top_scores": [
-        {
-          "score": "1-0",
-          "prob": 11.7
-        },
-        {
-          "score": "1-1",
-          "prob": 11.7
-        },
-        {
-          "score": "2-0",
-          "prob": 9.6
-        },
-        {
-          "score": "2-1",
-          "prob": 9.6
-        },
-        {
-          "score": "0-0",
-          "prob": 7.1
-        }
-      ],
-      "big_score_candidates": [
-        {
-          "score": "3-0",
-          "prob": 5.2
-        },
-        {
-          "score": "3-1",
-          "prob": 5.2
-        },
-        {
-          "score": "2-2",
-          "prob": 4.8
-        },
-        {
-          "score": "3-2",
-          "prob": 2.6
-        },
-        {
-          "score": "4-1",
-          "prob": 2.2
-        }
-      ],
-      "bold_score_candidates": [
-        {
-          "score": "3-2",
-          "prob": 2.6,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "4-1",
-          "prob": 2.2,
-          "total_goals": 5,
-          "margin": 3
-        },
-        {
-          "score": "4-0",
-          "prob": 2.1,
-          "total_goals": 4,
-          "margin": 4
-        },
-        {
-          "score": "2-3",
-          "prob": 1.6,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "4-2",
-          "prob": 1.1,
-          "total_goals": 6,
-          "margin": 2
-        },
-        {
-          "score": "3-3",
-          "prob": 0.9,
-          "total_goals": 6,
-          "margin": 0
-        },
-        {
-          "score": "5-1",
-          "prob": 0.7,
-          "total_goals": 6,
-          "margin": 4
-        },
-        {
-          "score": "5-0",
-          "prob": 0.7,
-          "total_goals": 5,
-          "margin": 5
-        }
-      ],
-      "big_score_signal": {
-        "over_3_5": 27.1,
-        "margin_3_plus": 14.1,
-        "level": "watch"
-      },
-      "market_observation": null,
-      "ai": [
-        {
-          "title": "实力对比",
-          "text": "Portugal Elo 1979 vs Scotland 1769，差距 210 分，前者占优。"
-        },
-        {
-          "title": "近期状态",
-          "text": "模型按真实国际赛果滚动更新 Elo；越新的比赛越靠后进入计算，会自然影响当前强弱。"
-        },
-        {
-          "title": "攻防与期望进球",
-          "text": "期望进球 Portugal 1.64 : 1.0 Scotland，数值越高代表越容易进球。"
-        },
-        {
-          "title": "比分概率",
-          "text": "最可能比分：1-0 11.7%, 1-1 11.7%, 2-0 9.6%。"
-        },
-        {
-          "title": "综合结论",
-          "text": "模型倾向 Portugal，但足球不是数学题；这代表更值得支持，不代表一定发生。"
-        }
-      ]
-    },
-    "Turkey__Iran": {
-      "id": 88,
-      "round": "32强",
-      "date": "",
-      "home": "Turkey",
-      "away": "Iran",
-      "home_win": 31.7,
-      "draw": 26.9,
-      "away_win": 41.4,
-      "winner": "Iran",
-      "winner_prob": 41.4,
-      "path_note": "D组第2 vs G组第2",
-      "lambda_home": 1.14,
-      "lambda_away": 1.35,
-      "matrix": [
-        [
-          8.3,
-          11.2,
-          7.5,
-          3.4,
-          1.1,
-          0.3,
-          0.1,
-          0.0,
-          0.0
-        ],
-        [
-          9.5,
+          12.5,
           12.8,
-          8.6,
-          3.9,
-          1.3,
-          0.3,
+          6.5,
+          2.2,
+          0.6,
           0.1,
+          0.0,
           0.0,
           0.0
         ],
         [
-          5.4,
-          7.3,
-          4.9,
-          2.2,
+          8.6,
+          8.8,
+          4.5,
+          1.5,
+          0.4,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.9,
+          4.0,
+          2.1,
           0.7,
           0.2,
           0.0,
           0.0,
-          0.0
-        ],
-        [
-          2.1,
-          2.8,
-          1.9,
-          0.8,
-          0.3,
-          0.1,
-          0.0,
           0.0,
           0.0
         ],
         [
-          0.6,
-          0.8,
-          0.5,
+          1.4,
+          1.4,
+          0.7,
           0.2,
           0.1,
           0.0,
@@ -25983,9 +25744,9 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          0.1,
+          0.4,
+          0.4,
           0.2,
-          0.1,
           0.1,
           0.0,
           0.0,
@@ -25994,8 +25755,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          0.0,
-          0.0,
+          0.1,
+          0.1,
           0.0,
           0.0,
           0.0,
@@ -26034,20 +25795,259 @@ window.__WORLD_CUP_MODEL__ = {
           "prob": 12.8
         },
         {
-          "score": "0-1",
-          "prob": 11.2
-        },
-        {
           "score": "1-0",
-          "prob": 9.5
+          "prob": 12.5
         },
         {
-          "score": "1-2",
-          "prob": 8.6
+          "score": "0-1",
+          "prob": 9.3
         },
         {
           "score": "0-0",
-          "prob": 8.3
+          "prob": 9.1
+        },
+        {
+          "score": "2-1",
+          "prob": 8.8
+        }
+      ],
+      "big_score_candidates": [
+        {
+          "score": "2-2",
+          "prob": 4.5
+        },
+        {
+          "score": "3-1",
+          "prob": 4.0
+        },
+        {
+          "score": "3-0",
+          "prob": 3.9
+        },
+        {
+          "score": "1-3",
+          "prob": 2.2
+        },
+        {
+          "score": "3-2",
+          "prob": 2.1
+        }
+      ],
+      "bold_score_candidates": [
+        {
+          "score": "3-2",
+          "prob": 2.1,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-3",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "4-1",
+          "prob": 1.4,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "4-0",
+          "prob": 1.4,
+          "total_goals": 4,
+          "margin": 4
+        },
+        {
+          "score": "4-2",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "3-3",
+          "prob": 0.7,
+          "total_goals": 6,
+          "margin": 0
+        },
+        {
+          "score": "1-4",
+          "prob": 0.6,
+          "total_goals": 5,
+          "margin": 3
+        },
+        {
+          "score": "5-1",
+          "prob": 0.4,
+          "total_goals": 6,
+          "margin": 4
+        }
+      ],
+      "big_score_signal": {
+        "over_3_5": 22.0,
+        "margin_3_plus": 10.8,
+        "level": "watch"
+      },
+      "market_observation": null,
+      "ai": [
+        {
+          "title": "实力对比",
+          "text": "Colombia Elo 1993 vs Turkey 1862，差距 131 分，前者占优。"
+        },
+        {
+          "title": "近期状态",
+          "text": "模型按真实国际赛果滚动更新 Elo；越新的比赛越靠后进入计算，会自然影响当前强弱。"
+        },
+        {
+          "title": "攻防与期望进球",
+          "text": "期望进球 Colombia 1.37 : 1.02 Turkey，数值越高代表越容易进球。"
+        },
+        {
+          "title": "比分概率",
+          "text": "最可能比分：1-1 12.8%, 1-0 12.5%, 0-1 9.3%。"
+        },
+        {
+          "title": "综合结论",
+          "text": "模型倾向 Colombia，但足球不是数学题；这代表更值得支持，不代表一定发生。"
+        }
+      ]
+    },
+    "USA__Iran": {
+      "id": 88,
+      "round": "32强",
+      "date": "",
+      "home": "USA",
+      "away": "Iran",
+      "home_win": 29.8,
+      "draw": 26.6,
+      "away_win": 43.7,
+      "winner": "Iran",
+      "winner_prob": 43.7,
+      "path_note": "D组第2 vs G组第2",
+      "lambda_home": 1.11,
+      "lambda_away": 1.4,
+      "matrix": [
+        [
+          8.1,
+          11.4,
+          8.0,
+          3.7,
+          1.3,
+          0.4,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          9.0,
+          12.6,
+          8.8,
+          4.1,
+          1.4,
+          0.4,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          5.0,
+          7.0,
+          4.9,
+          2.3,
+          0.8,
+          0.2,
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          1.8,
+          2.6,
+          1.8,
+          0.8,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.7,
+          0.5,
+          0.2,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1,
+          0.2,
+          0.1,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "score_max": 8,
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 12.6
+        },
+        {
+          "score": "0-1",
+          "prob": 11.4
+        },
+        {
+          "score": "1-0",
+          "prob": 9.0
+        },
+        {
+          "score": "1-2",
+          "prob": 8.8
+        },
+        {
+          "score": "0-0",
+          "prob": 8.1
         }
       ],
       "big_score_candidates": [
@@ -26057,45 +26057,51 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "1-3",
-          "prob": 3.9
+          "prob": 4.1
         },
         {
           "score": "0-3",
-          "prob": 3.4
+          "prob": 3.7
         },
         {
           "score": "3-1",
-          "prob": 2.8
+          "prob": 2.6
         },
         {
           "score": "2-3",
-          "prob": 2.2
+          "prob": 2.3
         }
       ],
       "bold_score_candidates": [
         {
           "score": "2-3",
-          "prob": 2.2,
+          "prob": 2.3,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "3-2",
-          "prob": 1.9,
+          "prob": 1.8,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "1-4",
-          "prob": 1.3,
+          "prob": 1.4,
           "total_goals": 5,
           "margin": 3
         },
         {
           "score": "0-4",
-          "prob": 1.1,
+          "prob": 1.3,
           "total_goals": 4,
           "margin": 4
+        },
+        {
+          "score": "2-4",
+          "prob": 0.8,
+          "total_goals": 6,
+          "margin": 2
         },
         {
           "score": "3-3",
@@ -26105,33 +26111,27 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "4-1",
-          "prob": 0.8,
+          "prob": 0.7,
           "total_goals": 5,
           "margin": 3
         },
         {
-          "score": "2-4",
-          "prob": 0.7,
+          "score": "4-2",
+          "prob": 0.5,
           "total_goals": 6,
           "margin": 2
-        },
-        {
-          "score": "4-0",
-          "prob": 0.6,
-          "total_goals": 4,
-          "margin": 4
         }
       ],
       "big_score_signal": {
-        "over_3_5": 23.7,
-        "margin_3_plus": 10.7,
+        "over_3_5": 24.2,
+        "margin_3_plus": 11.1,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Turkey Elo 1862 vs Iran 1849，差距 13 分，前者占优。"
+          "text": "USA Elo 1815 vs Iran 1849，差距 34 分，后者占优。"
         },
         {
           "title": "近期状态",
@@ -26139,11 +26139,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Turkey 1.14 : 1.35 Iran，数值越高代表越容易进球。"
+          "text": "期望进球 USA 1.11 : 1.4 Iran，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.8%, 0-1 11.2%, 1-0 9.5%。"
+          "text": "最可能比分：1-1 12.6%, 0-1 11.4%, 1-0 9.0%。"
         },
         {
           "title": "综合结论",
@@ -26389,68 +26389,68 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "Netherlands__Brazil": {
+    "Sweden__Brazil": {
       "id": 90,
       "round": "16强",
       "date": "",
-      "home": "Netherlands",
+      "home": "Sweden",
       "away": "Brazil",
-      "home_win": 31.3,
-      "draw": 25.4,
-      "away_win": 43.3,
+      "home_win": 21.0,
+      "draw": 23.0,
+      "away_win": 56.0,
       "winner": "Brazil",
-      "winner_prob": 43.3,
-      "lambda_home": 1.23,
-      "lambda_away": 1.5,
+      "winner_prob": 56.0,
+      "lambda_home": 1.01,
+      "lambda_away": 1.81,
       "matrix": [
         [
-          6.5,
-          9.8,
-          7.3,
-          3.6,
-          1.4,
-          0.4,
+          6.0,
+          10.8,
+          9.7,
+          5.9,
+          2.6,
+          1.0,
+          0.3,
           0.1,
-          0.0,
           0.0
         ],
         [
-          8.1,
-          12.0,
-          9.0,
-          4.5,
-          1.7,
+          6.0,
+          10.9,
+          9.9,
+          5.9,
+          2.7,
+          1.0,
+          0.3,
+          0.1,
+          0.0
+        ],
+        [
+          3.1,
+          5.5,
+          5.0,
+          3.0,
+          1.4,
           0.5,
           0.1,
           0.0,
           0.0
         ],
         [
-          5.0,
-          7.4,
-          5.5,
-          2.8,
           1.0,
-          0.3,
+          1.9,
+          1.7,
+          1.0,
+          0.5,
+          0.2,
           0.1,
           0.0,
           0.0
         ],
         [
-          2.0,
-          3.0,
-          2.3,
-          1.1,
+          0.3,
+          0.5,
           0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.6,
-          0.9,
-          0.7,
           0.3,
           0.1,
           0.0,
@@ -26459,9 +26459,9 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          0.2,
-          0.2,
-          0.2,
+          0.1,
+          0.1,
+          0.1,
           0.1,
           0.0,
           0.0,
@@ -26507,107 +26507,107 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.0
+          "prob": 10.9
         },
         {
           "score": "0-1",
-          "prob": 9.8
+          "prob": 10.8
         },
         {
           "score": "1-2",
-          "prob": 9.0
+          "prob": 9.9
         },
         {
-          "score": "1-0",
-          "prob": 8.1
+          "score": "0-2",
+          "prob": 9.7
         },
         {
-          "score": "2-1",
-          "prob": 7.4
+          "score": "0-0",
+          "prob": 6.0
         }
       ],
       "big_score_candidates": [
         {
-          "score": "2-2",
-          "prob": 5.5
+          "score": "0-3",
+          "prob": 5.9
         },
         {
           "score": "1-3",
-          "prob": 4.5
+          "prob": 5.9
         },
         {
-          "score": "0-3",
-          "prob": 3.6
-        },
-        {
-          "score": "3-1",
-          "prob": 3.0
+          "score": "2-2",
+          "prob": 5.0
         },
         {
           "score": "2-3",
-          "prob": 2.8
+          "prob": 3.0
+        },
+        {
+          "score": "1-4",
+          "prob": 2.7
         }
       ],
       "bold_score_candidates": [
         {
           "score": "2-3",
-          "prob": 2.8,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
-          "score": "3-2",
-          "prob": 2.3,
+          "prob": 3.0,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "1-4",
-          "prob": 1.7,
+          "prob": 2.7,
           "total_goals": 5,
           "margin": 3
         },
         {
           "score": "0-4",
-          "prob": 1.4,
+          "prob": 2.6,
           "total_goals": 4,
           "margin": 4
         },
         {
+          "score": "3-2",
+          "prob": 1.7,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "2-4",
+          "prob": 1.4,
+          "total_goals": 6,
+          "margin": 2
+        },
+        {
+          "score": "1-5",
+          "prob": 1.0,
+          "total_goals": 6,
+          "margin": 4
+        },
+        {
           "score": "3-3",
-          "prob": 1.1,
+          "prob": 1.0,
           "total_goals": 6,
           "margin": 0
         },
         {
-          "score": "2-4",
+          "score": "0-5",
           "prob": 1.0,
-          "total_goals": 6,
-          "margin": 2
-        },
-        {
-          "score": "4-1",
-          "prob": 0.9,
           "total_goals": 5,
-          "margin": 3
-        },
-        {
-          "score": "4-2",
-          "prob": 0.7,
-          "total_goals": 6,
-          "margin": 2
+          "margin": 5
         }
       ],
       "big_score_signal": {
-        "over_3_5": 28.6,
-        "margin_3_plus": 12.3,
+        "over_3_5": 31.4,
+        "margin_3_plus": 16.8,
         "level": "high"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Netherlands Elo 1935 vs Brazil 1997，差距 62 分，后者占优。"
+          "text": "Sweden Elo 1772 vs Brazil 1997，差距 225 分，后者占优。"
         },
         {
           "title": "近期状态",
@@ -26615,11 +26615,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Netherlands 1.23 : 1.5 Brazil，数值越高代表越容易进球。"
+          "text": "期望进球 Sweden 1.01 : 1.81 Brazil，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.0%, 0-1 9.8%, 1-2 9.0%。"
+          "text": "最可能比分：1-1 10.9%, 0-1 10.8%, 1-2 9.9%。"
         },
         {
           "title": "综合结论",
@@ -26627,25 +26627,25 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "France__Ecuador": {
+    "France__Norway": {
       "id": 91,
       "round": "16强",
       "date": "",
       "home": "France",
-      "away": "Ecuador",
-      "home_win": 50.8,
-      "draw": 25.2,
-      "away_win": 24.0,
+      "away": "Norway",
+      "home_win": 52.1,
+      "draw": 24.3,
+      "away_win": 23.5,
       "winner": "France",
-      "winner_prob": 50.8,
-      "lambda_home": 1.58,
-      "lambda_away": 1.0,
+      "winner_prob": 52.1,
+      "lambda_home": 1.67,
+      "lambda_away": 1.04,
       "matrix": [
         [
-          7.6,
-          7.6,
-          3.8,
-          1.3,
+          6.7,
+          6.9,
+          3.6,
+          1.2,
           0.3,
           0.1,
           0.0,
@@ -26653,10 +26653,10 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          12.0,
-          12.0,
+          11.2,
+          11.6,
           6.0,
-          2.0,
+          2.1,
           0.5,
           0.1,
           0.0,
@@ -26664,10 +26664,10 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          9.5,
-          9.4,
-          4.7,
-          1.6,
+          9.3,
+          9.6,
+          5.0,
+          1.7,
           0.4,
           0.1,
           0.0,
@@ -26675,21 +26675,21 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          5.0,
-          5.0,
-          2.5,
-          0.8,
+          5.2,
+          5.4,
+          2.8,
+          1.0,
           0.2,
-          0.0,
+          0.1,
           0.0,
           0.0,
           0.0
         ],
         [
-          2.0,
-          2.0,
-          1.0,
-          0.3,
+          2.2,
+          2.2,
+          1.2,
+          0.4,
           0.1,
           0.0,
           0.0,
@@ -26697,9 +26697,9 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          0.6,
-          0.6,
-          0.3,
+          0.7,
+          0.7,
+          0.4,
           0.1,
           0.0,
           0.0,
@@ -26744,108 +26744,108 @@ window.__WORLD_CUP_MODEL__ = {
       "score_max": 8,
       "top_scores": [
         {
-          "score": "1-0",
-          "prob": 12.0
-        },
-        {
           "score": "1-1",
-          "prob": 12.0
+          "prob": 11.6
         },
         {
-          "score": "2-0",
-          "prob": 9.5
+          "score": "1-0",
+          "prob": 11.2
         },
         {
           "score": "2-1",
-          "prob": 9.4
+          "prob": 9.6
         },
         {
-          "score": "0-0",
-          "prob": 7.6
+          "score": "2-0",
+          "prob": 9.3
+        },
+        {
+          "score": "0-1",
+          "prob": 6.9
         }
       ],
       "big_score_candidates": [
         {
-          "score": "3-0",
-          "prob": 5.0
+          "score": "3-1",
+          "prob": 5.4
         },
         {
-          "score": "3-1",
-          "prob": 5.0
+          "score": "3-0",
+          "prob": 5.2
         },
         {
           "score": "2-2",
-          "prob": 4.7
+          "prob": 5.0
         },
         {
           "score": "3-2",
-          "prob": 2.5
+          "prob": 2.8
         },
         {
-          "score": "1-3",
-          "prob": 2.0
+          "score": "4-0",
+          "prob": 2.2
         }
       ],
       "bold_score_candidates": [
         {
           "score": "3-2",
-          "prob": 2.5,
+          "prob": 2.8,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "4-1",
-          "prob": 2.0,
+          "prob": 2.2,
           "total_goals": 5,
           "margin": 3
         },
         {
           "score": "4-0",
-          "prob": 2.0,
+          "prob": 2.2,
           "total_goals": 4,
           "margin": 4
         },
         {
           "score": "2-3",
-          "prob": 1.6,
+          "prob": 1.7,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "4-2",
-          "prob": 1.0,
+          "prob": 1.2,
           "total_goals": 6,
           "margin": 2
         },
         {
           "score": "3-3",
-          "prob": 0.8,
+          "prob": 1.0,
           "total_goals": 6,
           "margin": 0
         },
         {
           "score": "5-1",
-          "prob": 0.6,
+          "prob": 0.7,
           "total_goals": 6,
           "margin": 4
         },
         {
           "score": "5-0",
-          "prob": 0.6,
+          "prob": 0.7,
           "total_goals": 5,
           "margin": 5
         }
       ],
       "big_score_signal": {
-        "over_3_5": 25.8,
-        "margin_3_plus": 13.4,
-        "level": "watch"
+        "over_3_5": 28.3,
+        "margin_3_plus": 14.2,
+        "level": "high"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "France Elo 2039 vs Ecuador 1912，差距 127 分，前者占优。"
+          "text": "France Elo 2039 vs Norway 1872，差距 167 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -26853,11 +26853,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 France 1.58 : 1.0 Ecuador，数值越高代表越容易进球。"
+          "text": "期望进球 France 1.67 : 1.04 Norway，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-0 12.0%, 1-1 12.0%, 2-0 9.5%。"
+          "text": "最可能比分：1-1 11.6%, 1-0 11.2%, 2-1 9.6%。"
         },
         {
           "title": "综合结论",
@@ -27341,80 +27341,80 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "Colombia__Spain": {
+    "Portugal__Spain": {
       "id": 94,
       "round": "16强",
       "date": "",
-      "home": "Colombia",
+      "home": "Portugal",
       "away": "Spain",
-      "home_win": 25.2,
-      "draw": 25.9,
-      "away_win": 48.9,
+      "home_win": 27.6,
+      "draw": 25.5,
+      "away_win": 46.9,
       "winner": "Spain",
-      "winner_prob": 48.9,
-      "lambda_home": 1.01,
-      "lambda_away": 1.51,
+      "winner_prob": 46.9,
+      "lambda_home": 1.11,
+      "lambda_away": 1.53,
       "matrix": [
         [
-          8.1,
-          12.2,
-          9.2,
-          4.6,
-          1.7,
+          7.2,
+          10.9,
+          8.4,
+          4.3,
+          1.6,
           0.5,
           0.1,
           0.0,
           0.0
         ],
         [
-          8.1,
-          12.3,
+          7.9,
+          12.1,
           9.3,
           4.7,
           1.8,
-          0.5,
+          0.6,
           0.1,
           0.0,
           0.0
         ],
         [
-          4.1,
-          6.2,
-          4.7,
-          2.3,
-          0.9,
+          4.4,
+          6.7,
+          5.1,
+          2.6,
+          1.0,
           0.3,
           0.1,
           0.0,
           0.0
         ],
         [
-          1.4,
-          2.1,
           1.6,
-          0.8,
-          0.3,
+          2.5,
+          1.9,
+          1.0,
+          0.4,
           0.1,
           0.0,
           0.0,
           0.0
         ],
         [
-          0.3,
           0.5,
-          0.4,
+          0.7,
+          0.5,
+          0.3,
+          0.1,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.1,
           0.2,
           0.1,
-          0.0,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
           0.1,
-          0.1,
-          0.1,
-          0.0,
           0.0,
           0.0,
           0.0,
@@ -27459,11 +27459,11 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.3
+          "prob": 12.1
         },
         {
           "score": "0-1",
-          "prob": 12.2
+          "prob": 10.9
         },
         {
           "score": "1-2",
@@ -27471,39 +27471,45 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "0-2",
-          "prob": 9.2
+          "prob": 8.4
         },
         {
-          "score": "0-0",
-          "prob": 8.1
+          "score": "1-0",
+          "prob": 7.9
         }
       ],
       "big_score_candidates": [
+        {
+          "score": "2-2",
+          "prob": 5.1
+        },
         {
           "score": "1-3",
           "prob": 4.7
         },
         {
-          "score": "2-2",
-          "prob": 4.7
-        },
-        {
           "score": "0-3",
-          "prob": 4.6
+          "prob": 4.3
         },
         {
           "score": "2-3",
-          "prob": 2.3
+          "prob": 2.6
         },
         {
           "score": "3-1",
-          "prob": 2.1
+          "prob": 2.5
         }
       ],
       "bold_score_candidates": [
         {
           "score": "2-3",
-          "prob": 2.3,
+          "prob": 2.6,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
+          "score": "3-2",
+          "prob": 1.9,
           "total_goals": 5,
           "margin": 1
         },
@@ -27515,51 +27521,45 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "score": "0-4",
-          "prob": 1.7,
+          "prob": 1.6,
           "total_goals": 4,
           "margin": 4
         },
         {
-          "score": "3-2",
-          "prob": 1.6,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
           "score": "2-4",
-          "prob": 0.9,
+          "prob": 1.0,
           "total_goals": 6,
           "margin": 2
         },
         {
           "score": "3-3",
-          "prob": 0.8,
+          "prob": 1.0,
           "total_goals": 6,
           "margin": 0
         },
         {
-          "score": "1-5",
-          "prob": 0.5,
-          "total_goals": 6,
-          "margin": 4
+          "score": "4-1",
+          "prob": 0.7,
+          "total_goals": 5,
+          "margin": 3
         },
         {
-          "score": "0-5",
-          "prob": 0.5,
-          "total_goals": 5,
-          "margin": 5
+          "score": "1-5",
+          "prob": 0.6,
+          "total_goals": 6,
+          "margin": 4
         }
       ],
       "big_score_signal": {
-        "over_3_5": 24.4,
-        "margin_3_plus": 12.2,
+        "over_3_5": 27.0,
+        "margin_3_plus": 12.6,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Colombia Elo 1993 vs Spain 2083，差距 90 分，后者占优。"
+          "text": "Portugal Elo 1979 vs Spain 2083，差距 104 分，后者占优。"
         },
         {
           "title": "近期状态",
@@ -27567,11 +27567,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Colombia 1.01 : 1.51 Spain，数值越高代表越容易进球。"
+          "text": "期望进球 Portugal 1.11 : 1.53 Spain，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.3%, 0-1 12.2%, 1-2 9.3%。"
+          "text": "最可能比分：1-1 12.1%, 0-1 10.9%, 1-2 9.3%。"
         },
         {
           "title": "综合结论",
@@ -27817,35 +27817,35 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "Portugal__Iran": {
+    "Colombia__Iran": {
       "id": 96,
       "round": "16强",
       "date": "",
-      "home": "Portugal",
+      "home": "Colombia",
       "away": "Iran",
-      "home_win": 43.4,
-      "draw": 26.4,
-      "away_win": 30.3,
-      "winner": "Portugal",
-      "winner_prob": 43.4,
-      "lambda_home": 1.42,
-      "lambda_away": 1.14,
+      "home_win": 40.1,
+      "draw": 27.5,
+      "away_win": 32.4,
+      "winner": "Colombia",
+      "winner_prob": 40.1,
+      "lambda_home": 1.29,
+      "lambda_away": 1.13,
       "matrix": [
         [
-          7.8,
-          8.8,
-          5.0,
-          1.9,
-          0.5,
+          9.0,
+          10.1,
+          5.7,
+          2.1,
+          0.6,
           0.1,
           0.0,
           0.0,
           0.0
         ],
         [
-          11.0,
-          12.5,
-          7.1,
+          11.5,
+          13.0,
+          7.3,
           2.7,
           0.8,
           0.2,
@@ -27854,10 +27854,10 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          7.8,
-          8.9,
-          5.1,
-          1.9,
+          7.4,
+          8.3,
+          4.7,
+          1.8,
           0.5,
           0.1,
           0.0,
@@ -27865,21 +27865,21 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          3.7,
-          4.2,
-          2.4,
-          0.9,
-          0.3,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          1.3,
-          1.5,
+          3.2,
+          3.6,
+          2.0,
           0.8,
-          0.3,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.2,
+          0.6,
+          0.2,
           0.1,
           0.0,
           0.0,
@@ -27887,8 +27887,8 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          0.4,
-          0.4,
+          0.3,
+          0.3,
           0.2,
           0.1,
           0.0,
@@ -27900,7 +27900,7 @@ window.__WORLD_CUP_MODEL__ = {
         [
           0.1,
           0.1,
-          0.1,
+          0.0,
           0.0,
           0.0,
           0.0,
@@ -27935,83 +27935,77 @@ window.__WORLD_CUP_MODEL__ = {
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.5
+          "prob": 13.0
         },
         {
           "score": "1-0",
-          "prob": 11.0
-        },
-        {
-          "score": "2-1",
-          "prob": 8.9
+          "prob": 11.5
         },
         {
           "score": "0-1",
-          "prob": 8.8
+          "prob": 10.1
         },
         {
           "score": "0-0",
-          "prob": 7.8
+          "prob": 9.0
+        },
+        {
+          "score": "2-1",
+          "prob": 8.3
         }
       ],
       "big_score_candidates": [
         {
           "score": "2-2",
-          "prob": 5.1
+          "prob": 4.7
         },
         {
           "score": "3-1",
-          "prob": 4.2
+          "prob": 3.6
         },
         {
           "score": "3-0",
-          "prob": 3.7
+          "prob": 3.2
         },
         {
           "score": "1-3",
           "prob": 2.7
         },
         {
-          "score": "3-2",
-          "prob": 2.4
+          "score": "0-3",
+          "prob": 2.1
         }
       ],
       "bold_score_candidates": [
         {
           "score": "3-2",
-          "prob": 2.4,
+          "prob": 2.0,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "2-3",
-          "prob": 1.9,
+          "prob": 1.8,
           "total_goals": 5,
           "margin": 1
         },
         {
           "score": "4-1",
-          "prob": 1.5,
+          "prob": 1.2,
           "total_goals": 5,
           "margin": 3
         },
         {
           "score": "4-0",
-          "prob": 1.3,
+          "prob": 1.0,
           "total_goals": 4,
           "margin": 4
         },
         {
           "score": "3-3",
-          "prob": 0.9,
-          "total_goals": 6,
-          "margin": 0
-        },
-        {
-          "score": "4-2",
           "prob": 0.8,
           "total_goals": 6,
-          "margin": 2
+          "margin": 0
         },
         {
           "score": "1-4",
@@ -28020,22 +28014,28 @@ window.__WORLD_CUP_MODEL__ = {
           "margin": 3
         },
         {
-          "score": "2-4",
-          "prob": 0.5,
+          "score": "4-2",
+          "prob": 0.6,
           "total_goals": 6,
           "margin": 2
+        },
+        {
+          "score": "0-4",
+          "prob": 0.6,
+          "total_goals": 4,
+          "margin": 4
         }
       ],
       "big_score_signal": {
-        "over_3_5": 25.2,
-        "margin_3_plus": 11.4,
+        "over_3_5": 22.3,
+        "margin_3_plus": 10.3,
         "level": "watch"
       },
       "market_observation": null,
       "ai": [
         {
           "title": "实力对比",
-          "text": "Portugal Elo 1979 vs Iran 1849，差距 130 分，前者占优。"
+          "text": "Colombia Elo 1993 vs Iran 1849，差距 144 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -28043,15 +28043,15 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Portugal 1.42 : 1.14 Iran，数值越高代表越容易进球。"
+          "text": "期望进球 Colombia 1.29 : 1.13 Iran，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.5%, 1-0 11.0%, 2-1 8.9%。"
+          "text": "最可能比分：1-1 13.0%, 1-0 11.5%, 0-1 10.1%。"
         },
         {
           "title": "综合结论",
-          "text": "模型倾向 Portugal，但足球不是数学题；这代表更值得支持，不代表一定发生。"
+          "text": "模型倾向 Colombia，但足球不是数学题；这代表更值得支持，不代表一定发生。"
         }
       ]
     },
@@ -28769,58 +28769,25 @@ window.__WORLD_CUP_MODEL__ = {
         }
       ]
     },
-    "Argentina__Portugal": {
+    "Argentina__Colombia": {
       "id": 100,
       "round": "8强",
       "date": "",
       "home": "Argentina",
-      "away": "Portugal",
-      "home_win": 47.2,
-      "draw": 25.6,
-      "away_win": 27.2,
+      "away": "Colombia",
+      "home_win": 49.2,
+      "draw": 25.9,
+      "away_win": 24.9,
       "winner": "Argentina",
-      "winner_prob": 47.2,
-      "lambda_home": 1.52,
-      "lambda_away": 1.09,
+      "winner_prob": 49.2,
+      "lambda_home": 1.51,
+      "lambda_away": 0.99,
       "matrix": [
         [
-          7.3,
-          8.0,
-          4.4,
-          1.6,
-          0.4,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          11.1,
-          12.2,
-          6.6,
-          2.4,
-          0.7,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          8.5,
-          9.3,
-          5.1,
-          1.8,
-          0.5,
-          0.1,
-          0.0,
-          0.0,
-          0.0
-        ],
-        [
-          4.3,
-          4.7,
-          2.6,
-          0.9,
+          8.2,
+          8.1,
+          4.0,
+          1.3,
           0.3,
           0.1,
           0.0,
@@ -28828,10 +28795,43 @@ window.__WORLD_CUP_MODEL__ = {
           0.0
         ],
         [
-          1.6,
-          1.8,
-          1.0,
+          12.4,
+          12.3,
+          6.1,
+          2.0,
+          0.5,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.3,
+          9.3,
+          4.6,
+          1.5,
           0.4,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          4.7,
+          4.7,
+          2.3,
+          0.8,
+          0.2,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.8,
+          1.8,
+          0.9,
+          0.3,
           0.1,
           0.0,
           0.0,
@@ -28886,52 +28886,52 @@ window.__WORLD_CUP_MODEL__ = {
       "score_max": 8,
       "top_scores": [
         {
-          "score": "1-1",
-          "prob": 12.2
+          "score": "1-0",
+          "prob": 12.4
         },
         {
-          "score": "1-0",
-          "prob": 11.1
+          "score": "1-1",
+          "prob": 12.3
+        },
+        {
+          "score": "2-0",
+          "prob": 9.3
         },
         {
           "score": "2-1",
           "prob": 9.3
         },
         {
-          "score": "2-0",
-          "prob": 8.5
-        },
-        {
-          "score": "0-1",
-          "prob": 8.0
+          "score": "0-0",
+          "prob": 8.2
         }
       ],
       "big_score_candidates": [
         {
-          "score": "2-2",
-          "prob": 5.1
+          "score": "3-0",
+          "prob": 4.7
         },
         {
           "score": "3-1",
           "prob": 4.7
         },
         {
-          "score": "3-0",
-          "prob": 4.3
+          "score": "2-2",
+          "prob": 4.6
         },
         {
           "score": "3-2",
-          "prob": 2.6
+          "prob": 2.3
         },
         {
           "score": "1-3",
-          "prob": 2.4
+          "prob": 2.0
         }
       ],
       "bold_score_candidates": [
         {
           "score": "3-2",
-          "prob": 2.6,
+          "prob": 2.3,
           "total_goals": 5,
           "margin": 1
         },
@@ -28942,44 +28942,44 @@ window.__WORLD_CUP_MODEL__ = {
           "margin": 3
         },
         {
-          "score": "2-3",
-          "prob": 1.8,
-          "total_goals": 5,
-          "margin": 1
-        },
-        {
           "score": "4-0",
-          "prob": 1.6,
+          "prob": 1.8,
           "total_goals": 4,
           "margin": 4
         },
         {
+          "score": "2-3",
+          "prob": 1.5,
+          "total_goals": 5,
+          "margin": 1
+        },
+        {
           "score": "4-2",
-          "prob": 1.0,
+          "prob": 0.9,
           "total_goals": 6,
           "margin": 2
         },
         {
           "score": "3-3",
-          "prob": 0.9,
+          "prob": 0.8,
           "total_goals": 6,
           "margin": 0
-        },
-        {
-          "score": "1-4",
-          "prob": 0.7,
-          "total_goals": 5,
-          "margin": 3
         },
         {
           "score": "5-1",
           "prob": 0.5,
           "total_goals": 6,
           "margin": 4
+        },
+        {
+          "score": "5-0",
+          "prob": 0.5,
+          "total_goals": 5,
+          "margin": 5
         }
       ],
       "big_score_signal": {
-        "over_3_5": 26.4,
+        "over_3_5": 24.2,
         "margin_3_plus": 12.3,
         "level": "watch"
       },
@@ -28987,7 +28987,7 @@ window.__WORLD_CUP_MODEL__ = {
       "ai": [
         {
           "title": "实力对比",
-          "text": "Argentina Elo 2110 vs Portugal 1979，差距 131 分，前者占优。"
+          "text": "Argentina Elo 2110 vs Colombia 1993，差距 117 分，前者占优。"
         },
         {
           "title": "近期状态",
@@ -28995,11 +28995,11 @@ window.__WORLD_CUP_MODEL__ = {
         },
         {
           "title": "攻防与期望进球",
-          "text": "期望进球 Argentina 1.52 : 1.09 Portugal，数值越高代表越容易进球。"
+          "text": "期望进球 Argentina 1.51 : 0.99 Colombia，数值越高代表越容易进球。"
         },
         {
           "title": "比分概率",
-          "text": "最可能比分：1-1 12.2%, 1-0 11.1%, 2-1 9.3%。"
+          "text": "最可能比分：1-0 12.4%, 1-1 12.3%, 2-0 9.3%。"
         },
         {
           "title": "综合结论",
