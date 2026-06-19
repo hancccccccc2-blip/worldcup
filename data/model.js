@@ -246,7 +246,7 @@ window.__WORLD_CUP_MODEL__ = {
     ]
   },
   "market": {
-    "updated_at": "2026-06-19T12:21:54.778Z",
+    "updated_at": "2026-06-19T12:26:33.475Z",
     "note": "自动抓取自中国体育彩票官网计算器；如果官网拦截或停售，以抓取结果为空为准。",
     "matches": {
       "Portugal__DR Congo": {
@@ -19432,9 +19432,9 @@ window.__WORLD_CUP_MODEL__ = {
     {
       "date": "2026-06-19",
       "group_no": 1,
-      "status": "green",
-      "summary": "可以小额做4场胜平负参考",
-      "reason": "4场方向相对清楚，但仍需小额。",
+      "status": "red",
+      "summary": "不建议4场串起来买",
+      "reason": "低置信方向：USA vs Australia、Turkey vs Paraguay",
       "outcome_ticket": [
         {
           "match": "Brazil vs Haiti",
@@ -19857,7 +19857,7 @@ window.__WORLD_CUP_MODEL__ = {
       "group_no": 1,
       "status": "red",
       "summary": "不建议4场串起来买",
-      "reason": "风险点：Uruguay vs Cape Verde",
+      "reason": "风险点：Uruguay vs Cape Verde；低置信方向：Belgium vs Iran",
       "outcome_ticket": [
         {
           "match": "Spain vs Saudi Arabia",
@@ -20071,7 +20071,7 @@ window.__WORLD_CUP_MODEL__ = {
       "group_no": 1,
       "status": "red",
       "summary": "不建议4场串起来买",
-      "reason": "风险点：France vs Iraq、Argentina vs Austria",
+      "reason": "风险点：France vs Iraq、Argentina vs Austria；低置信方向：Norway vs Senegal",
       "outcome_ticket": [
         {
           "match": "Jordan vs Algeria",
@@ -20502,9 +20502,9 @@ window.__WORLD_CUP_MODEL__ = {
     {
       "date": "2026-06-24",
       "group_no": 1,
-      "status": "green",
-      "summary": "可以小额做4场胜平负参考",
-      "reason": "4场方向相对清楚，但仍需小额。",
+      "status": "red",
+      "summary": "不建议4场串起来买",
+      "reason": "低置信方向：Canada vs Switzerland、Bosnia and Herzegovina vs Qatar",
       "outcome_ticket": [
         {
           "match": "South Africa vs Korea Republic",
@@ -20711,9 +20711,9 @@ window.__WORLD_CUP_MODEL__ = {
     {
       "date": "2026-06-25",
       "group_no": 1,
-      "status": "green",
-      "summary": "可以小额做4场胜平负参考",
-      "reason": "4场方向相对清楚，但仍需小额。",
+      "status": "red",
+      "summary": "不建议4场串起来买",
+      "reason": "低置信方向：USA vs Turkey",
       "outcome_ticket": [
         {
           "match": "Ecuador vs Germany",
