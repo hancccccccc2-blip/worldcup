@@ -184,6 +184,28 @@ function renderSchedule() {
   });
 }
 
+function renderPostMatchReviews() {
+  const root = document.querySelector("#postMatchReviews");
+  if (!root) return;
+  const reviews = model.post_match_reviews || [];
+  if (!reviews.length) {
+    root.innerHTML = `<p class="empty-note">暂无赛后复盘。赛果录入后会自动显示。</p>`;
+    return;
+  }
+  root.innerHTML = reviews.slice(-4).map(item => `
+    <article class="review-item ${item.score_hit === "未中" ? "miss" : "hit"}">
+      <div>
+        <span>${item.kickoff_time || item.date}</span>
+        <strong>${translateText(item.match)}</strong>
+        <em>${item.score_hit === "未中" ? "比分未中" : `比分${item.score_hit}`}</em>
+      </div>
+      <p><b>真实比分：</b>${item.actual_score}</p>
+      <p><b>赛前给法：</b>${item.predicted_scores.map(score => `${score.score}${score.tag}`).join("、")}</p>
+      <p><b>错因：</b>${translateText(item.reason)}</p>
+    </article>
+  `).join("");
+}
+
 function renderTickets() {
   const root = document.querySelector("#ticketList");
   if (!root) return;
@@ -216,11 +238,11 @@ function renderTicketFull(ticket) {
       </div>
       <p class="ticket-reason">${ticket.reason}</p>
       <div class="ticket-columns">
-        <div>
+        <div class="outcome-panel">
           <h3>胜平负4场票</h3>
           ${ticket.outcome_ticket.map(item => `
             <div class="ticket-row">
-              <span>${translateText(item.match)}</span>
+              <span>${matchWithKickoff(item)}</span>
               <strong>${translateText(item.pick)}</strong>
               <small>${pct(item.prob)}</small>
               ${item.note ? `<p>${translateText(item.note)}</p>` : ""}
@@ -230,18 +252,54 @@ function renderTicketFull(ticket) {
         <div class="score-ticket">
           <h3>比分小额串 <b>高风险</b></h3>
           <p>${ticket.score_ticket.summary}</p>
+          <div class="score-list compact">
           ${ticket.score_ticket.items.map(item => `
             <div class="ticket-score-row">
-              <span>${translateText(item.match)}</span>
+              <span>${matchWithKickoff(item)}</span>
               <div>${item.scores.map(score => `
                 <mark class="${score.tag === "搏大" ? "big" : ""}">${score.score}${score.odds ? ` / ${score.odds}` : ""}<small>${score.tag}</small></mark>
               `).join("")}</div>
             </div>
           `).join("")}
+          </div>
+          ${renderLongshotPanel(ticket.score_ticket.longshot_singles || [])}
         </div>
       </div>
     </article>
   `;
+}
+
+function renderPairPlans(plans, scoreItems = []) {
+  if (!plans.length) return "";
+  const scoreByMatch = new Map(scoreItems.map(item => [item.match, item]));
+  return `<div class="pair-plans">
+    ${plans.map(plan => `
+      <section class="pair-plan">
+        <strong>${plan.label}</strong>
+        <small>${plan.note}</small>
+        ${plan.matches.map(match => {
+          const item = scoreByMatch.get(match.match);
+          const scores = item?.scores || match.scores || [];
+          return `<p><span>${matchWithKickoff(item || match)}</span>${scores.map(score => `<mark class="${score.tag === "搏大" ? "big" : ""}">${score.score}${score.odds ? ` / ${score.odds}` : ""}<small>${score.tag}</small></mark>`).join("")}</p>`;
+        }).join("")}
+      </section>
+    `).join("")}
+  </div>`;
+}
+
+function matchWithKickoff(item) {
+  const time = item?.kickoff_time;
+  return `${translateText(item?.match || "")}${time ? `<i>${time}</i>` : ""}`;
+}
+
+function renderLongshotPanel(items) {
+  return `<div class="longshot-singles ${items.length ? "" : "empty"}">
+    <strong>奇兵单注观察</strong>
+    <small>${items.length ? "只有6球以上或同档爆打信号才出现。极小额，不进2串2。" : "今天没有强烈奇兵信号，不硬凑。"}</small>
+    ${items.length ? items.map(item => `
+      <p><span>${translateText(item.match)}</span><mark class="longshot">${item.score}${item.odds ? ` / ${item.odds}` : ""}<small>单注</small></mark></p>
+    `).join("") : `<p class="empty-longshot">无</p>`}
+  </div>`;
 }
 
 function renderTicketCompact(ticket) {
@@ -505,6 +563,7 @@ async function rebuildModel() {
 }
 
 function renderAll() {
+  renderPostMatchReviews();
   renderTickets();
   renderSchedule();
   renderAvailability();

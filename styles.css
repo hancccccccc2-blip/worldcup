@@ -62,7 +62,7 @@ h3 { font-size: 20px; }
 .hero-card strong { display: block; margin-top: 12px; font-size: 44px; }
 .hero-card small { color: var(--muted); font-size: 16px; }
 
-.data-status, .rank-card, .bracket-card, .match-card, .schedule-card, .availability-card {
+.data-status, .rank-card, .bracket-card, .match-card, .schedule-card, .availability-card, .review-card {
   margin-top: 22px;
   padding: 26px;
   background: rgba(255, 255, 255, .82);
@@ -205,6 +205,61 @@ tbody tr:hover { background: #f7fbff; }
 }
 .result-pill.hit { color: #0e5a38; background: #dff7ea; }
 .result-pill.miss { color: #8a3a12; background: #fff0d8; }
+.review-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+  gap: 12px;
+}
+.review-item {
+  padding: 14px;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid var(--line);
+}
+.review-item.miss {
+  background: #fff5f2;
+  border-color: #ffc4b8;
+  box-shadow: inset 4px 0 0 #d94b4b;
+}
+.review-item.hit {
+  background: #f2fbf6;
+  border-color: #bfe8d1;
+  box-shadow: inset 4px 0 0 #18a058;
+}
+.review-item div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.review-item span {
+  padding: 3px 7px;
+  border-radius: 999px;
+  color: #45627f;
+  background: #eef4fb;
+  font-size: 11px;
+  font-weight: 900;
+}
+.review-item strong {
+  flex: 1;
+  font-size: 15px;
+}
+.review-item em {
+  color: #9f1d1d;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 900;
+}
+.review-item.hit em { color: #0e5a38; }
+.review-item p {
+  margin-top: 6px;
+  color: var(--muted);
+  line-height: 1.45;
+  font-size: 13px;
+}
+.review-item b {
+  color: var(--ink);
+}
 .path-note {
   margin: 4px 0 6px;
   color: var(--muted);
@@ -381,8 +436,9 @@ tbody tr:hover { background: #f7fbff; }
 }
 .ticket-columns {
   display: grid;
-  grid-template-columns: minmax(260px, .8fr) minmax(320px, 1.2fr);
+  grid-template-columns: minmax(260px, .8fr) minmax(520px, 1.25fr);
   gap: 14px;
+  align-items: stretch;
 }
 .ticket-columns > div {
   border-radius: 14px;
@@ -421,11 +477,53 @@ tbody tr:hover { background: #f7fbff; }
   color: var(--muted);
   font-weight: 800;
 }
+.ticket-row span i,
+.pair-plan p span i {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: #eef4fb;
+  color: #45627f;
+  font-style: normal;
+  font-size: 11px;
+  font-weight: 900;
+  vertical-align: middle;
+}
 .ticket-row strong {
   font-size: 16px;
 }
+.score-list {
+  margin-top: 10px;
+  border-top: 1px solid var(--line);
+}
+.score-list > strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.score-list.compact {
+  padding-top: 0;
+}
+.score-list.compact .ticket-score-row {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+}
+.score-list.compact .ticket-score-row:last-child {
+  border-bottom: 0;
+}
+.score-list.compact .ticket-score-row div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
 .ticket-score-row mark {
-  margin: 3px 5px 3px 0;
+  margin: 0;
+}
+.pair-plan mark {
+  min-width: 44px;
+  text-align: center;
 }
 .ticket-score-row mark.big {
   color: #7a3b00;
@@ -435,6 +533,92 @@ tbody tr:hover { background: #f7fbff; }
   margin-left: 4px;
   color: inherit;
   opacity: .75;
+}
+.pair-plans {
+  display: grid;
+  gap: 10px;
+  margin: 10px 0 12px;
+}
+.pair-plan {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #f6fbff;
+  border: 1px solid #cfe0f2;
+}
+.pair-plan strong,
+.longshot-singles strong {
+  display: block;
+  font-size: 14px;
+  color: #0f2744;
+  margin-bottom: 2px;
+}
+.pair-plan small,
+.longshot-singles small {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 7px;
+}
+.pair-plan p,
+.longshot-singles p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  margin: 5px 0 0;
+}
+.pair-plan p span,
+.longshot-singles p span {
+  min-width: 130px;
+  color: var(--muted);
+  font-weight: 900;
+}
+.longshot-singles {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  background: #fff2f2;
+  border: 1px solid #ffc4c4;
+  box-shadow: inset 4px 0 0 #d93030;
+}
+.longshot-singles p {
+  padding: 8px 0;
+  border-top: 1px solid #ffd3d3;
+}
+.longshot-singles p:first-of-type {
+  border-top: 0;
+}
+.longshot-singles.empty {
+  background: #fff;
+  border-color: var(--line);
+  box-shadow: none;
+}
+.empty-longshot {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-weight: 900;
+}
+.ticket-score-row mark.longshot,
+.longshot-singles mark.longshot {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #9f1d1d;
+  background: #ffe0e0;
+  border: 1px solid #ffc1c1;
+}
+.longshot-singles mark.longshot small {
+  display: inline;
+  margin: 0;
+  color: inherit;
+  font-size: 12px;
+  font-weight: 900;
+}
+@media (max-width: 980px) {
+  .ticket-columns {
+    grid-template-columns: 1fr;
+  }
 }
 .future-ticket-list {
   display: grid;
